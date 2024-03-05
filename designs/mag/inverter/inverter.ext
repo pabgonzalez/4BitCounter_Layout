@@ -7,33 +7,32 @@ resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 
 use sky130_fd_pr__pfet_01v8_52DS5B sky130_fd_pr__pfet_01v8_52DS5B_0 1 0 637 0 1 1383
 use sky130_fd_pr__nfet_01v8_SKHSUU sky130_fd_pr__nfet_01v8_SKHSUU_0 1 0 637 0 1 673
 use grid grid_0 1 0 535 0 1 532
-node "vdd" 1 158.584 494 522 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18376 828 0 0 0 0 0 0 0 0 0 0
-equiv "vdd" "vss"
+node "vss" 1 158.584 494 522 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18376 828 0 0 0 0 0 0 0 0 0 0
 node "out" 2 266.713 664 714 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21420 1328 0 0 0 0 0 0 0 0 0 0
 node "vdd" 1 160.748 494 1504 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18512 836 0 0 0 0 0 0 0 0 0 0
 node "in" 951 390.901 622 728 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17760 1244 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "vdd" "in" 2.89315
-cap "out" "vdd" 8.04301
-cap "vdd" "vdd" 11.4719
 cap "vdd" "out" 7.12381
-cap "vdd" "in" 3.3091
-cap "out" "in" 16.3512
-cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n15_n71#" "grid_0/w_n61_476#" 144.015
-cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "grid_0/a_n24_0#" 24.2207
-cap "grid_0/a_n24_0#" "grid_0/w_n61_476#" -14.1641
+cap "in" "vss" 3.3091
+cap "vdd" "vss" 11.4719
+cap "vss" "out" 8.04301
+cap "in" "vdd" 2.89315
+cap "in" "out" 16.3512
+cap "grid_0/w_n61_476#" "grid_0/a_n24_0#" -14.1641
 cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "grid_0/w_n61_476#" 61.5439
 cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n15_n71#" "grid_0/a_n24_0#" 3.66089
 cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n15_n71#" "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.709808
-merge "grid_0/a_n24_0#" "sky130_fd_pr__nfet_01v8_SKHSUU_0/VSUBS" -504.262 0 0 0 0 -46652 -864 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -31710 -1532 0 0 0 0 0 0 0 0 0 0
+cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "grid_0/a_n24_0#" 24.2207
+cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n15_n71#" "grid_0/w_n61_476#" 144.015
+merge "grid_0/a_n24_0#" "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n73_n45#" -181.915 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16229 -788 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n73_n45#" "vss"
+merge "vss" "sky130_fd_pr__nfet_01v8_SKHSUU_0/VSUBS"
 merge "sky130_fd_pr__nfet_01v8_SKHSUU_0/VSUBS" "sky130_fd_pr__pfet_01v8_52DS5B_0/VSUBS"
 merge "sky130_fd_pr__pfet_01v8_52DS5B_0/VSUBS" "VSUBS"
-merge "VSUBS" "grid_0/w_n61_476#"
-merge "grid_0/w_n61_476#" "sky130_fd_pr__pfet_01v8_52DS5B_0/w_n109_n107#"
-merge "sky130_fd_pr__pfet_01v8_52DS5B_0/w_n109_n107#" "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n73_n45#"
-merge "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n73_n45#" "sky130_fd_pr__pfet_01v8_52DS5B_0/a_n73_n45#"
-merge "sky130_fd_pr__pfet_01v8_52DS5B_0/a_n73_n45#" "vdd"
 merge "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n15_n71#" "sky130_fd_pr__pfet_01v8_52DS5B_0/a_n15_n71#" -183.892 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -720 -168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__pfet_01v8_52DS5B_0/a_n15_n71#" "in"
+merge "grid_0/w_n61_476#" "sky130_fd_pr__pfet_01v8_52DS5B_0/w_n109_n107#" -322.347 0 0 0 0 -46652 -864 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15481 -744 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_52DS5B_0/w_n109_n107#" "sky130_fd_pr__pfet_01v8_52DS5B_0/a_n73_n45#"
+merge "sky130_fd_pr__pfet_01v8_52DS5B_0/a_n73_n45#" "vdd"
 merge "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "sky130_fd_pr__pfet_01v8_52DS5B_0/a_15_n45#" -96.9928 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -340 -156 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__pfet_01v8_52DS5B_0/a_15_n45#" "out"
