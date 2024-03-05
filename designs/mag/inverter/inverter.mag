@@ -1,0 +1,26 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1709669210
+<< poly >>
+rect 622 728 652 1320
+<< metal1 >>
+rect 576 1424 610 1526
+rect 664 714 698 1344
+rect 576 552 610 654
+use grid  grid_0
+timestamp 1678218586
+transform 1 0 535 0 1 532
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_SKHSUU  sky130_fd_pr__nfet_01v8_SKHSUU_0
+timestamp 1709668861
+transform 1 0 637 0 1 673
+box -73 -71 73 71
+use sky130_fd_pr__pfet_01v8_52DS5B  sky130_fd_pr__pfet_01v8_52DS5B_0
+timestamp 1709668672
+transform 1 0 637 0 1 1383
+box -109 -107 109 107
+<< labels >>
+rlabel poly 622 728 652 1320 1 in
+rlabel metal1 664 714 698 1344 1 out
+<< end >>
