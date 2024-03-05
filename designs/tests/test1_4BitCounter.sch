@@ -88,7 +88,7 @@ value="
 * Circuit Parameters
 .param vdd = 1.8
 .param vss = 0.0
-.param Tclk = 10n
+.param Tclk = 15n
 .options TEMP = 65.0
 
 * Include Models
@@ -99,7 +99,7 @@ value="
 
 * Simulations
 .control
-  tran 0.01n 500n
+  tran 0.01u 1u
   setplot tran1
   plot clr ce+2 v(q0)+4 v(q1)+6 v(q2)+8 v(q3)+10 clk+12
 reset

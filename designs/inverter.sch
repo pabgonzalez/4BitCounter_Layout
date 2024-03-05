@@ -37,7 +37,7 @@ N 160 -180 240 -180 {
 lab=out}
 C {sky130_fd_pr/nfet_01v8.sym} 140 -110 0 0 {name=M2
 L=0.15
-W=0.75
+W=0.45
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -51,7 +51,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 140 -250 0 0 {name=M1
 L=0.15
-W=1.5
+W=0.45
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 

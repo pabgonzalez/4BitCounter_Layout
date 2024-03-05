@@ -1,0 +1,15 @@
+* NGSPICE file created from inverter.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_SKHSUU a_15_n45# a_n15_n71# a_n73_n45# VSUBS
+X0 a_15_n45# a_n15_n71# a_n73_n45# VSUBS sky130_fd_pr__nfet_01v8 ad=0.131 pd=1.48 as=0.131 ps=1.48 w=0.45 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_52DS5B a_15_n45# a_n15_n71# w_n109_n107# a_n73_n45#
+X0 a_15_n45# a_n15_n71# a_n73_n45# w_n109_n107# sky130_fd_pr__pfet_01v8 ad=0.131 pd=1.48 as=0.131 ps=1.48 w=0.45 l=0.15
+.ends
+
+.subckt inverter
+Xsky130_fd_pr__nfet_01v8_SKHSUU_0 out in vdd vdd sky130_fd_pr__nfet_01v8_SKHSUU
+Xsky130_fd_pr__pfet_01v8_52DS5B_0 out in vdd vdd sky130_fd_pr__pfet_01v8_52DS5B
+.ends
+

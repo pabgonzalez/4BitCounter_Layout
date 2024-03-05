@@ -1,13 +1,15 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709669210
+timestamp 1709670142
 << poly >>
 rect 622 728 652 1320
 << metal1 >>
-rect 576 1424 610 1526
+rect 494 1504 776 1560
+rect 576 1424 610 1504
 rect 664 714 698 1344
-rect 576 552 610 654
+rect 576 578 610 654
+rect 494 522 776 578
 use grid  grid_0
 timestamp 1678218586
 transform 1 0 535 0 1 532
@@ -23,4 +25,7 @@ box -109 -107 109 107
 << labels >>
 rlabel poly 622 728 652 1320 1 in
 rlabel metal1 664 714 698 1344 1 out
+rlabel metal1 494 1504 776 1560 1 vdd
+rlabel metal1 494 522 776 578 1 vdd
+rlabel metal1 494 522 776 578 1 vss
 << end >>
