@@ -1,19 +1,177 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709835703
+timestamp 1709844131
 << nwell >>
+rect -174 490 112 1064
 rect 612 484 754 1062
+rect 232 -1100 1330 -524
+rect 232 -1102 1126 -1100
+<< poly >>
+rect 956 892 1162 924
+rect -526 650 -306 686
+rect 144 512 178 614
+rect 828 510 862 612
+rect 956 588 990 892
+rect 142 272 176 366
+rect -526 124 -492 246
+rect -214 168 -178 264
+rect 274 174 308 314
+rect 826 268 860 362
+rect -214 136 -148 168
+rect 274 136 346 174
+rect -526 92 -462 124
+rect -492 -564 -462 92
+rect -178 -428 -148 136
+rect 300 -2 346 136
+rect 592 122 628 256
+rect 958 206 994 312
+rect 1526 300 1700 336
+rect 958 176 1024 206
+rect 592 90 666 122
+rect -98 -36 346 -2
+rect 636 -6 666 90
+rect 988 -4 1024 176
+rect -98 -222 -62 -36
+rect 636 -38 876 -6
+rect -98 -258 -36 -222
+rect -72 -352 -36 -258
+rect 58 -426 94 -310
+rect 846 -332 876 -38
+rect 920 -36 1024 -4
+rect 920 -210 962 -36
+rect 920 -248 988 -210
+rect 624 -364 876 -332
+rect 954 -352 988 -248
+rect 1664 -258 1700 300
+rect 1462 -288 1700 -258
+rect 1664 -290 1700 -288
+rect 1084 -396 1116 -308
+rect 58 -650 94 -526
+rect 1082 -650 1118 -526
+<< metal1 >>
+rect 592 748 736 780
+rect 272 572 502 604
+rect 702 562 736 748
+rect -526 516 146 518
+rect -526 484 874 516
+rect 146 482 874 484
+rect 130 386 872 392
+rect -214 358 872 386
+rect -214 356 178 358
+rect 1226 -204 1372 -176
+rect 1226 -294 1258 -204
+rect 1338 -294 1372 -204
+rect 184 -344 348 -328
+rect 184 -360 346 -344
+rect 1226 -348 1260 -294
+rect 1226 -350 1258 -348
+rect -178 -428 48 -400
+rect 60 -426 272 -400
+rect 402 -426 1116 -400
+rect 60 -428 1116 -426
+rect 240 -430 1116 -428
+rect 240 -456 432 -430
+rect -494 -524 92 -522
+rect 338 -524 862 -498
+rect -494 -526 862 -524
+rect -494 -556 366 -526
+rect 834 -558 1118 -526
 use inverter  inverter_0 ../inverter
 timestamp 1709825988
 transform 1 0 -152 0 1 -523
 box 474 522 794 1585
-use tg  tg_0  ../tg
-timestamp 1709835703
+use inverter  inverter_1
+timestamp 1709825988
+transform -1 0 2114 0 -1 485
+box 474 522 794 1585
+use inverter  inverter_2
+timestamp 1709825988
+transform 1 0 -958 0 1 -518
+box 474 522 794 1585
+use inverter  inverter_3
+timestamp 1709825988
+transform 1 0 -1270 0 1 -518
+box 474 522 794 1585
+use nor  nor_0 ../nor
+timestamp 1709843938
+transform 1 0 1002 0 1 -22
+box 0 18 640 1083
+use nor  nor_1
+timestamp 1709843938
+transform -1 0 872 0 -1 -19
+box 0 18 640 1083
+use tg  tg_0 ../tg
+timestamp 1709843938
 transform 1 0 686 0 1 -2
 box -2 0 320 1063
-use tg  tg_1  ../tg
-timestamp 1709835703
+use tg  tg_1
+timestamp 1709843938
 transform 1 0 2 0 1 0
 box -2 0 320 1063
+use tg  tg_2
+timestamp 1709843938
+transform -1 0 1258 0 -1 -39
+box -2 0 320 1063
+use tg  tg_3
+timestamp 1709843938
+transform -1 0 234 0 -1 -39
+box -2 0 320 1063
+use via_m1_p  via_m1_p_0 ../inverter/../via_m1_p
+timestamp 1646951168
+transform 1 0 42 0 1 -446
+box 0 0 68 68
+use via_m1_p  via_m1_p_1  ../via_m1_p
+timestamp 1646951168
+transform -1 0 1134 0 -1 -506
+box 0 0 68 68
+use via_m1_p  via_m1_p_2  ../via_m1_p
+timestamp 1646951168
+transform -1 0 110 0 -1 -506
+box 0 0 68 68
+use via_m1_p  via_m1_p_0  ../via_m1_p
+timestamp 1646951168
+transform -1 0 -442 0 -1 -504
+box 0 0 68 68
+use via_m1_p  via_m1_p_1  ../via_m1_p
+timestamp 1646951168
+transform 1 0 -544 0 1 466
+box 0 0 68 68
+use via_m1_p  via_m1_p_2 ../tg/../via_m1_p
+timestamp 1646951168
+transform 1 0 450 0 1 554
+box 0 0 68 68
+use via_m1_p  via_m1_p_3  ../via_m1_p
+timestamp 1646951168
+transform 1 0 810 0 1 466
+box 0 0 68 68
+use via_m1_p  via_m1_p_4  ../via_m1_p
+timestamp 1646951168
+transform -1 0 878 0 -1 406
+box 0 0 68 68
+use via_m1_p  via_m1_p_5  ../via_m1_p
+timestamp 1646951168
+transform -1 0 194 0 -1 408
+box 0 0 68 68
+use via_m1_p  via_m1_p_6  ../via_m1_p
+timestamp 1646951168
+transform 1 0 126 0 1 468
+box 0 0 68 68
+use via_m1_p  via_m1_p_7  ../via_m1_p
+timestamp 1646951168
+transform -1 0 -160 0 -1 402
+box 0 0 68 68
+use via_m1_p  via_m1_p_8  ../via_m1_p
+timestamp 1646951168
+transform 1 0 -196 0 1 -446
+box 0 0 68 68
+use via_m1_p  via_m1_p_9  ../via_m1_p
+timestamp 1646951168
+transform 1 0 1066 0 1 -446
+box 0 0 68 68
+<< labels >>
+rlabel space 18 260 54 614 1 D
+rlabel space -648 200 -618 820 1 clk
+rlabel space -214 210 -180 802 1 p_clk
+rlabel space -526 210 -492 802 1 n_clk
 << end >>
