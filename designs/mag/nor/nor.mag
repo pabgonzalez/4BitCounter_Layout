@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709836313
+timestamp 1709838739
 << poly >>
 rect 218 576 248 600
 rect 130 546 248 576
@@ -9,20 +9,20 @@ rect 218 254 248 546
 rect 306 578 336 600
 rect 306 548 424 578
 rect 306 254 336 548
+rect 524 320 556 954
 << metal1 >>
 rect 28 1008 184 1056
 rect 212 1008 624 1054
 rect 28 1004 624 1008
 rect 166 1002 624 1004
 rect 166 886 212 1002
-rect 342 924 552 952
+rect 342 924 556 952
 rect 342 890 388 924
 rect 84 566 118 600
 rect 260 566 294 594
 rect 436 566 470 618
 rect 84 536 470 566
-rect 504 352 552 924
-rect 254 324 552 352
+rect 254 324 554 352
 rect 254 296 300 324
 rect 166 74 212 148
 rect 342 74 388 148
@@ -63,10 +63,18 @@ use sky130_fd_pr__pfet_01v8_52K3FE  sky130_fd_pr__pfet_01v8_52K3FE_3
 timestamp 1709825562
 transform 1 0 145 0 1 744
 box -109 -212 109 212
+use via_m1_p  via_m1_p_0 ../via_m1_p
+timestamp 1646951168
+transform 1 0 506 0 1 902
+box 0 0 68 68
+use via_m1_p  via_m1_p_1  ../via_m1_p
+timestamp 1646951168
+transform 1 0 506 0 1 302
+box 0 0 68 68
 << labels >>
-rlabel metal1 504 324 552 952 1 Z
 rlabel space 22 1002 622 1054 1 vdd
 rlabel space 20 18 620 80 1 vss
 rlabel poly 218 254 248 600 1 B
 rlabel poly 306 254 336 600 1 A
+rlabel space 524 302 556 970 1 Z
 << end >>
