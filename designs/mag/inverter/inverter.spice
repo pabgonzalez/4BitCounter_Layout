@@ -9,7 +9,7 @@ X0 a_15_n45# a_n15_n71# a_n73_n45# w_n109_n107# sky130_fd_pr__pfet_01v8 ad=0.131
 .ends
 
 inverter
-Xsky130_fd_pr__nfet_01v8_SKHSUU_0 out in vss vss sky130_fd_pr__nfet_01v8_SKHSUU
-Xsky130_fd_pr__pfet_01v8_52DS5B_0 out in vdd vdd sky130_fd_pr__pfet_01v8_52DS5B
+Xsky130_fd_pr__nfet_01v8_SKHSUU_0 a_744_746# in vss vss sky130_fd_pr__nfet_01v8_SKHSUU
+Xsky130_fd_pr__pfet_01v8_52DS5B_0 a_744_746# in vdd vdd sky130_fd_pr__pfet_01v8_52DS5B
 .ends
 

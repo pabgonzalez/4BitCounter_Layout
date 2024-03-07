@@ -1,23 +1,54 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709682272
+timestamp 1709834505
+<< poly >>
+rect 16 278 52 598
+rect 270 278 304 604
 << metal1 >>
-rect 97 407 131 588
-rect 185 408 219 589
-use grid  grid_0 /foss/designs/mag/grid
+rect 14 978 308 1040
+rect 96 598 130 684
+rect 16 564 130 598
+rect 184 604 218 690
+rect 184 570 304 604
+rect 16 278 130 310
+rect 96 182 130 278
+rect 186 276 306 310
+rect 186 218 218 276
+rect 22 0 302 56
+use grid#0  grid_0
 timestamp 1678218586
 transform 1 0 61 0 1 10
 box -61 -10 259 1053
 use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_0
 timestamp 1709682272
-transform 1 0 158 0 1 343
+transform 1 0 158 0 1 173
 box -73 -101 73 101
 use sky130_fd_pr__pfet_01v8_ZB94FE  sky130_fd_pr__pfet_01v8_ZB94FE_0
 timestamp 1709682272
-transform 1 0 158 0 1 731
+transform 1 0 158 0 1 787
 box -109 -212 109 212
+use via_m1_p  via_m1_p_0
+timestamp 1646951168
+transform 1 0 252 0 1 262
+box 0 0 68 68
+use via_m1_p  via_m1_p_1
+timestamp 1646951168
+transform 1 0 -2 0 1 546
+box 0 0 68 68
+use via_m1_p  via_m1_p_2
+timestamp 1646951168
+transform 1 0 252 0 1 552
+box 0 0 68 68
+use via_m1_p  via_m1_p_3
+timestamp 1646951168
+transform 1 0 -2 0 1 260
+box 0 0 68 68
 << labels >>
-rlabel space 97 406 131 593 1 vin
-rlabel space 185 406 219 593 1 vout
+rlabel space 143 937 173 963 1 enb
+rlabel space 143 248 173 274 1 en
+rlabel metal1 14 978 308 1040 1 vdd
+rlabel metal1 22 0 302 56 1 vss
+rlabel poly 270 278 304 604 1 vout
+rlabel space 16 260 52 614 1 vin
 << end >>

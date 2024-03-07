@@ -19,7 +19,7 @@ Number of nets: 6                          |Number of nets: 6
 ---------------------------------------------------------------------------------------
 Resolving symmetries by property value.
 Resolving symmetries by pin name.
-Netlists match with 1 symmetry.
+Netlists match uniquely.
 Cells have no pins;  pin matching not needed.
 Device classes sch/tg.spice and mag/tg/tg.spice are equivalent.
 
