@@ -1,0 +1,27 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_ZB94FE in circuit mag/tg/tg.spice (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NDWVGB in circuit mag/tg/tg.spice (1)(1 instance)
+
+Subcircuit summary:
+Circuit 1: sch/tg.spice                    |Circuit 2: mag/tg/tg.spice                 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match with 1 symmetry.
+Cells have no pins;  pin matching not needed.
+Device classes sch/tg.spice and mag/tg/tg.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.

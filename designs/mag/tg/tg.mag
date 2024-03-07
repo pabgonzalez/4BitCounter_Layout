@@ -1,0 +1,23 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1709682272
+<< metal1 >>
+rect 97 407 131 588
+rect 185 408 219 589
+use grid  grid_0 /foss/designs/mag/grid
+timestamp 1678218586
+transform 1 0 61 0 1 10
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_0
+timestamp 1709682272
+transform 1 0 158 0 1 343
+box -73 -101 73 101
+use sky130_fd_pr__pfet_01v8_ZB94FE  sky130_fd_pr__pfet_01v8_ZB94FE_0
+timestamp 1709682272
+transform 1 0 158 0 1 731
+box -109 -212 109 212
+<< labels >>
+rlabel space 97 406 131 593 1 vin
+rlabel space 185 406 219 593 1 vout
+<< end >>

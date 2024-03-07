@@ -1,0 +1,93 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1709757060
+<< poly >>
+rect 94 740 212 770
+rect 270 740 388 770
+rect 446 740 564 770
+rect 622 740 740 770
+<< metal1 >>
+rect 136 924 170 1014
+rect 664 930 698 1020
+rect 42 758 88 804
+rect 218 758 264 790
+rect 394 758 440 794
+rect 42 730 440 758
+use grid  grid_0 /foss/designs/mag/grid
+timestamp 1678218586
+transform 1 0 61 0 1 10
+box -61 -10 259 1053
+use grid  grid_1
+timestamp 1678218586
+transform 1 0 368 0 1 10
+box -61 -10 259 1053
+use grid  grid_2
+timestamp 1678218586
+transform 1 0 687 0 1 10
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_0
+timestamp 1709749173
+transform 1 0 461 0 1 173
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_1
+timestamp 1709749173
+transform 1 0 637 0 1 173
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_2
+timestamp 1709749173
+transform 1 0 549 0 1 173
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_3
+timestamp 1709749173
+transform 1 0 725 0 1 173
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_4
+timestamp 1709749173
+transform 1 0 109 0 1 173
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_5
+timestamp 1709749173
+transform 1 0 285 0 1 173
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_6
+timestamp 1709749173
+transform 1 0 197 0 1 173
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_7
+timestamp 1709749173
+transform 1 0 373 0 1 173
+box -73 -101 73 101
+use sky130_fd_pr__pfet_01v8_52875A  sky130_fd_pr__pfet_01v8_52875A_0
+timestamp 1709750076
+transform 1 0 285 0 1 861
+box -109 -137 109 137
+use sky130_fd_pr__pfet_01v8_52875A  sky130_fd_pr__pfet_01v8_52875A_1
+timestamp 1709750076
+transform 1 0 373 0 1 861
+box -109 -137 109 137
+use sky130_fd_pr__pfet_01v8_52875A  sky130_fd_pr__pfet_01v8_52875A_2
+timestamp 1709750076
+transform 1 0 197 0 1 861
+box -109 -137 109 137
+use sky130_fd_pr__pfet_01v8_52875A  sky130_fd_pr__pfet_01v8_52875A_3
+timestamp 1709750076
+transform 1 0 109 0 1 861
+box -109 -137 109 137
+use sky130_fd_pr__pfet_01v8_52875A  sky130_fd_pr__pfet_01v8_52875A_4
+timestamp 1709750076
+transform 1 0 461 0 1 861
+box -109 -137 109 137
+use sky130_fd_pr__pfet_01v8_52875A  sky130_fd_pr__pfet_01v8_52875A_5
+timestamp 1709750076
+transform 1 0 549 0 1 861
+box -109 -137 109 137
+use sky130_fd_pr__pfet_01v8_52875A  sky130_fd_pr__pfet_01v8_52875A_6
+timestamp 1709750076
+transform 1 0 637 0 1 861
+box -109 -137 109 137
+use sky130_fd_pr__pfet_01v8_52875A  sky130_fd_pr__pfet_01v8_52875A_7
+timestamp 1709750076
+transform 1 0 725 0 1 861
+box -109 -137 109 137
+<< end >>

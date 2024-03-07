@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709670142
+timestamp 1709680064
 << poly >>
 rect 622 728 652 1320
 << metal1 >>
@@ -26,6 +26,5 @@ box -109 -107 109 107
 rlabel poly 622 728 652 1320 1 in
 rlabel metal1 664 714 698 1344 1 out
 rlabel metal1 494 1504 776 1560 1 vdd
-rlabel metal1 494 522 776 578 1 vdd
 rlabel metal1 494 522 776 578 1 vss
 << end >>

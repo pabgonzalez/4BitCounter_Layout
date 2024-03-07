@@ -1,0 +1,19 @@
+* NGSPICE file created from nand.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_EAKVGK a_15_n150# a_n15_n176# a_n73_n150# VSUBS
+X0 a_15_n150# a_n15_n176# a_n73_n150# VSUBS sky130_fd_pr__nfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_52K3FE a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212#
+X0 a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212# sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.15
+.ends
+
+nand
+Xsky130_fd_pr__nfet_01v8_EAKVGK_0 sky130_fd_pr__nfet_01v8_EAKVGK_0/a_15_n150# a_94_422#
++ Z vss sky130_fd_pr__nfet_01v8_EAKVGK
+Xsky130_fd_pr__nfet_01v8_EAKVGK_1 vss a_182_419# sky130_fd_pr__nfet_01v8_EAKVGK_0/a_15_n150#
++ vss sky130_fd_pr__nfet_01v8_EAKVGK
+Xsky130_fd_pr__pfet_01v8_52K3FE_0 Z a_94_422# vdd vdd sky130_fd_pr__pfet_01v8_52K3FE
+Xsky130_fd_pr__pfet_01v8_52K3FE_1 vdd a_182_419# Z vdd sky130_fd_pr__pfet_01v8_52K3FE
+.ends
+

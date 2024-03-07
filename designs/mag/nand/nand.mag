@@ -1,0 +1,43 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1709732186
+<< poly >>
+rect 94 422 124 604
+rect 182 419 212 601
+<< metal1 >>
+rect 21 982 300 1037
+rect 48 906 82 982
+rect 224 915 258 982
+rect 136 527 170 638
+rect 48 496 170 527
+rect 48 393 82 496
+rect 224 55 258 106
+rect 22 0 301 55
+use grid  grid_0
+timestamp 1678218586
+transform 1 0 61 0 1 10
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_EAKVGK  sky130_fd_pr__nfet_01v8_EAKVGK_0
+timestamp 1709730556
+transform 1 0 109 0 1 248
+box -73 -176 73 176
+use sky130_fd_pr__nfet_01v8_EAKVGK  sky130_fd_pr__nfet_01v8_EAKVGK_1
+timestamp 1709730556
+transform 1 0 197 0 1 248
+box -73 -176 73 176
+use sky130_fd_pr__pfet_01v8_52K3FE  sky130_fd_pr__pfet_01v8_52K3FE_0
+timestamp 1709730556
+transform 1 0 109 0 1 770
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_52K3FE  sky130_fd_pr__pfet_01v8_52K3FE_1
+timestamp 1709730556
+transform 1 0 197 0 1 770
+box -109 -212 109 212
+<< labels >>
+rlabel metal1 21 982 300 1037 1 vdd
+rlabel metal1 136 496 170 638 1 Z
+rlabel space 94 398 124 620 1 A
+rlabel space 182 398 212 620 1 B
+rlabel metal1 22 0 301 55 1 vss
+<< end >>
