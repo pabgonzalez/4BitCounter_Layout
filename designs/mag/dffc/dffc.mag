@@ -8,11 +8,11 @@ use inverter  inverter_0 ../inverter
 timestamp 1709825988
 transform 1 0 -152 0 1 -523
 box 474 522 794 1585
-use tg  tg_0 ../tg
+use tg  tg_0  ../tg
 timestamp 1709835703
 transform 1 0 686 0 1 -2
 box -2 0 320 1063
-use tg  tg_1
+use tg  tg_1  ../tg
 timestamp 1709835703
 transform 1 0 2 0 1 0
 box -2 0 320 1063
