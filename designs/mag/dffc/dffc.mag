@@ -1,13 +1,14 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709844131
+timestamp 1709849133
 << nwell >>
 rect -174 490 112 1064
 rect 612 484 754 1062
 rect 232 -1100 1330 -524
 rect 232 -1102 1126 -1100
 << poly >>
+rect -882 -1068 -846 1028
 rect 956 892 1162 924
 rect -526 650 -306 686
 rect 144 512 178 614
@@ -49,16 +50,24 @@ rect 1664 -290 1700 -288
 rect 1084 -396 1116 -308
 rect 58 -650 94 -526
 rect 1082 -650 1118 -526
+rect 624 -964 910 -934
+rect 872 -1130 910 -964
+rect 1764 -1164 1800 460
 << metal1 >>
+rect -776 1032 1628 1042
+rect -884 992 1628 1032
+rect -776 978 1628 992
 rect 592 748 736 780
 rect 272 572 502 604
 rect 702 562 736 748
 rect -526 516 146 518
 rect -526 484 874 516
 rect 146 482 874 484
+rect 1310 424 1800 460
 rect 130 386 872 392
 rect -214 358 872 386
 rect -214 356 178 358
+rect -776 -104 1632 62
 rect 1226 -204 1372 -176
 rect 1226 -294 1258 -204
 rect 1338 -294 1372 -204
@@ -77,101 +86,133 @@ rect 338 -524 862 -498
 rect -494 -526 862 -524
 rect -494 -556 366 -526
 rect 834 -558 1118 -526
+rect -74 -1034 1620 -1018
+rect -880 -1068 1620 -1034
+rect -74 -1074 1620 -1068
+rect 872 -1156 1800 -1124
 use inverter  inverter_0 ../inverter
-timestamp 1709825988
+timestamp 1709848744
 transform 1 0 -152 0 1 -523
 box 474 522 794 1585
-use inverter  inverter_1
-timestamp 1709825988
+use inverter  inverter_1 ../inverter
+timestamp 1709848744
 transform -1 0 2114 0 -1 485
 box 474 522 794 1585
-use inverter  inverter_2
-timestamp 1709825988
+use inverter  inverter_2 ../inverter
+timestamp 1709848744
 transform 1 0 -958 0 1 -518
 box 474 522 794 1585
-use inverter  inverter_3
-timestamp 1709825988
+use inverter  inverter_3 ../inverter
+timestamp 1709848744
 transform 1 0 -1270 0 1 -518
 box 474 522 794 1585
 use nor  nor_0 ../nor
-timestamp 1709843938
+timestamp 1709838739
 transform 1 0 1002 0 1 -22
 box 0 18 640 1083
-use nor  nor_1
-timestamp 1709843938
+use nor  nor_1 ../nor
+timestamp 1709838739
 transform -1 0 872 0 -1 -19
 box 0 18 640 1083
 use tg  tg_0 ../tg
-timestamp 1709843938
+timestamp 1709848744
 transform 1 0 686 0 1 -2
 box -2 0 320 1063
 use tg  tg_1
-timestamp 1709843938
+timestamp 1709848744
 transform 1 0 2 0 1 0
 box -2 0 320 1063
 use tg  tg_2
-timestamp 1709843938
+timestamp 1709848744
 transform -1 0 1258 0 -1 -39
 box -2 0 320 1063
 use tg  tg_3
-timestamp 1709843938
+timestamp 1709848744
 transform -1 0 234 0 -1 -39
 box -2 0 320 1063
 use via_m1_p  via_m1_p_0 ../inverter/../via_m1_p
 timestamp 1646951168
-transform 1 0 42 0 1 -446
+transform 1 0 -544 0 1 466
 box 0 0 68 68
-use via_m1_p  via_m1_p_1  ../via_m1_p
+use via_m1_p  via_m1_p_1 ../via_m1_p
 timestamp 1646951168
-transform -1 0 1134 0 -1 -506
+transform 1 0 -898 0 1 -1084
 box 0 0 68 68
-use via_m1_p  via_m1_p_2  ../via_m1_p
+use via_m1_p  via_m1_p_2 ../via_m1_p
 timestamp 1646951168
-transform -1 0 110 0 -1 -506
+transform 1 0 -900 0 1 980
 box 0 0 68 68
-use via_m1_p  via_m1_p_0  ../via_m1_p
+use via_m1_p  via_m1_p_0 ../tg/../via_m1_p
+timestamp 1646951168
+transform -1 0 1362 0 -1 480
+box 0 0 68 68
+use via_m1_p  via_m1_p_1 ../via_m1_p
+timestamp 1646951168
+transform -1 0 926 0 -1 -1106
+box 0 0 68 68
+use via_m1_p  via_m1_p_2 ../via_m1_p
+timestamp 1646951168
+transform -1 0 1816 0 -1 -1104
+box 0 0 68 68
+use via_m1_p  via_m1_p_3 ../via_m1_p
+timestamp 1646951168
+transform -1 0 1816 0 -1 476
+box 0 0 68 68
+use via_m1_p  via_m1_p_0 ../via_m1_p
 timestamp 1646951168
 transform -1 0 -442 0 -1 -504
 box 0 0 68 68
-use via_m1_p  via_m1_p_1  ../via_m1_p
-timestamp 1646951168
-transform 1 0 -544 0 1 466
-box 0 0 68 68
-use via_m1_p  via_m1_p_2 ../tg/../via_m1_p
+use via_m1_p  via_m1_p_2 ../via_m1_p
 timestamp 1646951168
 transform 1 0 450 0 1 554
 box 0 0 68 68
-use via_m1_p  via_m1_p_3  ../via_m1_p
+use via_m1_p  via_m1_p_3 ../via_m1_p
 timestamp 1646951168
 transform 1 0 810 0 1 466
 box 0 0 68 68
-use via_m1_p  via_m1_p_4  ../via_m1_p
+use via_m1_p  via_m1_p_4 ../via_m1_p
 timestamp 1646951168
 transform -1 0 878 0 -1 406
 box 0 0 68 68
-use via_m1_p  via_m1_p_5  ../via_m1_p
+use via_m1_p  via_m1_p_5 ../via_m1_p
 timestamp 1646951168
 transform -1 0 194 0 -1 408
 box 0 0 68 68
-use via_m1_p  via_m1_p_6  ../via_m1_p
+use via_m1_p  via_m1_p_6 ../via_m1_p
 timestamp 1646951168
 transform 1 0 126 0 1 468
 box 0 0 68 68
-use via_m1_p  via_m1_p_7  ../via_m1_p
+use via_m1_p  via_m1_p_7 ../via_m1_p
 timestamp 1646951168
 transform -1 0 -160 0 -1 402
 box 0 0 68 68
-use via_m1_p  via_m1_p_8  ../via_m1_p
+use via_m1_p  via_m1_p_8 ../via_m1_p
 timestamp 1646951168
 transform 1 0 -196 0 1 -446
 box 0 0 68 68
-use via_m1_p  via_m1_p_9  ../via_m1_p
+use via_m1_p  via_m1_p_9 ../via_m1_p
 timestamp 1646951168
 transform 1 0 1066 0 1 -446
+box 0 0 68 68
+use via_m1_p  via_m1_p_10 ../via_m1_p
+timestamp 1646951168
+transform -1 0 110 0 -1 -506
+box 0 0 68 68
+use via_m1_p  via_m1_p_11 ../via_m1_p
+timestamp 1646951168
+transform -1 0 1134 0 -1 -506
+box 0 0 68 68
+use via_m1_p  via_m1_p_12 ../via_m1_p
+timestamp 1646951168
+transform 1 0 42 0 1 -446
 box 0 0 68 68
 << labels >>
 rlabel space 18 260 54 614 1 D
 rlabel space -648 200 -618 820 1 clk
 rlabel space -214 210 -180 802 1 p_clk
 rlabel space -526 210 -492 802 1 n_clk
+rlabel space 1764 -1172 1800 476 1 clr
+rlabel space 1526 280 1558 948 1 Q
+rlabel metal1 -776 978 1628 1042 1 vdd
+rlabel metal1 -776 -104 1632 62 1 vss
 << end >>
