@@ -1,13 +1,19 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709834505
-use inverter  inverter_0 /foss/designs/mag/inverter
+timestamp 1709835703
+<< nwell >>
+rect 612 484 754 1062
+use inverter  inverter_0 ../inverter
 timestamp 1709825988
 transform 1 0 -152 0 1 -523
 box 474 522 794 1585
-use tg  tg_0 tg /foss/designs/mag/tg
-timestamp 1709834505
+use tg  tg_0 ../tg
+timestamp 1709835703
+transform 1 0 686 0 1 -2
+box -2 0 320 1063
+use tg  tg_1
+timestamp 1709835703
 transform 1 0 2 0 1 0
 box -2 0 320 1063
 << end >>

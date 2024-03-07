@@ -1,48 +1,72 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709822015
+timestamp 1709836313
 << poly >>
-rect 188 942 478 976
-rect 446 432 478 942
-rect 102 196 132 304
-rect 534 196 564 246
-rect 102 162 564 196
+rect 218 576 248 600
+rect 130 546 248 576
+rect 218 254 248 546
+rect 306 578 336 600
+rect 306 548 424 578
+rect 306 254 336 548
 << metal1 >>
-rect 56 914 90 986
-rect 300 476 522 504
-rect 232 282 266 334
-rect 300 282 334 476
-rect 488 406 522 476
-rect 232 252 334 282
-rect 400 54 434 272
-rect 576 40 610 268
-use grid  grid_0 grid
+rect 28 1008 184 1056
+rect 212 1008 624 1054
+rect 28 1004 624 1008
+rect 166 1002 624 1004
+rect 166 886 212 1002
+rect 342 924 552 952
+rect 342 890 388 924
+rect 84 566 118 600
+rect 260 566 294 594
+rect 436 566 470 618
+rect 84 536 470 566
+rect 504 352 552 924
+rect 254 324 552 352
+rect 254 296 300 324
+rect 166 74 212 148
+rect 342 74 388 148
+rect 22 54 620 74
+rect 22 50 350 54
+rect 22 18 174 50
+rect 208 18 350 50
+rect 384 18 620 54
+use grid  grid_0 ../grid
 timestamp 1678218586
-transform 1 0 381 0 1 10
+transform 1 0 381 0 1 30
 box -61 -10 259 1053
 use grid  grid_1
 timestamp 1678218586
-transform 1 0 61 0 1 10
+transform 1 0 61 0 1 30
 box -61 -10 259 1053
 use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_1
 timestamp 1709815372
-transform 1 0 461 0 1 340
+transform 1 0 233 0 1 221
 box -73 -101 73 101
 use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_2
 timestamp 1709815372
-transform 1 0 549 0 1 340
+transform 1 0 321 0 1 221
 box -73 -101 73 101
-use sky130_fd_pr__pfet_01v8_5EUKDE  sky130_fd_pr__pfet_01v8_5EUKDE_0
-timestamp 1709817887
-transform 1 0 205 0 1 625
-box -109 -362 109 362
-use sky130_fd_pr__pfet_01v8_5EUKDE  sky130_fd_pr__pfet_01v8_5EUKDE_1
-timestamp 1709817887
-transform 1 0 117 0 1 625
-box -109 -362 109 362
+use sky130_fd_pr__pfet_01v8_52K3FE  sky130_fd_pr__pfet_01v8_52K3FE_0
+timestamp 1709825562
+transform 1 0 409 0 1 744
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_52K3FE  sky130_fd_pr__pfet_01v8_52K3FE_1
+timestamp 1709825562
+transform 1 0 321 0 1 744
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_52K3FE  sky130_fd_pr__pfet_01v8_52K3FE_2
+timestamp 1709825562
+transform 1 0 233 0 1 744
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_52K3FE  sky130_fd_pr__pfet_01v8_52K3FE_3
+timestamp 1709825562
+transform 1 0 145 0 1 744
+box -109 -212 109 212
 << labels >>
-rlabel metal1 232 252 334 282 1 Z
-rlabel poly 102 162 564 196 1 B
-rlabel poly 446 432 478 976 1 A
+rlabel metal1 504 324 552 952 1 Z
+rlabel space 22 1002 622 1054 1 vdd
+rlabel space 20 18 620 80 1 vss
+rlabel poly 218 254 248 600 1 B
+rlabel poly 306 254 336 600 1 A
 << end >>

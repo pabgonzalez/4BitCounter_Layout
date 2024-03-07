@@ -1,19 +1,19 @@
 * NGSPICE file created from nor.ext - technology: sky130A
 
-.subckt sky130_fd_pr__pfet_01v8_5EUKDE a_n73_n300# w_n109_n362# a_15_n300# a_n15_n326#
-X0 a_15_n300# a_n15_n326# a_n73_n300# w_n109_n362# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
-.ends
-
 .subckt sky130_fd_pr__nfet_01v8_NDWVGB a_15_n75# a_n15_n101# a_n73_n75# VSUBS
 X0 a_15_n75# a_n15_n101# a_n73_n75# VSUBS sky130_fd_pr__nfet_01v8 ad=0.218 pd=2.08 as=0.218 ps=2.08 w=0.75 l=0.15
 .ends
 
+.subckt sky130_fd_pr__pfet_01v8_52K3FE a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212#
+X0 a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212# sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.15
+.ends
+
 nor
-Xsky130_fd_pr__pfet_01v8_5EUKDE_0 sky130_fd_pr__pfet_01v8_5EUKDE_1/a_15_n300# m1_56_914#
-+ Z A sky130_fd_pr__pfet_01v8_5EUKDE
-Xsky130_fd_pr__pfet_01v8_5EUKDE_1 m1_56_914# m1_56_914# sky130_fd_pr__pfet_01v8_5EUKDE_1/a_15_n300#
-+ B sky130_fd_pr__pfet_01v8_5EUKDE
-Xsky130_fd_pr__nfet_01v8_NDWVGB_1 Z A VSUBS VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
-Xsky130_fd_pr__nfet_01v8_NDWVGB_2 VSUBS B Z VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__nfet_01v8_NDWVGB_1 Z B VSUBS VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__nfet_01v8_NDWVGB_2 VSUBS A Z VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__pfet_01v8_52K3FE_0 m1_84_536# A Z m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
+Xsky130_fd_pr__pfet_01v8_52K3FE_1 Z A m1_84_536# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
+Xsky130_fd_pr__pfet_01v8_52K3FE_2 m1_84_536# B m1_28_1004# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
+Xsky130_fd_pr__pfet_01v8_52K3FE_3 m1_28_1004# B m1_84_536# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
 .ends
 
