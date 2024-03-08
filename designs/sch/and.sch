@@ -25,8 +25,8 @@ N 60 -120 80 -120 {
 lab=B}
 N 400 -140 420 -140 {
 lab=Z}
-C {/foss/designs/nand.sym} 60 -60 0 0 {name=x1}
-C {/foss/designs/inverter.sym} 220 -60 0 0 {name=x2}
+C {/foss/designs/sch/nand.sym} 60 -60 0 0 {name=x1}
+C {/foss/designs/sch/inverter.sym} 220 -60 0 0 {name=x2}
 C {devices/iopin.sym} 420 -140 0 0 {name=p1 lab=Z
 }
 C {devices/iopin.sym} 60 -160 2 0 {name=p2 lab=A}

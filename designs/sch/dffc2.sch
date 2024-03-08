@@ -51,12 +51,12 @@ N 200 -720 270 -720 {
 lab=n_clk_2}
 N 210 -560 280 -560 {
 lab=n_clk_1}
-C {/foss/designs/inverter.sym} 20 -640 0 0 {name=x1}
-C {/foss/designs/inverter.sym} 560 -340 0 0 {name=x2}
-C {/foss/designs/inverter.sym} 1510 -420 3 1 {name=x3}
-C {/foss/designs/tg.sym} 80 -260 0 0 {name=x4}
-C {/foss/designs/nor.sym} 1180 -360 0 0 {name=x8}
-C {/foss/designs/nor.sym} 860 -140 0 1 {name=x9}
+C {/foss/designs/sch/inverter.sym} 20 -640 0 0 {name=x1}
+C {/foss/designs/sch/inverter.sym} 560 -340 0 0 {name=x2}
+C {/foss/designs/sch/inverter.sym} 1510 -420 3 1 {name=x3}
+C {/foss/designs/sch/tg.sym} 80 -260 0 0 {name=x4}
+C {/foss/designs/sch/nor.sym} 1180 -360 0 0 {name=x8}
+C {/foss/designs/sch/nor.sym} 860 -140 0 1 {name=x9}
 C {devices/lab_pin.sym} 140 -680 2 0 {name=p1 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 140 -760 2 0 {name=p2 sig_type=std_logic lab=vdd
 }
@@ -74,11 +74,11 @@ C {devices/lab_pin.sym} 310 -360 2 0 {name=p13 sig_type=std_logic lab=n_clk_1}
 C {devices/lab_pin.sym} 310 -460 2 0 {name=p14 sig_type=std_logic lab=p_clk_1
 }
 C {devices/iopin.sym} 190 -420 0 1 {name=p15 lab=D}
-C {/foss/designs/tg.sym} 800 -60 0 1 {name=x5
+C {/foss/designs/sch/tg.sym} 800 -60 0 1 {name=x5
 lab=n_clk}
 C {devices/lab_pin.sym} 570 -160 2 1 {name=p16 sig_type=std_logic lab=n_clk_2}
 C {devices/lab_pin.sym} 570 -260 2 1 {name=p17 sig_type=std_logic lab=p_clk_2}
-C {/foss/designs/tg.sym} 790 -260 0 0 {name=x6
+C {/foss/designs/sch/tg.sym} 790 -260 0 0 {name=x6
 lab=p_clk}
 C {devices/lab_pin.sym} 1020 -360 2 0 {name=p18 sig_type=std_logic lab=n_clk_2}
 C {devices/lab_pin.sym} 1020 -460 2 0 {name=p19 sig_type=std_logic lab=p_clk_2
@@ -90,7 +90,7 @@ C {devices/lab_pin.sym} 680 -380 2 0 {name=p26 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 790 -280 2 0 {name=p27 sig_type=std_logic lab=vdd
 }
 C {devices/lab_pin.sym} 790 -160 2 0 {name=p23 sig_type=std_logic lab=vss}
-C {/foss/designs/tg.sym} 1510 -40 0 1 {name=x7}
+C {/foss/designs/sch/tg.sym} 1510 -40 0 1 {name=x7}
 C {devices/lab_pin.sym} 1280 -140 2 1 {name=p20 sig_type=std_logic lab=n_clk_1}
 C {devices/lab_pin.sym} 1280 -240 2 1 {name=p21 sig_type=std_logic lab=p_clk_1
 }
@@ -103,26 +103,26 @@ C {devices/lab_pin.sym} 1250 -500 2 0 {name=p30 sig_type=std_logic lab=vdd
 C {devices/lab_pin.sym} 1200 -460 2 1 {name=p31 sig_type=std_logic lab=clr}
 C {devices/iopin.sym} 1510 -440 0 0 {name=p33 lab=Q
 }
-C {/foss/designs/inverter.sym} 210 -640 0 0 {name=x10}
+C {/foss/designs/sch/inverter.sym} 210 -640 0 0 {name=x10}
 C {devices/lab_pin.sym} 330 -680 2 0 {name=p32 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 330 -760 2 0 {name=p35 sig_type=std_logic lab=vdd
 }
 C {devices/lab_pin.sym} 390 -720 0 1 {name=p36 sig_type=std_logic lab=p_clk_2}
 C {devices/lab_pin.sym} 1510 -200 0 1 {name=p34 sig_type=std_logic lab=Qb}
-C {/foss/designs/clockgen.sym} 780 -710 0 0 {name=x11}
+C {/foss/designs/sch/clockgen.sym} 780 -710 0 0 {name=x11}
 C {devices/lab_pin.sym} 930 -690 2 0 {name=p37 sig_type=std_logic lab=vdd
 }
 C {devices/lab_pin.sym} 930 -730 2 0 {name=p38 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 930 -710 2 0 {name=p39 sig_type=std_logic lab=clk}
 C {devices/lab_pin.sym} 930 -750 2 0 {name=p40 sig_type=std_logic lab=clk_1}
 C {devices/lab_pin.sym} 930 -670 2 0 {name=p41 sig_type=std_logic lab=clk_2}
-C {/foss/designs/inverter.sym} 30 -480 0 0 {name=x12}
+C {/foss/designs/sch/inverter.sym} 30 -480 0 0 {name=x12}
 C {devices/lab_pin.sym} 150 -520 2 0 {name=p42 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 150 -600 2 0 {name=p43 sig_type=std_logic lab=vdd
 }
 C {devices/lab_pin.sym} 90 -560 2 1 {name=p44 sig_type=std_logic lab=clk_1}
 C {devices/lab_pin.sym} 240 -560 1 0 {name=p45 sig_type=std_logic lab=n_clk_1}
-C {/foss/designs/inverter.sym} 220 -480 0 0 {name=x13}
+C {/foss/designs/sch/inverter.sym} 220 -480 0 0 {name=x13}
 C {devices/lab_pin.sym} 340 -520 2 0 {name=p46 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 340 -600 2 0 {name=p47 sig_type=std_logic lab=vdd
 }

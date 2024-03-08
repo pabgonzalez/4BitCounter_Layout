@@ -1,4 +1,4 @@
-** sch_path: /foss/designs/nor.sch
+** sch_path: /foss/designs/sch/nor.sch
 **.subckt nor vdd Z A B vss
 *.iopin A
 *.iopin B

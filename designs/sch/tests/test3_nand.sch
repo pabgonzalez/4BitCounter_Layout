@@ -27,7 +27,7 @@ N 500 -220 500 -180 {
 lab=#net1}
 N 460 -220 500 -220 {
 lab=#net1}
-C {/foss/designs/inverter.sym} 280 -140 0 0 {name=x2}
+C {/foss/designs/sch/inverter.sym} 280 -140 0 0 {name=x2}
 C {devices/vsource.sym} 630 -210 0 0 {name=V4 value=DC\{vss\} savecurrent=false}
 C {devices/vsource.sym} 730 -210 0 0 {name=V5 value=DC\{vdd\} savecurrent=false}
 C {devices/vsource.sym} 830 -210 0 0 {name=V6 value="PULSE(\{vdd\} 0 0.0 1p 1p \{Tclk/4\} \{Tclk/2\}) DC 0 AC 0" savecurrent=false}
@@ -66,7 +66,7 @@ C {devices/lab_pin.sym} 730 -280 1 0 {name=p8 sig_type=std_logic lab=avdd1p8}
 C {devices/lab_pin.sym} 830 -280 1 0 {name=p9 sig_type=std_logic lab=vin}
 C {devices/lab_pin.sym} 830 -140 3 0 {name=p10 sig_type=std_logic lab=avss1p8}
 C {devices/lab_pin.sym} 730 -140 3 0 {name=p11 sig_type=std_logic lab=avss1p8}
-C {/foss/designs/nand.sym} 80 -140 0 0 {name=x1}
+C {/foss/designs/sch/nand.sym} 80 -140 0 0 {name=x1}
 C {devices/lab_pin.sym} 160 -160 3 0 {name=p1 sig_type=std_logic lab=avss1p8}
 C {devices/lab_pin.sym} 160 -280 1 0 {name=p2 sig_type=std_logic lab=avdd1p8}
 C {devices/lab_pin.sym} 400 -180 3 0 {name=p3 sig_type=std_logic lab=avss1p8}

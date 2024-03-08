@@ -1,4 +1,4 @@
-** sch_path: /foss/designs/xor.sch
+** sch_path: /foss/designs/sch/xor.sch
 **.subckt xor vdd Z A B vss
 *.iopin A
 *.iopin B

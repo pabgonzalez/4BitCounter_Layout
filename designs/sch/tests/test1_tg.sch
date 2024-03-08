@@ -29,7 +29,7 @@ N 450 -260 490 -260 {
 lab=#net1}
 N 60 -260 110 -260 {
 lab=vin}
-C {/foss/designs/inverter.sym} 270 -180 0 0 {name=x2}
+C {/foss/designs/sch/inverter.sym} 270 -180 0 0 {name=x2}
 C {devices/vsource.sym} 620 -250 0 0 {name=V4 value=DC\{vss\} savecurrent=false}
 C {devices/vsource.sym} 720 -250 0 0 {name=V5 value=DC\{vdd\} savecurrent=false}
 C {devices/vsource.sym} 820 -250 0 0 {name=V6 value="PULSE(\{vdd\} 0 0.0 1p 1p \{Tclk/4\} \{Tclk/2\}) DC 0 AC 0" savecurrent=false}
@@ -80,4 +80,4 @@ device="ceramic capacitor"}
 C {devices/lab_pin.sym} 490 -160 3 0 {name=p13 sig_type=std_logic lab=avss1p8}
 C {devices/lab_pin.sym} 180 -300 1 0 {name=p6 sig_type=std_logic lab=avss1p8}
 C {devices/lab_pin.sym} 180 -200 3 0 {name=p14 sig_type=std_logic lab=avdd1p8}
-C {/foss/designs/tg.sym} -50 -100 0 0 {name=x1}
+C {/foss/designs/sch/tg.sym} -50 -100 0 0 {name=x1}

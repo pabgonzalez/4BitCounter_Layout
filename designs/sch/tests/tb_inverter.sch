@@ -38,8 +38,8 @@ lab=Z}
 C {devices/vsource.sym} 720 -270 0 0 {name=V4 value=DC\{vss\} savecurrent=false}
 C {devices/vsource.sym} 820 -270 0 0 {name=V5 value=DC\{vdd\} savecurrent=false}
 C {devices/vsource.sym} 920 -270 0 0 {name=V6 value="PULSE(\{vdd\} 0 0.0 1p 1p \{Tclk/4\} \{Tclk/2\}) DC 0 AC 0" savecurrent=false}
-C {/foss/designs/inverter.sym} 100 -180 0 0 {name=x1}
-C {/foss/designs/inverter.sym} 340 -180 0 0 {name=x2}
+C {/foss/designs/sch/inverter.sym} 100 -180 0 0 {name=x1}
+C {/foss/designs/sch/inverter.sym} 340 -180 0 0 {name=x2}
 C {devices/gnd.sym} 720 -200 0 0 {name=l1 lab=GND}
 C {devices/netlist_not_shown.sym} 1030 -180 0 0 {name=SIMULATION only_toplevel=false
 value="

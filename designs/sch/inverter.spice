@@ -1,4 +1,4 @@
-** sch_path: /foss/designs/inverter.sch
+** sch_path: /foss/designs/sch/inverter.sch
 **.subckt inverter vdd out in vss
 *.iopin out
 *.iopin vss

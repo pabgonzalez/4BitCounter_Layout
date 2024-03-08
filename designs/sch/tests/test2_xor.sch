@@ -5,10 +5,10 @@ K {}
 V {}
 S {}
 E {}
-T {Test 1 XOR:
-- Entrada A: 0
-- Entrada B: 0-->1
-- Salida Z: 0-->1} 30 -530 0 0 0.3 0.3 {}
+T {Test 2 XOR:
+- Entrada A: 0-->1
+- Entrada B: 1
+- Salida Z: 1-->0} 30 -530 0 0 0.3 0.3 {}
 N 630 -220 630 -180 {
 lab=GND}
 N 630 -320 630 -280 {
@@ -29,7 +29,7 @@ N 460 -260 500 -260 {
 lab=#net1}
 N 240 -260 260 -260 {
 lab=vout}
-C {/foss/designs/inverter.sym} 280 -180 0 0 {name=x2}
+C {/foss/designs/sch/inverter.sym} 280 -180 0 0 {name=x2}
 C {devices/vsource.sym} 630 -250 0 0 {name=V4 value=DC\{vss\} savecurrent=false}
 C {devices/vsource.sym} 730 -250 0 0 {name=V5 value=DC\{vdd\} savecurrent=false}
 C {devices/vsource.sym} 830 -250 0 0 {name=V6 value="PULSE(\{vdd\} 0 0.0 1p 1p \{Tclk/4\} \{Tclk/2\}) DC 0 AC 0" savecurrent=false}
@@ -72,8 +72,8 @@ C {devices/lab_pin.sym} 160 -200 3 0 {name=p1 sig_type=std_logic lab=avss1p8}
 C {devices/lab_pin.sym} 160 -320 1 0 {name=p2 sig_type=std_logic lab=avdd1p8}
 C {devices/lab_pin.sym} 400 -220 3 0 {name=p3 sig_type=std_logic lab=avss1p8}
 C {devices/lab_pin.sym} 400 -300 1 0 {name=p4 sig_type=std_logic lab=avdd1p8}
-C {devices/lab_pin.sym} 100 -280 0 0 {name=p5 sig_type=std_logic lab=avss1p8}
-C {devices/lab_pin.sym} 100 -240 0 0 {name=p6 sig_type=std_logic lab=vin
+C {devices/lab_pin.sym} 100 -280 0 0 {name=p5 sig_type=std_logic lab=vin}
+C {devices/lab_pin.sym} 100 -240 0 0 {name=p6 sig_type=std_logic lab=avdd1p8
 }
 C {devices/lab_pin.sym} 300 -260 1 0 {name=p12 sig_type=std_logic lab=vout}
 C {devices/capa.sym} 500 -190 0 0 {name=C1
@@ -82,4 +82,4 @@ value=1p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 500 -160 3 0 {name=p13 sig_type=std_logic lab=avss1p8}
-C {/foss/designs/xor.sym} 60 -180 0 0 {name=x1}
+C {/foss/designs/sch/xor.sym} 60 -180 0 0 {name=x1}

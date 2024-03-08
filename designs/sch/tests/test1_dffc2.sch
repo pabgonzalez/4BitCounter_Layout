@@ -41,7 +41,7 @@ N 230 -250 270 -250 {
 lab=out}
 N 270 -250 310 -250 {
 lab=out}
-C {/foss/designs/inverter.sym} 250 -170 0 0 {name=x2}
+C {/foss/designs/sch/inverter.sym} 250 -170 0 0 {name=x2}
 C {devices/vsource.sym} 600 -240 0 0 {name=V4 value=DC\{vss\} savecurrent=false}
 C {devices/vsource.sym} 700 -240 0 0 {name=V5 value=DC\{vdd\} savecurrent=false}
 C {devices/vsource.sym} 940 -300 0 0 {name=V6 value="PULSE(0 \{vdd\} \{Tclk/4\} 1p 1p \{5*Tclk/2\} \{4*Tclk\}) DC 0 AC 0" savecurrent=false}
@@ -96,4 +96,4 @@ C {devices/lab_pin.sym} 870 -340 1 0 {name=p5 sig_type=std_logic lab=clr}
 C {devices/lab_pin.sym} 870 -200 3 0 {name=p6 sig_type=std_logic lab=avss1p8}
 C {devices/lab_pin.sym} 170 -310 1 0 {name=p18 sig_type=std_logic lab=clr
 }
-C {/foss/designs/dffc2.sym} 90 -120 0 0 {name=x1}
+C {/foss/designs/sch/dffc2.sym} 90 -120 0 0 {name=x1}

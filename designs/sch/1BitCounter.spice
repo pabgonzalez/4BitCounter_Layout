@@ -1,4 +1,4 @@
-** sch_path: /foss/designs/1BitCounter.sch
+** sch_path: /foss/designs/sch/1BitCounter.sch
 **.subckt 1BitCounter clr Q clk ce vdd vss sout
 *.iopin clk
 *.iopin sout
@@ -12,9 +12,9 @@ x2 vdd net1 ce Q vss xor
 x3 Q net1 clk clr vss vdd dffc
 **.ends
 
-* expanding   symbol:  /foss/designs/and.sym # of pins=5
-** sym_path: /foss/designs/and.sym
-** sch_path: /foss/designs/and.sch
+* expanding   symbol:  /foss/designs/sch/and.sym # of pins=5
+** sym_path: /foss/designs/sch/and.sym
+** sch_path: /foss/designs/sch/and.sch
 .subckt and vdd A Z B vss
 *.iopin Z
 *.iopin A
@@ -26,9 +26,9 @@ x2 vdd Z net1 vss inverter
 .ends
 
 
-* expanding   symbol:  /foss/designs/xor.sym # of pins=5
-** sym_path: /foss/designs/xor.sym
-** sch_path: /foss/designs/xor.sch
+* expanding   symbol:  /foss/designs/sch/xor.sym # of pins=5
+** sym_path: /foss/designs/sch/xor.sym
+** sch_path: /foss/designs/sch/xor.sch
 .subckt xor vdd Z A B vss
 *.iopin A
 *.iopin B
@@ -62,9 +62,9 @@ XM10 Bb B vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * 
 .ends
 
 
-* expanding   symbol:  /foss/designs/dffc.sym # of pins=6
-** sym_path: /foss/designs/dffc.sym
-** sch_path: /foss/designs/dffc.sch
+* expanding   symbol:  /foss/designs/sch/dffc.sym # of pins=6
+** sym_path: /foss/designs/sch/dffc.sym
+** sch_path: /foss/designs/sch/dffc.sch
 .subckt dffc Q D clk clr vss vdd
 *.iopin clk
 *.iopin clr
@@ -85,9 +85,9 @@ x10 vdd p_clk n_clk vss inverter
 .ends
 
 
-* expanding   symbol:  /foss/designs/nand.sym # of pins=5
-** sym_path: /foss/designs/nand.sym
-** sch_path: /foss/designs/nand.sch
+* expanding   symbol:  /foss/designs/sch/nand.sym # of pins=5
+** sym_path: /foss/designs/sch/nand.sym
+** sch_path: /foss/designs/sch/nand.sch
 .subckt nand vdd Z A B vss
 *.iopin B
 *.iopin A
@@ -105,9 +105,9 @@ XM4 Z B vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/
 .ends
 
 
-* expanding   symbol:  /foss/designs/inverter.sym # of pins=4
-** sym_path: /foss/designs/inverter.sym
-** sch_path: /foss/designs/inverter.sch
+* expanding   symbol:  /foss/designs/sch/inverter.sym # of pins=4
+** sym_path: /foss/designs/sch/inverter.sym
+** sch_path: /foss/designs/sch/inverter.sch
 .subckt inverter vdd out in vss
 *.iopin out
 *.iopin vss
@@ -120,9 +120,9 @@ XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=0.45 nf=1 ad='int((nf+1)/2) 
 .ends
 
 
-* expanding   symbol:  /foss/designs/tg.sym # of pins=6
-** sym_path: /foss/designs/tg.sym
-** sch_path: /foss/designs/tg.sch
+* expanding   symbol:  /foss/designs/sch/tg.sym # of pins=6
+** sym_path: /foss/designs/sch/tg.sym
+** sch_path: /foss/designs/sch/tg.sch
 .subckt tg vin enb en vout vss vdd
 *.iopin vin
 *.iopin vout
@@ -137,9 +137,9 @@ XM2 vout enb vin vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2)
 .ends
 
 
-* expanding   symbol:  /foss/designs/nor.sym # of pins=5
-** sym_path: /foss/designs/nor.sym
-** sch_path: /foss/designs/nor.sch
+* expanding   symbol:  /foss/designs/sch/nor.sym # of pins=5
+** sym_path: /foss/designs/sch/nor.sym
+** sch_path: /foss/designs/sch/nor.sch
 .subckt nor vdd Z A B vss
 *.iopin A
 *.iopin B

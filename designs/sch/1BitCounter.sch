@@ -45,9 +45,9 @@ N 700 -130 730 -130 {
 lab=vss}
 N 750 -340 780 -340 {
 lab=Q}
-C {/foss/designs/and.sym} 370 -60 0 0 {name=x1}
-C {/foss/designs/xor.sym} 350 -260 0 0 {name=x2}
-C {/foss/designs/dffc.sym} 390 -80 0 0 {name=x3}
+C {/foss/designs/sch/and.sym} 370 -60 0 0 {name=x1}
+C {/foss/designs/sch/xor.sym} 350 -260 0 0 {name=x2}
+C {/foss/designs/sch/dffc.sym} 390 -80 0 0 {name=x3}
 C {devices/iopin.sym} 590 -290 2 0 {name=p1 lab=clk}
 C {devices/iopin.sym} 530 -130 2 1 {name=p2 lab=sout}
 C {devices/iopin.sym} 370 -250 2 0 {name=p3 lab=ce}

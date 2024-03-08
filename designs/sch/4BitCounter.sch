@@ -67,10 +67,10 @@ N 160 -160 160 -20 {
 lab=clk}
 N 400 -160 400 -20 {}
 N 880 -160 880 -20 {}
-C {/foss/designs/1BitCounter.sym} -160 0 0 0 {name=x1}
-C {/foss/designs/1BitCounter.sym} 80 0 0 0 {name=x2}
-C {/foss/designs/1BitCounter.sym} 320 0 0 0 {name=x3}
-C {/foss/designs/1BitCounter.sym} 560 0 0 0 {name=x4}
+C {/foss/designs/sch/1BitCounter.sym} -160 0 0 0 {name=x1}
+C {/foss/designs/sch/1BitCounter.sym} 80 0 0 0 {name=x2}
+C {/foss/designs/sch/1BitCounter.sym} 320 0 0 0 {name=x3}
+C {/foss/designs/sch/1BitCounter.sym} 560 0 0 0 {name=x4}
 C {devices/iopin.sym} 60 -260 2 0 {name=p1 lab=ce}
 C {devices/iopin.sym} 60 -100 2 0 {name=p2 lab=clk}
 C {devices/iopin.sym} 60 -340 2 0 {name=p3 lab=clr}

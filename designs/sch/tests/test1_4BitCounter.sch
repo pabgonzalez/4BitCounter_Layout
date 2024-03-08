@@ -78,7 +78,7 @@ N 260 -170 320 -170 {
 lab=q3}
 N 290 -650 290 -620 {
 lab=q0}
-C {/foss/designs/inverter.sym} 260 -540 0 0 {name=x2}
+C {/foss/designs/sch/inverter.sym} 260 -540 0 0 {name=x2}
 C {devices/vsource.sym} 760 -460 0 0 {name=V4 value=DC\{vss\} savecurrent=false}
 C {devices/vsource.sym} 860 -460 0 0 {name=V5 value=DC\{vdd\} savecurrent=false}
 C {devices/vsource.sym} 1100 -520 0 0 {name=V6 value="PULSE(0 \{vdd\} \{Tclk/4\} 1p 1p \{22*Tclk\} \{25*Tclk\}) DC 0 AC 0" savecurrent=false}
@@ -132,8 +132,8 @@ C {devices/lab_pin.sym} 1030 -560 1 0 {name=p5 sig_type=std_logic lab=clr}
 C {devices/lab_pin.sym} 1030 -420 3 0 {name=p6 sig_type=std_logic lab=avss1p8}
 C {devices/lab_pin.sym} 170 -660 1 0 {name=p18 sig_type=std_logic lab=clr
 }
-C {/foss/designs/4BitCounter.sym} 90 -480 0 0 {name=x1}
-C {/foss/designs/inverter.sym} 260 -390 0 0 {name=x3}
+C {/foss/designs/sch/4BitCounter.sym} 90 -480 0 0 {name=x1}
+C {/foss/designs/sch/inverter.sym} 260 -390 0 0 {name=x3}
 C {devices/lab_pin.sym} 380 -410 2 0 {name=p12 sig_type=std_logic lab=avss1p8}
 C {devices/lab_pin.sym} 380 -530 2 0 {name=p19 sig_type=std_logic lab=avdd1p8}
 C {devices/capa.sym} 490 -470 3 0 {name=C2
@@ -142,7 +142,7 @@ value=1p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 520 -470 2 0 {name=p20 sig_type=std_logic lab=avss1p8}
-C {/foss/designs/inverter.sym} 260 -240 0 0 {name=x4}
+C {/foss/designs/sch/inverter.sym} 260 -240 0 0 {name=x4}
 C {devices/lab_pin.sym} 380 -260 2 0 {name=p21 sig_type=std_logic lab=avss1p8}
 C {devices/lab_pin.sym} 380 -380 2 0 {name=p22 sig_type=std_logic lab=avdd1p8}
 C {devices/capa.sym} 490 -320 3 0 {name=C3
@@ -151,7 +151,7 @@ value=1p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 520 -320 2 0 {name=p23 sig_type=std_logic lab=avss1p8}
-C {/foss/designs/inverter.sym} 260 -90 0 0 {name=x5}
+C {/foss/designs/sch/inverter.sym} 260 -90 0 0 {name=x5}
 C {devices/lab_pin.sym} 380 -110 2 0 {name=p24 sig_type=std_logic lab=avss1p8}
 C {devices/lab_pin.sym} 380 -230 2 0 {name=p25 sig_type=std_logic lab=avdd1p8}
 C {devices/capa.sym} 490 -170 3 0 {name=C4
