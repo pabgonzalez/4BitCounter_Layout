@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709848942
+timestamp 1709925634
 << poly >>
 rect -225 921 -99 951
 rect 85 925 211 955
@@ -14,12 +14,14 @@ rect 277 685 307 757
 rect 275 655 307 685
 rect 275 368 305 655
 rect 469 591 499 736
+rect 1296 618 1330 666
+rect 1295 614 1330 618
 rect 467 560 496 588
 rect 467 394 497 560
 rect 707 404 741 605
 rect 467 388 496 394
 rect 847 371 877 521
-rect 1295 459 1329 670
+rect 1295 459 1329 614
 rect 1423 284 1453 905
 rect 1135 206 1165 221
 rect 275 176 401 203
@@ -45,8 +47,9 @@ rect 611 938 837 955
 rect 611 894 645 938
 rect 803 893 837 938
 rect 1278 888 1312 996
-rect 35 729 69 768
-rect 227 729 261 776
+rect 34 728 70 778
+rect 226 728 260 778
+rect 34 700 260 728
 rect 323 673 357 768
 rect 419 729 453 769
 rect 611 729 645 769
@@ -59,9 +62,9 @@ rect 1300 650 1408 684
 rect 707 603 741 645
 rect -179 600 464 602
 rect -179 574 472 600
-rect 1180 596 1220 645
+rect 1180 592 1220 645
 rect -179 533 -145 574
-rect 1180 560 1535 596
+rect 1180 560 1535 592
 rect -179 493 -146 533
 rect 68 503 1273 531
 rect -265 70 -231 331
@@ -89,28 +92,28 @@ rect 1181 70 1215 318
 rect 1377 173 1411 340
 rect 1465 70 1499 192
 rect -295 13 1531 70
-use grid  grid_0  ../grid
-timestamp 1709757902
+use grid  grid_0 ../grid
+timestamp 1678218586
 transform 1 0 51 0 1 24
 box -61 -10 259 1053
-use grid  grid_1  ../grid
-timestamp 1709757902
+use grid  grid_1
+timestamp 1678218586
 transform 1 0 360 0 1 24
 box -61 -10 259 1053
-use grid  grid_2  ../grid
-timestamp 1709757902
+use grid  grid_2
+timestamp 1678218586
 transform 1 0 669 0 1 25
 box -61 -10 259 1053
-use grid  grid_3  ../grid
-timestamp 1709757902
+use grid  grid_3
+timestamp 1678218586
 transform 1 0 976 0 1 25
 box -61 -10 259 1053
-use grid  grid_4  ../grid
-timestamp 1709757902
+use grid  grid_4
+timestamp 1678218586
 transform 1 0 1292 0 1 25
 box -61 -10 259 1053
-use grid  grid_5  ../grid
-timestamp 1709757902
+use grid  grid_5
+timestamp 1678218586
 transform 1 0 -256 0 1 23
 box -61 -10 259 1053
 use sky130_fd_pr__nfet_01v8_4AWVGD  sky130_fd_pr__nfet_01v8_4AWVGD_0
@@ -142,37 +145,37 @@ timestamp 1709835284
 transform 1 0 436 0 1 832
 box -449 -175 449 175
 use via_m1_p  via_m1_p_0 ../via_m1_p
-timestamp 1709781591
+timestamp 1646951168
 transform 0 1 446 -1 0 623
-box 6 0 64 68
-use via_m1_p  via_m1_p_1 ../via_m1_p
-timestamp 1709781591
+box 0 0 68 68
+use via_m1_p  via_m1_p_1
+timestamp 1646951168
 transform 0 1 830 -1 0 550
-box 6 0 64 68
-use via_m1_p  via_m1_p_2 ../via_m1_p
-timestamp 1709781591
+box 0 0 68 68
+use via_m1_p  via_m1_p_2
+timestamp 1646951168
 transform 0 1 68 -1 0 552
-box 6 0 64 68
-use via_m1_p  via_m1_p_3 ../via_m1_p
-timestamp 1709781591
+box 0 0 68 68
+use via_m1_p  via_m1_p_3
+timestamp 1646951168
 transform 0 1 690 -1 0 445
-box 6 0 64 68
-use via_m1_p  via_m1_p_4 ../via_m1_p
-timestamp 1709781591
+box 0 0 68 68
+use via_m1_p  via_m1_p_4
+timestamp 1646951168
 transform 0 1 689 -1 0 623
-box 6 0 64 68
-use via_m1_p  via_m1_p_5 ../via_m1_p
-timestamp 1709781591
-transform 0 -1 1347 1 0 618
-box 6 0 64 68
-use via_m1_p  via_m1_p_6 ../via_m1_p
-timestamp 1709781591
+box 0 0 68 68
+use via_m1_p  via_m1_p_5
+timestamp 1646951168
+transform 0 -1 1348 1 0 614
+box 0 0 68 68
+use via_m1_p  via_m1_p_6
+timestamp 1646951168
 transform 0 1 1272 -1 0 497
-box 6 0 64 68
+box 0 0 68 68
 << labels >>
 rlabel space -225 341 -195 756 1 A
 rlabel space 1423 284 1453 955 1 B
-rlabel metal1 1180 560 1535 596 1 Z
 rlabel metal1 -295 996 1531 1053 1 vdd
 rlabel metal1 -295 13 1531 70 1 GND
+rlabel space 1180 556 1535 592 1 Z
 << end >>
