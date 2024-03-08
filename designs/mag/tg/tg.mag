@@ -16,7 +16,7 @@ rect 96 182 130 278
 rect 186 276 306 310
 rect 186 218 218 276
 rect 22 0 302 56
-use grid#1  grid_0 ../grid
+use grid  grid_0 ../grid
 timestamp 1678218586
 transform 1 0 61 0 1 10
 box -61 -10 259 1053
@@ -28,19 +28,19 @@ use sky130_fd_pr__pfet_01v8_ZB94FE  sky130_fd_pr__pfet_01v8_ZB94FE_0
 timestamp 1709682272
 transform 1 0 159 0 1 784
 box -109 -212 109 212
-use via_m1_p#2  via_m1_p_0 ../via_m1_p
+use via_m1_p  via_m1_p_0 ../via_m1_p
 timestamp 1646951168
 transform 1 0 252 0 1 262
 box 0 0 68 68
-use via_m1_p#2  via_m1_p_1
+use via_m1_p  via_m1_p_1
 timestamp 1646951168
 transform 1 0 -2 0 1 546
 box 0 0 68 68
-use via_m1_p#2  via_m1_p_2
+use via_m1_p  via_m1_p_2
 timestamp 1646951168
 transform 1 0 252 0 1 552
 box 0 0 68 68
-use via_m1_p#2  via_m1_p_3
+use via_m1_p  via_m1_p_3
 timestamp 1646951168
 transform 1 0 -2 0 1 260
 box 0 0 68 68

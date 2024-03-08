@@ -136,75 +136,75 @@ use tg  tg_3
 timestamp 1709920830
 transform -1 0 234 0 -1 -39
 box -2 0 320 1063
-use via_m1_p#0  via_m1_p_0 ../inverter/../via_m1_p
+use via_m1_p  via_m1_p_0 ../inverter/../via_m1_p
 timestamp 1646951168
 transform -1 0 -442 0 -1 -504
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_1
+use via_m1_p  via_m1_p_1
 timestamp 1646951168
 transform -1 0 926 0 -1 -1106
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_2
+use via_m1_p  via_m1_p_2
 timestamp 1646951168
 transform 1 0 450 0 1 554
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_3
+use via_m1_p  via_m1_p_3
 timestamp 1646951168
 transform 1 0 810 0 1 466
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_4
+use via_m1_p  via_m1_p_4
 timestamp 1646951168
 transform -1 0 878 0 -1 406
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_6
+use via_m1_p  via_m1_p_6
 timestamp 1646951168
 transform 1 0 126 0 1 468
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_7
+use via_m1_p  via_m1_p_7
 timestamp 1646951168
 transform -1 0 -160 0 -1 402
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_8
+use via_m1_p  via_m1_p_8
 timestamp 1646951168
 transform 1 0 -196 0 1 -446
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_9
+use via_m1_p  via_m1_p_9
 timestamp 1646951168
 transform 1 0 842 0 1 -470
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_10
+use via_m1_p  via_m1_p_10
 timestamp 1646951168
 transform -1 0 110 0 -1 -506
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_11
+use via_m1_p  via_m1_p_11
 timestamp 1646951168
 transform -1 0 1134 0 -1 -506
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_12
+use via_m1_p  via_m1_p_12
 timestamp 1646951168
 transform 1 0 42 0 1 -446
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_13
+use via_m1_p  via_m1_p_13
 timestamp 1646951168
 transform -1 0 1816 0 -1 476
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_14
+use via_m1_p  via_m1_p_14
 timestamp 1646951168
 transform -1 0 1816 0 -1 -1104
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_15
+use via_m1_p  via_m1_p_15
 timestamp 1646951168
 transform -1 0 1362 0 -1 480
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_16
+use via_m1_p  via_m1_p_16
 timestamp 1646951168
 transform 1 0 -900 0 1 980
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_17
+use via_m1_p  via_m1_p_17
 timestamp 1646951168
 transform 1 0 -898 0 1 -1084
 box 0 0 68 68
-use via_m1_p#0  via_m1_p_18
+use via_m1_p  via_m1_p_18
 timestamp 1646951168
 transform 1 0 -544 0 1 466
 box 0 0 68 68
