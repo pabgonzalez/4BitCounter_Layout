@@ -6,14 +6,113 @@ Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalen
 Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
 Equate elements:  no current cell.
 Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52C9FB in circuit mag/xor/xor.spice (1)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52LH9B in circuit mag/xor/xor.spice (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NDWVGB in circuit mag/xor/xor.spice (1)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_4AWVGD in circuit mag/xor/xor.spice (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_EAKVGK in circuit nand (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52K3FE#0 in circuit nand (1)(2 instances)
 
-Class mag/xor/xor.spice (1):  Merged 10 parallel devices.
 Subcircuit summary:
-Circuit 1: sch/xor.spice                   |Circuit 2: mag/xor/xor.spice               
+Circuit 1: nand                            |Circuit 2: nand                            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: nand                            |Circuit 2: nand                            
+-------------------------------------------|-------------------------------------------
+vdd                                        |vdd                                        
+Z                                          |Z                                          
+vss                                        |vss                                        
+A                                          |a_94_422# **Mismatch**                     
+B                                          |a_182_419# **Mismatch**                    
+---------------------------------------------------------------------------------------
+Cell pin lists for nand and nand altered to match.
+Device classes nand and nand are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_SKHSUU in circuit inverter (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52DS5B in circuit inverter (1)(1 instance)
+
+Subcircuit summary:
+Circuit 1: inverter                        |Circuit 2: inverter                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: inverter                        |Circuit 2: inverter                        
+-------------------------------------------|-------------------------------------------
+out                                        |a_744_746# **Mismatch**                    
+in                                         |in                                         
+vss                                        |vss                                        
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists for inverter and inverter altered to match.
+Device classes inverter and inverter are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_ZB94FE in circuit tg (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NDWVGB in circuit tg (1)(1 instance)
+
+Subcircuit summary:
+Circuit 1: tg                              |Circuit 2: tg                              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tg                              |Circuit 2: tg                              
+-------------------------------------------|-------------------------------------------
+enb                                        |sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n15_n17 
+vdd                                        |vdd                                        
+en                                         |sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n15_n10 
+vss                                        |vss                                        
+vout                                       |vout                                       
+vin                                        |a_16_278# **Mismatch**                     
+---------------------------------------------------------------------------------------
+Cell pin lists for tg and tg altered to match.
+Device classes tg and tg are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NDWVGB#1 in circuit nor (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52K3FE in circuit nor (1)(4 instances)
+
+Class nor (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: nor                             |Circuit 2: nor                             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (4->2)             
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: nor                             |Circuit 2: nor                             
+-------------------------------------------|-------------------------------------------
+vss                                        |VSUBS **Mismatch**                         
+B                                          |B                                          
+A                                          |A                                          
+Z                                          |a_524_320# **Mismatch**                    
+vdd                                        |m1_28_1004# **Mismatch**                   
+---------------------------------------------------------------------------------------
+Cell pin lists for nor and nor altered to match.
+Device classes nor and nor are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52C9FB in circuit xor (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52LH9B in circuit xor (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NDWVGB#0 in circuit xor (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_4AWVGD in circuit xor (1)(2 instances)
+
+Class xor (1):  Merged 10 parallel devices.
+Subcircuit summary:
+Circuit 1: xor                             |Circuit 2: xor                             
 -------------------------------------------|-------------------------------------------
 sky130_fd_pr__pfet_01v8 (6)                |sky130_fd_pr__pfet_01v8 (12->6)            
 sky130_fd_pr__nfet_01v8 (6)                |sky130_fd_pr__nfet_01v8 (10->6)            
@@ -21,8 +120,69 @@ Number of devices: 12                      |Number of devices: 12
 Number of nets: 10                         |Number of nets: 10                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: xor                             |Circuit 2: xor                             
+-------------------------------------------|-------------------------------------------
+vdd                                        |vdd                                        
+vss                                        |GND **Mismatch**                           
+B                                          |a_661_924# **Mismatch**                    
+A                                          |a_277_925# **Mismatch**                    
+Z                                          |a_707_404# **Mismatch**                    
+---------------------------------------------------------------------------------------
+Cell pin lists for xor and xor altered to match.
+Device classes xor and xor are equivalent.
+
+Subcircuit summary:
+Circuit 1: dffc                            |Circuit 2: dffc                            
+-------------------------------------------|-------------------------------------------
+inverter (4)                               |inverter (4)                               
+tg (4)                                     |tg (4)                                     
+nor (2)                                    |nor (2)                                    
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: dffc                            |Circuit 2: dffc                            
+-------------------------------------------|-------------------------------------------
+Q                                          |inverter_1/in **Mismatch**                 
+clr                                        |(no matching pin)                          
+D                                          |tg_1/a_16_278# **Mismatch**                
+clk                                        |(no matching pin)                          
+vdd                                        |vdd                                        
+vss                                        |vss                                        
+clk                                        |(no matching pin)                          
+clr                                        |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists for dffc and dffc altered to match.
+Device classes dffc and dffc are equivalent.
+  Flattening non-matched subcircuits dffc dffc
+Flattening unmatched subcell and in circuit sch/1BitCounter.spice (0)(1 instance)
+Flattening unmatched subcell inverter#0 in circuit mag/1BitCounter/1BitCounter.spice (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_SKHSUU in circuit mag/1BitCounter/1BitCounter.spice (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52DS5B in circuit mag/1BitCounter/1BitCounter.spice (1)(1 instance)
+
+Flattening instances of inverter in cell sch/1BitCounter.spice (0) makes a better match
+Flattening instances of inverter in cell mag/1BitCounter/1BitCounter.spice (1) makes a better match
+Making another compare attempt.
+
+Subcircuit summary:
+Circuit 1: sch/1BitCounter.spice           |Circuit 2: mag/1BitCounter/1BitCounter.spi 
+-------------------------------------------|-------------------------------------------
+nand (1)                                   |nand (1)                                   
+sky130_fd_pr__nfet_01v8 (5)                |sky130_fd_pr__nfet_01v8 (5)                
+sky130_fd_pr__pfet_01v8 (5)                |sky130_fd_pr__pfet_01v8 (5)                
+xor (1)                                    |xor (1)                                    
+tg (4)                                     |tg (4)                                     
+nor (2)                                    |nor (2)                                    
+Number of devices: 18                      |Number of devices: 18                      
+Number of nets: 16                         |Number of nets: 16                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
 Cells have no pins;  pin matching not needed.
-Device classes sch/xor.spice and mag/xor/xor.spice are equivalent.
+Device classes sch/1BitCounter.spice and mag/1BitCounter/1BitCounter.spice are equivalent.
 
 Final result: Circuits match uniquely.
 .
