@@ -22,9 +22,9 @@ lab=vout}
 N 220 -210 220 -180 {
 lab=vin}
 N 290 -130 320 -130 {
-lab=en}
+lab=vss}
 N 120 -130 150 -130 {
-lab=enb}
+lab=vss}
 C {sky130_fd_pr/nfet_01v8.sym} 100 -130 0 0 {name=M1
 L=0.15
 W=0.75
@@ -58,5 +58,5 @@ C {devices/iopin.sym} 220 -50 2 1 {name=p2 lab=vout
 }
 C {devices/iopin.sym} 360 -130 0 0 {name=p5 lab=enb}
 C {devices/iopin.sym} 80 -130 0 1 {name=p3 lab=en}
-C {devices/lab_pin.sym} 150 -130 0 1 {name=p6 sig_type=std_logic lab=enb}
-C {devices/lab_pin.sym} 290 -130 0 0 {name=p4 sig_type=std_logic lab=en}
+C {devices/iopin.sym} 150 -130 0 0 {name=p4 lab=vss}
+C {devices/iopin.sym} 290 -130 0 1 {name=p6 lab=vdd}

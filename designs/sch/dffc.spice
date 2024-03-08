@@ -1,0 +1,72 @@
+** sch_path: /foss/designs/dffc.sch
+**.subckt dffc Q D clk clr vss vdd
+*.iopin clk
+*.iopin clr
+*.iopin vss
+*.iopin vdd
+*.iopin D
+*.iopin Q
+x1 vdd n_clk clk vss inverter
+x2 vdd net4 net1 vss inverter
+x3 vdd Qb Q vss inverter
+x4 D n_clk p_clk net1 vss vdd tg
+x8 vdd Q clr net3 vss nor
+x9 vdd net2 clr net4 vss nor
+x5 net2 p_clk n_clk net1 vss vdd tg
+x6 net4 p_clk n_clk net3 vss vdd tg
+x7 Qb n_clk p_clk net3 vss vdd tg
+x10 vdd p_clk n_clk vss inverter
+**.ends
+
+* expanding   symbol:  /foss/designs/inverter.sym # of pins=4
+** sym_path: /foss/designs/inverter.sym
+** sch_path: /foss/designs/inverter.sch
+.subckt inverter vdd out in vss
+*.iopin out
+*.iopin vss
+*.iopin vdd
+*.iopin in
+XM2 out in vss vss sky130_fd_pr__nfet_01v8 L=0.15 W=0.45 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=0.45 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  /foss/designs/tg.sym # of pins=6
+** sym_path: /foss/designs/tg.sym
+** sch_path: /foss/designs/tg.sch
+.subckt tg vin enb en vout vss vdd
+*.iopin vin
+*.iopin vout
+*.iopin enb
+*.iopin en
+*.iopin vss
+*.iopin vdd
+XM1 vin en vout vss sky130_fd_pr__nfet_01v8 L=0.15 W=0.75 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2 vout enb vin vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  /foss/designs/nor.sym # of pins=5
+** sym_path: /foss/designs/nor.sym
+** sch_path: /foss/designs/nor.sch
+.subckt nor vdd Z A B vss
+*.iopin A
+*.iopin B
+*.iopin vdd
+*.iopin Z
+*.iopin vss
+XM1 Z A vss vss sky130_fd_pr__nfet_01v8 L=0.15 W=0.75 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM4 net1 B vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2 Z B vss vss sky130_fd_pr__nfet_01v8 L=0.15 W=0.75 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM3 Z A net1 vdd sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+.end

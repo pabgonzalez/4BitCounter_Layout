@@ -1,0 +1,61 @@
+* NGSPICE file created from dffc.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_ZB94FE a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212#
+X0 a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212# sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_NDWVGB a_15_n75# a_n15_n101# a_n73_n75# VSUBS
+X0 a_15_n75# a_n15_n101# a_n73_n75# VSUBS sky130_fd_pr__nfet_01v8 ad=0.218 pd=2.08 as=0.218 ps=2.08 w=0.75 l=0.15
+.ends
+
+.subckt tg vdd vout a_16_278# sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n15_n101# sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n15_n176#
++ vss
+Xsky130_fd_pr__pfet_01v8_ZB94FE_0 vout sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n15_n176#
++ a_16_278# vdd sky130_fd_pr__pfet_01v8_ZB94FE
+Xsky130_fd_pr__nfet_01v8_NDWVGB_0 vout sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n15_n101#
++ a_16_278# vss sky130_fd_pr__nfet_01v8_NDWVGB
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_SKHSUU a_15_n45# a_n15_n71# a_n73_n45# VSUBS
+X0 a_15_n45# a_n15_n71# a_n73_n45# VSUBS sky130_fd_pr__nfet_01v8 ad=0.131 pd=1.48 as=0.131 ps=1.48 w=0.45 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_52DS5B a_15_n45# a_n15_n71# w_n109_n107# a_n73_n45#
+X0 a_15_n45# a_n15_n71# a_n73_n45# w_n109_n107# sky130_fd_pr__pfet_01v8 ad=0.131 pd=1.48 as=0.131 ps=1.48 w=0.45 l=0.15
+.ends
+
+.subckt inverter vdd a_744_746# in vss
+Xsky130_fd_pr__nfet_01v8_SKHSUU_0 a_744_746# in vss vss sky130_fd_pr__nfet_01v8_SKHSUU
+Xsky130_fd_pr__pfet_01v8_52DS5B_0 a_744_746# in vdd vdd sky130_fd_pr__pfet_01v8_52DS5B
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_NDWVGB#0 a_15_n75# a_n15_n101# a_n73_n75# VSUBS
+X0 a_15_n75# a_n15_n101# a_n73_n75# VSUBS sky130_fd_pr__nfet_01v8 ad=0.218 pd=2.08 as=0.218 ps=2.08 w=0.75 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_52K3FE a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212#
+X0 a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212# sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.15
+.ends
+
+.subckt nor B A m1_28_1004# a_524_320# VSUBS
+Xsky130_fd_pr__nfet_01v8_NDWVGB_1 a_524_320# B VSUBS VSUBS sky130_fd_pr__nfet_01v8_NDWVGB#0
+Xsky130_fd_pr__nfet_01v8_NDWVGB_2 VSUBS A a_524_320# VSUBS sky130_fd_pr__nfet_01v8_NDWVGB#0
+Xsky130_fd_pr__pfet_01v8_52K3FE_0 m1_84_536# A a_524_320# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
+Xsky130_fd_pr__pfet_01v8_52K3FE_1 a_524_320# A m1_84_536# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
+Xsky130_fd_pr__pfet_01v8_52K3FE_2 m1_84_536# B m1_28_1004# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
+Xsky130_fd_pr__pfet_01v8_52K3FE_3 m1_28_1004# B m1_84_536# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
+.ends
+
+dffc
+Xtg_0 vdd nor_0/B nor_1/B a_826_268# inverter_2/in vss tg
+Xinverter_0 vdd nor_1/B tg_3/vout vss inverter
+Xtg_1 vdd tg_3/vout tg_1/a_16_278# a_826_268# inverter_2/in vss tg
+Xtg_2 vdd nor_0/B m1_1226_n350# a_826_268# inverter_2/in vss tg
+Xinverter_1 vdd m1_1226_n350# inverter_1/in vss inverter
+Xtg_3 vdd tg_3/vout m1_184_n360# a_826_268# inverter_2/in vss tg
+Xinverter_2 vdd a_826_268# inverter_2/in vss inverter
+Xinverter_3 vdd inverter_2/in inverter_3/in vss inverter
+Xnor_0 nor_0/B nor_1/B vdd inverter_1/in vss nor
+Xnor_1 nor_1/B nor_1/A vdd m1_184_n360# vss nor
+.ends
+

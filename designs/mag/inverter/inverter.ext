@@ -1,4 +1,4 @@
-timestamp 1709825988
+timestamp 1709853018
 version 8.3
 tech sky130A
 style ngspice()
@@ -16,25 +16,25 @@ node "vdd" 1 153.993 494 1504 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_744_746#" 791 299.259 744 746 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18972 1184 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "in" 951 312.625 622 728 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17760 1244 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "m1_664_692#" "vss" 18.81
-cap "a_744_746#" "vss" 3.03982
-cap "vdd" "vss" 9.308
-cap "m1_664_1270#" "m1_664_692#" 6.68148
-cap "a_744_746#" "m1_664_1270#" 1.75807
-cap "in" "vss" 3.3091
-cap "vdd" "m1_664_1270#" 15.6403
-cap "a_744_746#" "m1_664_692#" 1.75807
 cap "a_744_746#" "vdd" 2.67977
 cap "in" "m1_664_1270#" 1.72013
-cap "in" "m1_664_692#" 1.77537
-cap "a_744_746#" "in" 97.0435
+cap "vdd" "vss" 9.308
+cap "a_744_746#" "m1_664_692#" 1.75807
+cap "vss" "m1_664_692#" 18.81
+cap "a_744_746#" "m1_664_1270#" 1.75807
+cap "vdd" "m1_664_1270#" 15.6403
+cap "m1_664_1270#" "m1_664_692#" 6.68148
+cap "in" "a_744_746#" 97.0435
+cap "in" "vss" 3.3091
 cap "in" "vdd" 2.89315
-cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n15_n71#" "grid_0/a_n24_0#" 3.66089
-cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n15_n71#" "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 16.2274
-cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "grid_0/w_n61_476#" 178.026
-cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "grid_0/a_n24_0#" 30.7772
-cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n15_n71#" "grid_0/w_n61_476#" 131.118
+cap "a_744_746#" "vss" 3.03982
+cap "in" "m1_664_692#" 1.77537
 cap "grid_0/w_n61_476#" "grid_0/a_n24_0#" -19.1736
+cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n15_n71#" "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 16.2274
+cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "grid_0/a_n24_0#" 30.7772
+cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n15_n71#" "grid_0/a_n24_0#" 3.66089
+cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "grid_0/w_n61_476#" 178.026
+cap "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n15_n71#" "grid_0/w_n61_476#" 131.118
 merge "grid_0/a_n24_0#" "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n73_n45#" -181.756 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16229 -788 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__nfet_01v8_SKHSUU_0/a_n73_n45#" "vss"
 merge "vss" "sky130_fd_pr__nfet_01v8_SKHSUU_0/VSUBS"
