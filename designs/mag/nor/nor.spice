@@ -9,10 +9,10 @@ X0 a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212# sky130_fd_pr__pfet_01v8 ad=0.
 .ends
 
 nor
-Xsky130_fd_pr__nfet_01v8_NDWVGB_1 Z B VSUBS VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
-Xsky130_fd_pr__nfet_01v8_NDWVGB_2 VSUBS A Z VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
-Xsky130_fd_pr__pfet_01v8_52K3FE_0 m1_84_536# A Z m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
-Xsky130_fd_pr__pfet_01v8_52K3FE_1 Z A m1_84_536# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
+Xsky130_fd_pr__nfet_01v8_NDWVGB_1 a_524_320# B VSUBS VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__nfet_01v8_NDWVGB_2 VSUBS A a_524_320# VSUBS sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__pfet_01v8_52K3FE_0 m1_84_536# A a_524_320# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
+Xsky130_fd_pr__pfet_01v8_52K3FE_1 a_524_320# A m1_84_536# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
 Xsky130_fd_pr__pfet_01v8_52K3FE_2 m1_84_536# B m1_28_1004# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
 Xsky130_fd_pr__pfet_01v8_52K3FE_3 m1_28_1004# B m1_84_536# m1_28_1004# sky130_fd_pr__pfet_01v8_52K3FE
 .ends

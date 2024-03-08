@@ -91,62 +91,9 @@ nor (2)                                    |nor (2)
 Number of devices: 10                      |Number of devices: 10                      
 Number of nets: 13                         |Number of nets: 13                         
 ---------------------------------------------------------------------------------------
-NET mismatches: Class fragments follow (with fanout counts):
-Circuit 1: sch/dffc.spice                  |Circuit 2: mag/dffc/dffc.spice             
-
----------------------------------------------------------------------------------------
-Net: net4                                  |Net: nor_1/A                               
-  inverter/out = 1                         |  nor/A = 1                                
-  nor/B = 1                                |                                           
-  tg/vin = 1                               |                                           
-                                           |                                           
-Net: net1                                  |Net: nor_0/B                               
-  inverter/in = 1                          |  tg/vout = 2                              
-  tg/vout = 2                              |  nor/B = 1                                
-                                           |                                           
-Net: net3                                  |Net: tg_3/vout                             
-  nor/B = 1                                |  inverter/in = 1                          
-  tg/vout = 2                              |  tg/vout = 2                              
-                                           |                                           
-Net: clr                                   |Net: m1_184_n360#                          
-  nor/A = 2                                |  tg/a_16_278# = 1                         
-                                           |  nor/a_524_320# = 1                       
-                                           |                                           
-Net: net2                                  |Net: nor_1/B                               
-  nor/Z = 1                                |  tg/a_16_278# = 1                         
-  tg/vin = 1                               |  inverter/a_744_746# = 1                  
-                                           |  nor/A = 1                                
-                                           |  nor/B = 1                                
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: p_clk                                 |Net: a_826_268#                            
-  tg/en = 2                                |  tg/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n1 
-  tg/enb = 2                               |  inverter/a_744_746# = 1                  
-  inverter/out = 1                         |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: n_clk                                 |Net: inverter_2/in                         
-  inverter/out = 1                         |  tg/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n1 
-  inverter/in = 1                          |  inverter/in = 1                          
-  tg/en = 2                                |  inverter/a_744_746# = 1                  
-  tg/enb = 2                               |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: vss                                   |Net: vss                                   
-  inverter/vss = 4                         |  inverter/vss = 4                         
-  tg/vss = 4                               |  tg/vss = 4                               
-  nor/vss = 2                              |  nor/VSUBS = 2                            
-                                           |                                           
-Net: vdd                                   |Net: vdd                                   
-  inverter/vdd = 4                         |  inverter/vdd = 4                         
-  tg/vdd = 4                               |  tg/vdd = 4                               
-  nor/vdd = 2                              |  nor/m1_28_1004# = 2                      
----------------------------------------------------------------------------------------
-Netlists do not match.
+Netlists match uniquely.
 Cells have no pins;  pin matching not needed.
 Device classes sch/dffc.spice and mag/dffc/dffc.spice are equivalent.
 
-Final result: Netlists do not match.
+Final result: Circuits match uniquely.
+.

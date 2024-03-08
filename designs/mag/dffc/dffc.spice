@@ -48,14 +48,14 @@ Xsky130_fd_pr__pfet_01v8_52K3FE_3 m1_28_1004# B m1_84_536# m1_28_1004# sky130_fd
 
 dffc
 Xtg_0 vdd nor_0/B nor_1/B a_826_268# inverter_2/in vss tg
+Xtg_1 vdd tg_3/vout tg_1/a_16_278# inverter_2/in a_826_268# vss tg
 Xinverter_0 vdd nor_1/B tg_3/vout vss inverter
-Xtg_1 vdd tg_3/vout tg_1/a_16_278# a_826_268# inverter_2/in vss tg
-Xtg_2 vdd nor_0/B m1_1226_n350# a_826_268# inverter_2/in vss tg
+Xtg_2 vdd nor_0/B m1_1226_n350# inverter_2/in a_826_268# vss tg
 Xinverter_1 vdd m1_1226_n350# inverter_1/in vss inverter
 Xtg_3 vdd tg_3/vout m1_184_n360# a_826_268# inverter_2/in vss tg
 Xinverter_2 vdd a_826_268# inverter_2/in vss inverter
 Xinverter_3 vdd inverter_2/in inverter_3/in vss inverter
-Xnor_0 nor_0/B nor_1/B vdd inverter_1/in vss nor
+Xnor_0 nor_0/B nor_1/A vdd inverter_1/in vss nor
 Xnor_1 nor_1/B nor_1/A vdd m1_184_n360# vss nor
 .ends
 

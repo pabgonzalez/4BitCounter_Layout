@@ -9,12 +9,12 @@
 x1 vdd n_clk clk vss inverter
 x2 vdd net4 net1 vss inverter
 x3 vdd Qb Q vss inverter
-x4 D n_clk p_clk net1 vss vdd tg
+x4 D p_clk n_clk net1 vss vdd tg
 x8 vdd Q clr net3 vss nor
 x9 vdd net2 clr net4 vss nor
-x5 net2 p_clk n_clk net1 vss vdd tg
-x6 net4 p_clk n_clk net3 vss vdd tg
-x7 Qb n_clk p_clk net3 vss vdd tg
+x5 net2 n_clk p_clk net1 vss vdd tg
+x6 net4 n_clk p_clk net3 vss vdd tg
+x7 Qb p_clk n_clk net3 vss vdd tg
 x10 vdd p_clk n_clk vss inverter
 **.ends
 
