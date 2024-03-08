@@ -1,0 +1,178 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1709848942
+<< poly >>
+rect -225 921 -99 951
+rect 85 925 211 955
+rect 277 925 403 955
+rect 469 925 595 955
+rect 661 924 1453 955
+rect -225 355 -195 756
+rect 85 506 115 757
+rect 277 685 307 757
+rect 275 655 307 685
+rect 275 368 305 655
+rect 469 591 499 736
+rect 467 560 496 588
+rect 467 394 497 560
+rect 707 404 741 605
+rect 467 388 496 394
+rect 847 371 877 521
+rect 1295 459 1329 670
+rect 1423 284 1453 905
+rect 1135 206 1165 221
+rect 275 176 401 203
+rect -225 173 401 176
+rect 467 173 593 203
+rect 847 175 973 205
+rect 1039 176 1165 206
+rect -225 146 321 173
+rect 1135 145 1165 176
+rect 1135 115 1453 145
+<< metal1 >>
+rect -295 996 1531 1053
+rect -275 768 -241 996
+rect -179 602 -145 894
+rect -83 768 -49 996
+rect 131 891 165 996
+rect 227 938 452 968
+rect 227 895 261 938
+rect 419 896 452 938
+rect 515 894 549 996
+rect 611 955 836 968
+rect 611 938 837 955
+rect 611 894 645 938
+rect 803 893 837 938
+rect 1278 888 1312 996
+rect 35 729 69 768
+rect 227 729 261 776
+rect 323 673 357 768
+rect 419 729 453 769
+rect 611 729 645 769
+rect 419 701 645 729
+rect 707 673 741 769
+rect 1373 684 1408 893
+rect 1469 874 1503 996
+rect 323 645 1220 673
+rect 1300 650 1408 684
+rect 707 603 741 645
+rect -179 600 464 602
+rect -179 574 472 600
+rect 1180 596 1220 645
+rect -179 533 -145 574
+rect 1180 560 1535 596
+rect -179 493 -146 533
+rect 68 503 1273 531
+rect -265 70 -231 331
+rect -179 329 -145 493
+rect 1243 467 1273 503
+rect 1290 467 1324 479
+rect 1243 433 1334 467
+rect 225 396 720 424
+rect 797 399 1215 427
+rect 225 356 259 396
+rect 417 356 451 396
+rect 609 356 643 396
+rect 797 359 831 399
+rect 989 359 1023 399
+rect 1181 359 1215 399
+rect 1290 369 1324 433
+rect 1290 340 1411 369
+rect 321 128 355 245
+rect 512 185 546 303
+rect 893 185 927 230
+rect 512 157 927 185
+rect 1085 128 1119 245
+rect 321 99 1119 128
+rect 1181 70 1215 318
+rect 1377 173 1411 340
+rect 1465 70 1499 192
+rect -295 13 1531 70
+use grid  grid_0  ../grid
+timestamp 1709757902
+transform 1 0 51 0 1 24
+box -61 -10 259 1053
+use grid  grid_1  ../grid
+timestamp 1709757902
+transform 1 0 360 0 1 24
+box -61 -10 259 1053
+use grid  grid_2  ../grid
+timestamp 1709757902
+transform 1 0 669 0 1 25
+box -61 -10 259 1053
+use grid  grid_3  ../grid
+timestamp 1709757902
+transform 1 0 976 0 1 25
+box -61 -10 259 1053
+use grid  grid_4  ../grid
+timestamp 1709757902
+transform 1 0 1292 0 1 25
+box -61 -10 259 1053
+use grid  grid_5  ../grid
+timestamp 1709757902
+transform 1 0 -256 0 1 23
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_4AWVGD  sky130_fd_pr__nfet_01v8_4AWVGD_0
+timestamp 1709835284
+transform 1 0 434 0 1 293
+box -221 -101 221 101
+use sky130_fd_pr__nfet_01v8_4AWVGD  sky130_fd_pr__nfet_01v8_4AWVGD_1
+timestamp 1709835284
+transform 1 0 1006 0 1 296
+box -221 -101 221 101
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_0
+timestamp 1709838419
+transform 1 0 1438 0 1 236
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_1
+timestamp 1709838419
+transform 1 0 -210 0 1 266
+box -73 -101 73 101
+use sky130_fd_pr__pfet_01v8_52C9FB  sky130_fd_pr__pfet_01v8_52C9FB_0
+timestamp 1709838419
+transform 1 0 1390 0 1 830
+box -161 -175 161 175
+use sky130_fd_pr__pfet_01v8_52C9FB  sky130_fd_pr__pfet_01v8_52C9FB_1
+timestamp 1709838419
+transform 1 0 -162 0 1 831
+box -161 -175 161 175
+use sky130_fd_pr__pfet_01v8_52LH9B  sky130_fd_pr__pfet_01v8_52LH9B_0
+timestamp 1709835284
+transform 1 0 436 0 1 832
+box -449 -175 449 175
+use via_m1_p  via_m1_p_0 ../via_m1_p
+timestamp 1709781591
+transform 0 1 446 -1 0 623
+box 6 0 64 68
+use via_m1_p  via_m1_p_1 ../via_m1_p
+timestamp 1709781591
+transform 0 1 830 -1 0 550
+box 6 0 64 68
+use via_m1_p  via_m1_p_2 ../via_m1_p
+timestamp 1709781591
+transform 0 1 68 -1 0 552
+box 6 0 64 68
+use via_m1_p  via_m1_p_3 ../via_m1_p
+timestamp 1709781591
+transform 0 1 690 -1 0 445
+box 6 0 64 68
+use via_m1_p  via_m1_p_4 ../via_m1_p
+timestamp 1709781591
+transform 0 1 689 -1 0 623
+box 6 0 64 68
+use via_m1_p  via_m1_p_5 ../via_m1_p
+timestamp 1709781591
+transform 0 -1 1347 1 0 618
+box 6 0 64 68
+use via_m1_p  via_m1_p_6 ../via_m1_p
+timestamp 1709781591
+transform 0 1 1272 -1 0 497
+box 6 0 64 68
+<< labels >>
+rlabel space -225 341 -195 756 1 A
+rlabel space 1423 284 1453 955 1 B
+rlabel metal1 1180 560 1535 596 1 Z
+rlabel metal1 -295 996 1531 1053 1 vdd
+rlabel metal1 -295 13 1531 70 1 GND
+<< end >>
