@@ -14,7 +14,7 @@ rect 48 496 170 527
 rect 48 393 82 496
 rect 224 55 258 106
 rect 22 0 301 55
-use grid  grid_0
+use grid  grid_0 ../grid
 timestamp 1678218586
 transform 1 0 61 0 1 10
 box -61 -10 259 1053

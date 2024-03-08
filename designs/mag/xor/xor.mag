@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709925634
+timestamp 1709928885
 << poly >>
 rect -225 921 -99 951
 rect 85 925 211 955
@@ -96,23 +96,23 @@ use grid  grid_0 ../grid
 timestamp 1678218586
 transform 1 0 51 0 1 24
 box -61 -10 259 1053
-use grid  grid_1
+use grid  grid_1 ../grid
 timestamp 1678218586
 transform 1 0 360 0 1 24
 box -61 -10 259 1053
-use grid  grid_2
+use grid  grid_2 ../grid
 timestamp 1678218586
 transform 1 0 669 0 1 25
 box -61 -10 259 1053
-use grid  grid_3
+use grid  grid_3 ../grid
 timestamp 1678218586
 transform 1 0 976 0 1 25
 box -61 -10 259 1053
-use grid  grid_4
+use grid  grid_4 ../grid
 timestamp 1678218586
 transform 1 0 1292 0 1 25
 box -61 -10 259 1053
-use grid  grid_5
+use grid  grid_5 ../grid
 timestamp 1678218586
 transform 1 0 -256 0 1 23
 box -61 -10 259 1053
@@ -148,27 +148,27 @@ use via_m1_p  via_m1_p_0 ../via_m1_p
 timestamp 1646951168
 transform 0 1 446 -1 0 623
 box 0 0 68 68
-use via_m1_p  via_m1_p_1
+use via_m1_p  via_m1_p_1 ../via_m1_p
 timestamp 1646951168
 transform 0 1 830 -1 0 550
 box 0 0 68 68
-use via_m1_p  via_m1_p_2
+use via_m1_p  via_m1_p_2 ../via_m1_p
 timestamp 1646951168
 transform 0 1 68 -1 0 552
 box 0 0 68 68
-use via_m1_p  via_m1_p_3
+use via_m1_p  via_m1_p_3 ../via_m1_p
 timestamp 1646951168
 transform 0 1 690 -1 0 445
 box 0 0 68 68
-use via_m1_p  via_m1_p_4
+use via_m1_p  via_m1_p_4 ../via_m1_p
 timestamp 1646951168
 transform 0 1 689 -1 0 623
 box 0 0 68 68
-use via_m1_p  via_m1_p_5
+use via_m1_p  via_m1_p_5 ../via_m1_p
 timestamp 1646951168
 transform 0 -1 1348 1 0 614
 box 0 0 68 68
-use via_m1_p  via_m1_p_6
+use via_m1_p  via_m1_p_6 ../via_m1_p
 timestamp 1646951168
 transform 0 1 1272 -1 0 497
 box 0 0 68 68

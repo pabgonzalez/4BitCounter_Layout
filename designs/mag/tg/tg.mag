@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709920830
+timestamp 1709928885
 << poly >>
 rect 16 278 52 598
 rect 270 278 304 604
@@ -32,15 +32,15 @@ use via_m1_p  via_m1_p_0 ../via_m1_p
 timestamp 1646951168
 transform 1 0 252 0 1 262
 box 0 0 68 68
-use via_m1_p  via_m1_p_1
+use via_m1_p  via_m1_p_1 ../via_m1_p
 timestamp 1646951168
 transform 1 0 -2 0 1 546
 box 0 0 68 68
-use via_m1_p  via_m1_p_2
+use via_m1_p  via_m1_p_2 ../via_m1_p
 timestamp 1646951168
 transform 1 0 252 0 1 552
 box 0 0 68 68
-use via_m1_p  via_m1_p_3
+use via_m1_p  via_m1_p_3 ../via_m1_p
 timestamp 1646951168
 transform 1 0 -2 0 1 260
 box 0 0 68 68
