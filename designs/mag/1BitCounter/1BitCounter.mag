@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709941173
+timestamp 1710021771
 << nwell >>
 rect -36 -794 2763 649
 << poly >>
@@ -29,53 +29,53 @@ rect -9 -1307 2228 -1305
 rect -9 -1339 2793 -1307
 rect 2193 -1341 2793 -1339
 use dffc  dffc_0 ../dffc
-timestamp 1709941173
+timestamp 1710021771
 transform 1 0 900 0 1 1174
 box -900 -1174 1816 1067
-use inverter  inverter_1 ../inverter
-timestamp 1709941173
+use inverter#0  inverter_1 ../inverter
+timestamp 1710021771
 transform 1 0 1731 0 1 -1783
 box 474 522 794 1585
 use nand  nand_1 ../nand
-timestamp 1709941173
+timestamp 1710021771
 transform 1 0 1889 0 1 -1261
 box 0 0 320 1063
-use via_m1_p  via_m1_p_0 ../via_m1_p
+use via_m1_p#1  via_m1_p_0 ../via_m1_p
 timestamp 1646951168
 transform 1 0 -27 0 1 -1357
 box 0 0 68 68
-use via_m1_p  via_m1_p_1 ../via_m1_p
+use via_m1_p#1  via_m1_p_1
 timestamp 1646951168
 transform 1 0 2742 0 1 -1357
 box 0 0 68 68
-use via_m1_p  via_m1_p_2 ../via_m1_p
+use via_m1_p#1  via_m1_p_2
 timestamp 1646951168
 transform 1 0 2177 0 1 -1357
 box 0 0 68 68
-use via_m1_p  via_m1_p_3 ../via_m1_p
+use via_m1_p#1  via_m1_p_3
 timestamp 1646951168
 transform 1 0 -112 0 1 1716
 box 0 0 68 68
-use via_m1_p  via_m1_p_4 ../via_m1_p
+use via_m1_p#1  via_m1_p_4
 timestamp 1646951168
 transform 1 0 -113 0 1 -726
 box 0 0 68 68
-use via_m1_p  via_m1_p_5 ../via_m1_p
+use via_m1_p#1  via_m1_p_5
 timestamp 1646951168
 transform 1 0 2332 0 1 -768
 box 0 0 68 68
-use via_m1_p  via_m1_p_13 ../via_m1_p
+use via_m1_p#1  via_m1_p_13
 timestamp 1646951168
 transform -1 0 2811 0 -1 2117
 box 0 0 68 68
 use xor  xor_1 ../xor
-timestamp 1709941173
+timestamp 1710021771
 transform -1 0 1559 0 1 -1272
 box -323 13 1551 1078
 << labels >>
-rlabel space 2758 -1336 2793 2117 1 Q
 rlabel poly 1857 -1269 1887 -800 1 ce
-rlabel space 2758 -1336 2793 2117 1 sout
 rlabel space 2664 2 2700 1650 1 clr
 rlabel space 252 1374 282 1994 1 clk
+rlabel space 2758 -1336 2793 2117 1 Q
+rlabel space 2474 -1056 2510 -462 1 sout
 << end >>
