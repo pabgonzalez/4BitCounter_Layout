@@ -1,0 +1,1349 @@
+timestamp 1710023202
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use via_m1_p#0 via_m1_p_24 1 0 346 0 1 3178
+use 1BitCounter 1BitCounter_1 1 0 113 0 1 1357
+use via_m1_p#0 via_m1_p_25 1 0 1952 0 1 -80
+use via_m1_p#0 via_m1_p#0_0 1 0 -2 0 1 3186
+use via_m1_p#0 via_m1_p_21 -1 0 2922 0 -1 3778
+use via_m1_p#0 via_m1_p_6 1 0 2762 0 1 -208
+use via_m1_p#0 via_m1_p_11 1 0 -4 0 1 3592
+use 1BitCounter 1BitCounter_2 1 0 3069 0 1 1355
+use via_m1_p#0 via_m1_p_28 1 0 4910 0 1 -122
+use via_m1_p#0 via_m1_p_17 1 0 2952 0 1 -116
+use via_m1_p#0 via_m1_p_15 1 0 2948 0 1 304
+use via_m1_p#0 via_m1_p_7 1 0 5718 0 1 -204
+use via_m1_p#0 via_m1_p_2 1 0 3304 0 1 3178
+use via_m1_p#0 via_m1_p_3 1 0 2954 0 1 3182
+use via_m1_p#0 via_m1_p_13 -1 0 5880 0 -1 3792
+use via_m1_p#0 via_m1_p_16 1 0 2952 0 1 3588
+use 1BitCounter 1BitCounter_3 1 0 6059 0 1 1353
+use via_m1_p#0 via_m1_p_26 1 0 7892 0 1 -118
+use via_m1_p#0 via_m1_p_23 1 0 5946 0 1 3184
+use via_m1_p#0 via_m1_p_14 1 0 5916 0 1 -118
+use via_m1_p#0 via_m1_p_12 1 0 5912 0 1 302
+use via_m1_p#0 via_m1_p_8 1 0 8710 0 1 -210
+use via_m1_p#0 via_m1_p_1 1 0 5944 0 1 3590
+use via_m1_p#0 via_m1_p_4 1 0 6296 0 1 3180
+use 1BitCounter 1BitCounter_0 1 0 9057 0 1 1353
+use via_m1_p#0 via_m1_p_27 1 0 10898 0 1 -116
+use via_m1_p#0 via_m1_p_22 1 0 8932 0 1 3182
+use via_m1_p#0 via_m1_p_20 -1 0 8870 0 -1 3792
+use via_m1_p#0 via_m1_p_18 1 0 8912 0 1 302
+use via_m1_p#0 via_m1_p_10 1 0 8930 0 1 3588
+use via_m1_p#0 via_m1_p_0 1 0 8916 0 1 -118
+use via_m1_p#0 via_m1_p_5 1 0 9282 0 1 3178
+use via_m1_p#0 via_m1_p_19 -1 0 11868 0 -1 3790
+use via_m1_p#0 via_m1_p_9 1 0 11698 0 1 -224
+node "clr" 24 2447.07 2778 -204 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 412804 18040 0 0 0 0 0 0 0 0 0 0
+node "m1_8932_n102#" 6 200.512 8932 -102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 78960 4028 0 0 0 0 0 0 0 0 0 0
+node "m1_5932_n104#" 6 198.382 5932 -104 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 78960 4028 0 0 0 0 0 0 0 0 0 0
+node "m1_2966_n104#" 6 199.243 2966 -104 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 78640 4012 0 0 0 0 0 0 0 0 0 0
+node "m1_140_102#" 27 3018.23 140 102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 603128 22996 0 0 0 0 0 0 0 0 0 0
+node "m1_8540_322#" 2 78.5519 8540 322 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13952 936 0 0 0 0 0 0 0 0 0 0
+node "m1_5540_322#" 2 81.2831 5540 322 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13952 936 0 0 0 0 0 0 0 0 0 0
+node "m1_2588_324#" 2 76.5055 2588 324 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13312 896 0 0 0 0 0 0 0 0 0 0
+node "m1_142_1082#" 24 4106.38 142 1082 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 680312 23000 0 0 0 0 0 0 0 0 0 0
+node "m1_8938_3194#" 1 182.08 8938 3194 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15504 892 0 0 0 0 0 0 0 0 0 0
+node "m1_5952_3196#" 1 143.287 5952 3196 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15504 892 0 0 0 0 0 0 0 0 0 0
+node "m1_2960_3194#" 1 141.157 2960 3194 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15504 892 0 0 0 0 0 0 0 0 0 0
+node "m1_16_3198#" 1 137.621 16 3198 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14668 848 0 0 0 0 0 0 0 0 0 0
+node "clk" 35 3680.96 12 3610 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 286912 17996 0 0 0 0 0 0 0 0 0 0
+node "a_11716_n194#" 2166 1064.34 11716 -194 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58248 3308 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_10916_n66#" 334 140.954 10916 -66 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6028 468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_8934_n118#" 729 262.582 8934 -118 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13620 968 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_8724_n168#" 2229 693.936 8724 -168 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53448 3212 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_7910_n98#" 262 142.79 7910 -98 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7056 464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5934_n118#" 729 260.615 5934 -118 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13620 968 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5734_n176#" 2260 816.236 5734 -176 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54196 3256 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_4926_n102#" 303 151.812 4926 -102 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7276 496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2970_n100#" 734 258.572 2970 -100 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13548 968 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2778_n184#" 2260 685.505 2778 -184 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54196 3256 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ce" 247 110.688 1970 -60 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4620 368 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "q3" 463 244.18 11816 3418 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12456 764 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_8950_3202#" 630 256.787 8950 3202 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13376 900 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "q2" 463 216.825 8818 3420 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12456 764 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5964_3204#" 630 257.24 5964 3204 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13376 900 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "q1" 463 217.277 5828 3420 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12456 764 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2972_3202#" 630 250.66 2972 3202 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13376 900 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2870_3422#" 442 200.327 2870 3422 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11880 732 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_16_3206#" 630 284.205 16 3206 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13376 900 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_8709_559#" 4301 1389.61 8709 559 nw 0 0 0 0 463203 3536 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_5778_560#" 4017 1475.17 5778 560 nw 0 0 0 0 491722 3566 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_2767_559#" 2358 2533.02 2767 559 nw 0 0 0 0 844340 4062 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "clk" "m1_8938_3194#" 4.11215
+cap "a_10916_n66#" "m1_140_102#" 3.95244
+cap "m1_8932_n102#" "a_11716_n194#" 0.0788505
+cap "a_5734_n176#" "m1_5932_n104#" 0.559344
+cap "m1_142_1082#" "w_5778_560#" 105.154
+cap "clk" "a_5964_3204#" 6.6897
+cap "w_2767_559#" "a_2972_3202#" 0.111455
+cap "m1_2588_324#" "m1_140_102#" 83.9633
+cap "w_8709_559#" "m1_140_102#" 2.5558
+cap "ce" "m1_142_1082#" 0.0184193
+cap "a_4926_n102#" "m1_2966_n104#" 4.42549
+cap "m1_140_102#" "a_2970_n100#" 13.3344
+cap "a_5934_n118#" "m1_5540_322#" 3.96761
+cap "m1_8932_n102#" "a_8934_n118#" 7.55344
+cap "m1_5952_3196#" "a_5964_3204#" 7.77486
+cap "q1" "a_5964_3204#" 32.32
+cap "a_8724_n168#" "a_8934_n118#" 41.2727
+cap "w_8709_559#" "m1_8938_3194#" 0.913481
+cap "a_2778_n184#" "m1_142_1082#" 21.5569
+cap "a_5934_n118#" "m1_140_102#" 13.3828
+cap "a_8724_n168#" "m1_142_1082#" 22.9797
+cap "a_11716_n194#" "a_10916_n66#" 4.23896
+cap "clk" "a_2870_3422#" 11.7515
+cap "clr" "m1_140_102#" 408.206
+cap "w_2767_559#" "m1_140_102#" 16.5624
+cap "a_5734_n176#" "m1_142_1082#" 22.8159
+cap "a_8950_3202#" "m1_8938_3194#" 7.79268
+cap "a_7910_n98#" "clr" 3.5106
+cap "a_4926_n102#" "a_5734_n176#" 4.42377
+cap "m1_8540_322#" "a_8724_n168#" 13.2836
+cap "a_5934_n118#" "m1_5932_n104#" 7.53949
+cap "m1_5932_n104#" "clr" 835.154
+cap "m1_5540_322#" "m1_140_102#" 88.8148
+cap "a_2778_n184#" "m1_2966_n104#" 0.770347
+cap "m1_142_1082#" "a_10916_n66#" 0.0215875
+cap "clk" "m1_2960_3194#" 41.9439
+cap "a_2778_n184#" "ce" 3.1671
+cap "w_8709_559#" "a_8934_n118#" 1.79946
+cap "a_5734_n176#" "w_5778_560#" 181.554
+cap "m1_142_1082#" "m1_2588_324#" 23.5876
+cap "w_8709_559#" "m1_142_1082#" 91.1109
+cap "clr" "a_11716_n194#" 11.9356
+cap "m1_142_1082#" "a_2970_n100#" 0.0319293
+cap "a_5734_n176#" "m1_2966_n104#" 0.0767708
+cap "m1_8932_n102#" "a_8724_n168#" 0.535285
+cap "a_7910_n98#" "m1_140_102#" 4.26797
+cap "m1_5952_3196#" "w_5778_560#" 1.64478
+cap "q1" "w_5778_560#" 0.0476827
+cap "w_8709_559#" "m1_8540_322#" 17.7658
+cap "clr" "a_8934_n118#" 0.609169
+cap "w_2767_559#" "a_2870_3422#" 0.0482745
+cap "a_5934_n118#" "m1_142_1082#" 0.0342738
+cap "m1_5932_n104#" "m1_140_102#" 402.111
+cap "a_2870_3422#" "a_2972_3202#" 48
+cap "w_2767_559#" "m1_142_1082#" 170.133
+cap "a_7910_n98#" "m1_5932_n104#" 3.36065
+cap "a_4926_n102#" "clr" 2.89368
+cap "m1_2966_n104#" "a_2970_n100#" 6.85794
+cap "a_11716_n194#" "m1_140_102#" 3.24322
+cap "m1_8932_n102#" "a_10916_n66#" 3.48868
+cap "clk" "a_16_3206#" 6.63206
+cap "a_5934_n118#" "w_5778_560#" 1.79101
+cap "w_2767_559#" "m1_2960_3194#" 3.90364
+cap "m1_5540_322#" "m1_142_1082#" 24.869
+cap "a_2778_n184#" "m1_2588_324#" 13.1772
+cap "m1_2960_3194#" "a_2972_3202#" 7.78592
+cap "a_2778_n184#" "a_2970_n100#" 45.9544
+cap "q2" "clk" 11.0248
+cap "clk" "m1_5952_3196#" 42.1408
+cap "a_8934_n118#" "m1_140_102#" 13.46
+cap "q1" "clk" 12.0065
+cap "w_8709_559#" "a_8724_n168#" 292.091
+cap "clr" "m1_2966_n104#" 831.769
+cap "m1_142_1082#" "m1_140_102#" 457.863
+cap "a_4926_n102#" "m1_140_102#" 5.83296
+cap "m1_5932_n104#" "a_8934_n118#" 0.0017506
+cap "m1_5540_322#" "w_5778_560#" 15.0752
+cap "a_7910_n98#" "m1_142_1082#" 0.0256501
+cap "m1_8932_n102#" "clr" 819.396
+cap "a_2778_n184#" "clr" 7.48576
+cap "w_2767_559#" "a_2778_n184#" 311.883
+cap "m1_8540_322#" "m1_140_102#" 88.8148
+cap "a_8724_n168#" "clr" 6.54728
+cap "q2" "w_8709_559#" 0.0476827
+cap "a_8950_3202#" "clk" 5.02223
+cap "a_4926_n102#" "m1_5932_n104#" 0.0345568
+cap "a_5934_n118#" "a_5734_n176#" 43.759
+cap "w_5778_560#" "m1_140_102#" 6.75967
+cap "a_5734_n176#" "clr" 8.00591
+cap "m1_2588_324#" "a_2970_n100#" 4.86795
+cap "m1_140_102#" "m1_2966_n104#" 400.481
+cap "q2" "a_8950_3202#" 33.3333
+cap "ce" "m1_140_102#" 3.01621
+cap "a_11716_n194#" "m1_142_1082#" 3.80103
+cap "clk" "a_2972_3202#" 6.3762
+cap "w_5778_560#" "a_5964_3204#" 0.109255
+cap "clr" "a_10916_n66#" 2.95028
+cap "a_8950_3202#" "w_8709_559#" 0.109986
+cap "m1_5932_n104#" "m1_2966_n104#" 1.67619
+cap "m1_8932_n102#" "m1_140_102#" 405.869
+cap "a_5734_n176#" "m1_5540_322#" 13.2885
+cap "a_2778_n184#" "m1_140_102#" 15.5512
+cap "m1_142_1082#" "a_8934_n118#" 0.0354675
+cap "clk" "m1_16_3198#" 40.0566
+cap "a_8724_n168#" "m1_140_102#" 15.6641
+cap "a_16_3206#" "m1_16_3198#" 7.65818
+cap "a_7910_n98#" "m1_8932_n102#" 0.0406708
+cap "w_2767_559#" "m1_2588_324#" 15.6748
+cap "clr" "a_2970_n100#" 0.289562
+cap "w_2767_559#" "a_2970_n100#" 1.9438
+cap "a_7910_n98#" "a_8724_n168#" 4.03085
+cap "a_4926_n102#" "m1_142_1082#" 0.0223712
+cap "m1_8540_322#" "a_8934_n118#" 3.98861
+cap "a_5734_n176#" "m1_140_102#" 15.5078
+cap "m1_5932_n104#" "m1_8932_n102#" 1.5539
+cap "m1_5932_n104#" "a_8724_n168#" 0.10116
+cap "a_5934_n118#" "clr" 0.571477
+cap "m1_8540_322#" "m1_142_1082#" 24.9143
+cap "1BitCounter_1/dffc_0/tg_0/vss" "1BitCounter_1/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.212802
+cap "1BitCounter_1/dffc_0/tg_0/vss" "1BitCounter_1/a_n94_n709#" 0.0579377
+cap "1BitCounter_1/dffc_0/tg_0/vss" "1BitCounter_1/dffc_0/inverter_1/vdd" -56.526
+cap "1BitCounter_1/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" "1BitCounter_1/dffc_0/tg_0/vss" 0.0229248
+cap "1BitCounter_1/dffc_0/tg_0/vss" "1BitCounter_1/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.0281274
+cap "via_m1_p_6/a_0_0#" "1BitCounter_1/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.010845
+cap "1BitCounter_1/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" "1BitCounter_1/dffc_0/inverter_1/vdd" -1.77636e-15
+cap "1BitCounter_1/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" "1BitCounter_1/dffc_0/inverter_1/vdd" -0.0211414
+cap "1BitCounter_1/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" "1BitCounter_1/dffc_0/tg_0/vss" 4.0854e-05
+cap "1BitCounter_1/dffc_0/tg_0/vss" "via_m1_p_25/a_0_0#" 0.0382319
+cap "1BitCounter_1/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" "1BitCounter_1/dffc_0/tg_0/vss" 5.73719
+cap "1BitCounter_1/dffc_0/tg_0/vss" "1BitCounter_1/via_m1_p_0/a_0_0#" 0.206497
+cap "1BitCounter_1/via_m1_p_0/a_0_0#" "1BitCounter_1/dffc_0/inverter_1/vdd" 1.13687e-13
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 2.13232
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "via_m1_p_15/a_0_0#" 0.422382
+cap "1BitCounter_1/via_m1_p_0/a_0_0#" "1BitCounter_1/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" -1.38778e-17
+cap "1BitCounter_2/dffc_0/tg_3/vdd" "via_m1_p_6/a_0_0#" 143.402
+cap "1BitCounter_1/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_2/via_m1_p_0/a_0_0#" 0.00322104
+cap "1BitCounter_2/dffc_0/tg_3/vdd" "1BitCounter_1/a_n94_n709#" 8.88178e-16
+cap "1BitCounter_2/dffc_0/tg_3/vdd" "1BitCounter_2/a_n94_n709#" 0.697202
+cap "via_m1_p_6/a_0_0#" "1BitCounter_1/via_m1_p_0/a_0_0#" 18.4305
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_1/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.000714944
+cap "1BitCounter_2/dffc_0/tg_1/vss" "via_m1_p_25/a_0_0#" 5.12041
+cap "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" "via_m1_p_15/a_0_0#" 0.00776904
+cap "1BitCounter_1/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_1/nand_1/Z" 2.22045e-16
+cap "via_m1_p_25/a_0_0#" "via_m1_p_15/a_0_0#" 1.19709
+cap "via_m1_p_6/a_0_0#" "1BitCounter_1/nand_1/Z" 4.98868
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/dffc_0/tg_3/vdd" -48.2051
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n73_n150#" 1.44476
+cap "1BitCounter_1/nand_1/Z" "1BitCounter_2/a_n94_n709#" 3.19549
+cap "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_25/a_0_0#" 0.00691163
+cap "1BitCounter_2/dffc_0/tg_3/vdd" "via_m1_p_15/a_0_0#" 13.875
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_1/via_m1_p_0/a_0_0#" 126.803
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/via_m1_p_0/a_0_0#" 0.526429
+cap "via_m1_p_15/a_0_0#" "1BitCounter_2/via_m1_p_0/a_0_0#" 0.677552
+cap "1BitCounter_1/via_m1_p_0/a_0_0#" "via_m1_p_15/a_0_0#" -21.7663
+cap "via_m1_p_6/a_0_0#" "1BitCounter_1/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.00667024
+cap "1BitCounter_2/dffc_0/tg_3/vdd" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 2.98549
+cap "1BitCounter_1/nand_1/Z" "via_m1_p_15/a_0_0#" 5.68434e-14
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_1/nand_1/Z" 4.83056
+cap "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" "via_m1_p_15/a_0_0#" 0.026754
+cap "1BitCounter_1/a_n94_n709#" "via_m1_p_6/a_0_0#" 0.0161129
+cap "via_m1_p_6/a_0_0#" "1BitCounter_1/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.0372617
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_1/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.0331424
+cap "1BitCounter_2/dffc_0/tg_3/vdd" "via_m1_p_25/a_0_0#" 3.28294
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_1/nand_1/Z" 3.34032
+cap "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_n63_n101#" "via_m1_p_15/a_0_0#" 0.000493561
+cap "1BitCounter_2/dffc_0/tg_1/vss" "via_m1_p_6/a_0_0#" -3.4975
+cap "via_m1_p_6/a_0_0#" "via_m1_p_15/a_0_0#" 68.9551
+cap "1BitCounter_1/via_m1_p_0/a_0_0#" "via_m1_p_25/a_0_0#" 42.0007
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_1/a_n94_n709#" 0.0699794
+cap "via_m1_p_15/a_0_0#" "1BitCounter_2/a_n94_n709#" 1.26999
+cap "1BitCounter_2/dffc_0/tg_3/vdd" "1BitCounter_2/via_m1_p_0/a_0_0#" 0.237774
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_1/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.118478
+cap "via_m1_p_25/a_0_0#" "1BitCounter_1/nand_1/Z" -1.42109e-14
+cap "1BitCounter_2/dffc_0/tg_3/vdd" "1BitCounter_1/via_m1_p_0/a_0_0#" -10.9034
+cap "1BitCounter_2/dffc_0/tg_1/vss" "via_m1_p_15/a_0_0#" 0.769831
+cap "1BitCounter_2/dffc_0/tg_3/vdd" "1BitCounter_1/nand_1/Z" 5.33107
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" "via_m1_p_15/a_0_0#" 0.0521758
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 0.0135368
+cap "1BitCounter_2/dffc_0/tg_3/vdd" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.00191527
+cap "1BitCounter_1/via_m1_p_0/a_0_0#" "1BitCounter_1/nand_1/Z" -4.62138
+cap "via_m1_p_25/a_0_0#" "1BitCounter_1/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 7.10543e-15
+cap "1BitCounter_1/nand_1/Z" "1BitCounter_2/via_m1_p_0/a_0_0#" 0.213599
+cap "via_m1_p_6/a_0_0#" "1BitCounter_1/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.0714111
+cap "via_m1_p_6/a_0_0#" "via_m1_p_25/a_0_0#" -1.09424
+cap "1BitCounter_2/dffc_0/tg_3/vdd" "1BitCounter_1/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.0583481
+cap "1BitCounter_2/dffc_0/tg_0/vss" "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 70.7229
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/dffc_0/inverter_1/vdd" -89.6179
+cap "via_m1_p_25/a_0_0#" "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" -0.0903491
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/via_m1_p_0/a_0_0#" 2.41311
+cap "1BitCounter_2/a_n94_n709#" "via_m1_p_15/a_0_0#" 16.8581
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_1/xor_1/a_467_173#" 0.0772452
+cap "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_1/nand_1/Z" -1.77913
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" 0.0559564
+cap "1BitCounter_2/dffc_0/inverter_1/vdd" "1BitCounter_2/a_n94_n709#" 206.068
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_2/via_m1_p_0/a_0_0#" -3.72451
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "via_m1_p_15/a_0_0#" 1.77884
+cap "via_m1_p_7/a_0_0#" "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 359.041
+cap "1BitCounter_2/dffc_0/tg_0/vss" "1BitCounter_1/nand_1/Z" 0.131651
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_1/xor_1/a_467_173#" 0.0104005
+cap "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_1/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_n33_n75#" -0.0473602
+cap "1BitCounter_2/dffc_0/inverter_1/vdd" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 21.1633
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.00118829
+cap "1BitCounter_2/via_m1_p_0/a_0_0#" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 2.84217e-14
+cap "1BitCounter_2/dffc_0/tg_0/vss" "via_m1_p_7/a_0_0#" -19.3853
+cap "1BitCounter_2/dffc_0/inverter_1/vdd" "via_m1_p_15/a_0_0#" 3.56422
+cap "1BitCounter_2/via_m1_p_0/a_0_0#" "via_m1_p_15/a_0_0#" 519.251
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 136.937
+cap "1BitCounter_2/dffc_0/inverter_1/vdd" "1BitCounter_2/via_m1_p_0/a_0_0#" 6.81338
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.313645
+cap "1BitCounter_2/dffc_0/tg_0/vss" "1BitCounter_2/a_n94_n709#" 6.98957
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" "via_m1_p_15/a_0_0#" 0.0749981
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n73_n150#" 0.00169889
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 3.11436
+cap "1BitCounter_2/a_n94_n709#" "via_m1_p_25/a_0_0#" 0.0548574
+cap "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "via_m1_p_15/a_0_0#" 107.413
+cap "1BitCounter_2/dffc_0/inverter_1/vdd" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" 0.001073
+cap "1BitCounter_1/xor_1/a_467_173#" "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" -0.0310107
+cap "1BitCounter_2/dffc_0/tg_0/vss" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 2.70734
+cap "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" "via_m1_p_15/a_0_0#" 0.0204307
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_1/nand_1/Z" 3.41088
+cap "1BitCounter_2/dffc_0/inverter_1/vdd" "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 57.4184
+cap "1BitCounter_2/dffc_0/tg_0/vss" "via_m1_p_15/a_0_0#" -191.56
+cap "1BitCounter_2/via_m1_p_0/a_0_0#" "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 47.1559
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "via_m1_p_25/a_0_0#" 0.181599
+cap "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_1/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_n129_n75#" -0.0142427
+cap "via_m1_p_25/a_0_0#" "via_m1_p_15/a_0_0#" 1.13735
+cap "1BitCounter_2/dffc_0/inverter_1/vdd" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.0412813
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/a_n94_n709#" 2.22087
+cap "1BitCounter_2/dffc_0/tg_0/vss" "1BitCounter_2/dffc_0/inverter_1/vdd" -69.0486
+cap "1BitCounter_2/dffc_0/tg_0/vss" "1BitCounter_2/via_m1_p_0/a_0_0#" 35.0451
+cap "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" "via_m1_p_15/a_0_0#" 0.380329
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_1/nand_1/Z" 3.72745
+cap "1BitCounter_1/nand_1/Z" "via_m1_p_15/a_0_0#" 0.0117631
+cap "1BitCounter_2/via_m1_p_0/a_0_0#" "via_m1_p_25/a_0_0#" 0.00260976
+cap "1BitCounter_2/dffc_0/inverter_1/vdd" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.0312978
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 2.12986
+cap "via_m1_p_7/a_0_0#" "via_m1_p_15/a_0_0#" -21.4656
+cap "1BitCounter_2/dffc_0/inverter_1/vdd" "1BitCounter_1/nand_1/Z" 0.0557465
+cap "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" "1BitCounter_1/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 0.00148631
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_1/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_n255_n101#" 0.0108241
+cap "via_m1_p_7/a_0_0#" "via_m1_p_15/a_0_0#" 24.3137
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_2/a_n94_n709#" 0.00206393
+cap "1BitCounter_3/dffc_0/tg_1/vss" "via_m1_p_15/a_0_0#" -147.189
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n73_n150#" 2.06478
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/via_m1_p_0/a_0_0#" 0.611734
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.358816
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.00183407
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" "via_m1_p_15/a_0_0#" 0.0304507
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "via_m1_p_15/a_0_0#" 3.28859
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/nand_1/Z" 2.75036
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_2/nand_1/Z" 5.6033
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" -1.13687e-13
+cap "via_m1_p_7/a_0_0#" "1BitCounter_3/dffc_0/tg_1/vss" -93.3608
+cap "via_m1_p_15/a_0_0#" "1BitCounter_2/via_m1_p_0/a_0_0#" 275.518
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.0256448
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_2/nand_1/Z" 6.23969
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 0.0226558
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "via_m1_p_7/a_0_0#" 11.2037
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 0.011903
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_3/dffc_0/tg_1/vss" -55.1663
+cap "via_m1_p_12/a_0_0#" "via_m1_p_15/a_0_0#" 1.42975
+cap "1BitCounter_2/nand_1/Z" "1BitCounter_3/a_n94_n709#" 3.01821
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_2/nand_1/Z" 2.22045e-16
+cap "1BitCounter_2/nand_1/Z" "1BitCounter_2/via_m1_p_0/a_0_0#" -4.62933
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.00640043
+cap "1BitCounter_2/nand_1/Z" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 3.23685
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.00667024
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 8.18259e-05
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.0998524
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/via_m1_p_0/a_0_0#" 129.518
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 2.06427
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_2/via_m1_p_0/a_0_0#" 58.6902
+cap "1BitCounter_2/nand_1/Z" "via_m1_p_12/a_0_0#" 5.68434e-14
+cap "via_m1_p_7/a_0_0#" "via_m1_p_12/a_0_0#" 37.1185
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_3/a_n94_n709#" 0.596304
+cap "1BitCounter_3/dffc_0/tg_1/vss" "via_m1_p_12/a_0_0#" 0.378078
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_15/a_0_0#" 0.0031137
+cap "1BitCounter_2/nand_1/Z" "1BitCounter_3/via_m1_p_0/a_0_0#" 0.197743
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.124978
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_2/via_m1_p_0/a_0_0#" -3.5814
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 2.88912
+cap "via_m1_p_15/a_0_0#" "1BitCounter_2/a_n94_n709#" 1.42109e-14
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/via_m1_p_0/a_0_0#" 0.488985
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_1/via_m1_p_1/a_0_0#" 0.000551679
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 0.0477282
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "via_m1_p_12/a_0_0#" 4.96392
+cap "1BitCounter_2/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_2/via_m1_p_0/a_0_0#" -1.38778e-17
+cap "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_3/via_m1_p_0/a_0_0#" 0.220087
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/a_n94_n709#" 1.10821
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_2/a_n94_n709#" 0.228932
+cap "via_m1_p_12/a_0_0#" "1BitCounter_2/via_m1_p_0/a_0_0#" -21.7663
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.400575
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.00215104
+cap "1BitCounter_2/nand_1/Z" "via_m1_p_15/a_0_0#" -1.42109e-14
+cap "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" -0.0310107
+cap "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n73_n150#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.00160314
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_3/via_m1_p_0/a_0_0#" 35.0925
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/a_n94_n709#" 9.09512
+cap "1BitCounter_3/dffc_0/inverter_1/vdd" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.0442429
+cap "via_m1_p_12/a_0_0#" "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 92.9984
+cap "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_n129_n75#" -0.0142427
+cap "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" "via_m1_p_7/a_0_0#" 0.00111193
+cap "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.0099319
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 90.95
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.0372617
+cap "via_m1_p_12/a_0_0#" "via_m1_p_28/a_0_0#" 1.39512
+cap "1BitCounter_3/dffc_0/inverter_1/vdd" "via_m1_p_12/a_0_0#" 19.9387
+cap "via_m1_p_12/a_0_0#" "via_m1_p_7/a_0_0#" 13.1997
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 1.67519
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_n129_n75#" 0.0161129
+cap "1BitCounter_3/dffc_0/inverter_1/vdd" "1BitCounter_3/a_n94_n709#" 227.369
+cap "via_m1_p_12/a_0_0#" "1BitCounter_2/nand_1/Z" 0.0114243
+cap "1BitCounter_3/a_n94_n709#" "via_m1_p_28/a_0_0#" 0.043552
+cap "1BitCounter_3/a_n94_n709#" "via_m1_p_7/a_0_0#" 1.84282
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" -5.68434e-14
+cap "via_m1_p_28/a_0_0#" "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" -0.0903491
+cap "1BitCounter_3/dffc_0/tg_0/vss" "via_m1_p_12/a_0_0#" -158.897
+cap "1BitCounter_3/dffc_0/inverter_1/vdd" "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 69.2655
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/nand_1/Z" 3.20955
+cap "1BitCounter_3/dffc_0/inverter_1/vdd" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 8.88178e-16
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/via_m1_p_0/a_0_0#" 419.772
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 399.366
+cap "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 2.75048
+cap "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_2/nand_1/Z" -1.77913
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_3/a_n94_n709#" 9.34146
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" 0.0757478
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_3/via_m1_p_0/a_0_0#" -3.73266
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 135.197
+cap "via_m1_p_7/a_0_0#" "via_m1_p_28/a_0_0#" -0.869066
+cap "1BitCounter_3/dffc_0/inverter_1/vdd" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 20.7173
+cap "1BitCounter_3/dffc_0/inverter_1/vdd" "via_m1_p_7/a_0_0#" 131.963
+cap "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "via_m1_p_28/a_0_0#" 0.172202
+cap "1BitCounter_3/via_m1_p_0/a_0_0#" "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 39.6523
+cap "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_159_n75#" -0.0473602
+cap "1BitCounter_3/dffc_0/inverter_1/vdd" "1BitCounter_2/nand_1/Z" 0.0508269
+cap "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "via_m1_p_7/a_0_0#" 1.92956
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.019889
+cap "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_2/nand_1/Z" 3.5928
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_3/dffc_0/inverter_1/vdd" -51.5328
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/nand_1/Z" 2.36396
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_n255_n101#" 0.0103162
+cap "1BitCounter_3/dffc_0/inverter_1/vdd" "1BitCounter_3/via_m1_p_0/a_0_0#" 6.46329
+cap "1BitCounter_3/via_m1_p_0/a_0_0#" "via_m1_p_28/a_0_0#" 0.00279245
+cap "1BitCounter_3/dffc_0/tg_0/vss" "via_m1_p_7/a_0_0#" -43.6937
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 3.02091
+cap "1BitCounter_3/via_m1_p_0/a_0_0#" "via_m1_p_7/a_0_0#" 2.43264
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_2/nand_1/Z" 0.120105
+cap "1BitCounter_3/via_m1_p_0/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 2.84217e-14
+cap "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" "1BitCounter_2/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 0.00138165
+cap "1BitCounter_3/dffc_0/inverter_1/vdd" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" 0.00213982
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_159_n75#" 0.0714111
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.0698738
+cap "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" "via_m1_p_7/a_0_0#" 0.0564105
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 0.011531
+cap "1BitCounter_0/w_n36_n794#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 0.000163182
+cap "1BitCounter_3/nand_1/Z" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 1.82178
+cap "1BitCounter_3/a_n94_n709#" "via_m1_p_12/a_0_0#" 0.0333205
+cap "1BitCounter_0/w_n36_n794#" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 2.88846
+cap "1BitCounter_3/nand_1/Z" "1BitCounter_0/a_n94_n709#" 1.18188
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_0/w_n36_n794#" 0.00424962
+cap "1BitCounter_0/w_n36_n794#" "1BitCounter_0/a_n94_n709#" 0.218418
+cap "1BitCounter_3/via_m1_p_0/a_0_0#" "via_m1_p_12/a_0_0#" 343.176
+cap "1BitCounter_3/via_m1_p_0/a_0_0#" "1BitCounter_3/nand_1/Z" -2.93067
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 2.00995
+cap "1BitCounter_0/w_n36_n794#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.203048
+cap "1BitCounter_0/w_n36_n794#" "1BitCounter_3/via_m1_p_0/a_0_0#" -2.80561
+cap "via_m1_p_12/a_0_0#" "via_m1_p_8/a_0_0#" 25.7805
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_0/dffc_0/inverter_2/vss" 0.375731
+cap "via_m1_p_12/a_0_0#" "via_m1_p_0/a_0_0#" 1.58745
+cap "via_m1_p_8/a_0_0#" "1BitCounter_3/nand_1/Z" -0.660699
+cap "1BitCounter_0/w_n36_n794#" "via_m1_p_8/a_0_0#" 8.54227
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.167135
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_3/via_m1_p_0/a_0_0#" 50.1044
+cap "1BitCounter_0/w_n36_n794#" "via_m1_p_0/a_0_0#" 1.77636e-15
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "via_m1_p_8/a_0_0#" -69.0755
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "via_m1_p_0/a_0_0#" 0.194255
+cap "via_m1_p_8/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 0.0228407
+cap "1BitCounter_3/via_m1_p_0/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" -1.38778e-17
+cap "1BitCounter_3/a_n94_n709#" "via_m1_p_8/a_0_0#" 0.0247441
+cap "1BitCounter_0/w_n36_n794#" "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.00144818
+cap "via_m1_p_8/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.00667024
+cap "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" "via_m1_p_12/a_0_0#" 0.383414
+cap "1BitCounter_3/via_m1_p_0/a_0_0#" "via_m1_p_8/a_0_0#" 94.3458
+cap "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "via_m1_p_0/a_0_0#" -1.73472e-18
+cap "1BitCounter_0/w_n36_n794#" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.142678
+cap "1BitCounter_0/w_n36_n794#" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.335349
+cap "1BitCounter_3/nand_1/Z" "1BitCounter_0/via_m1_p_0/a_0_0#" 0.0835914
+cap "1BitCounter_0/w_n36_n794#" "1BitCounter_0/via_m1_p_0/a_0_0#" 0.20358
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.00359547
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.603784
+cap "1BitCounter_0/w_n36_n794#" "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n73_n150#" 4.44089e-16
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_0/via_m1_p_0/a_0_0#" 0.34273
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n73_n150#" 2.71127
+cap "1BitCounter_0/w_n36_n794#" "via_m1_p_12/a_0_0#" 3.43154
+cap "1BitCounter_0/w_n36_n794#" "1BitCounter_3/nand_1/Z" 2.89998
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.00367103
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "via_m1_p_12/a_0_0#" -179.945
+cap "1BitCounter_2/via_m1_p_1/a_0_0#" "1BitCounter_0/w_n36_n794#" 0.000436032
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_3/nand_1/Z" 6.12528
+cap "via_m1_p_12/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 0.0307573
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_0/w_n36_n794#" -57.7267
+cap "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" "via_m1_p_8/a_0_0#" 0.315809
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" 0.0112886
+cap "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" -0.0310107
+cap "1BitCounter_0/dffc_0/tg_0/vss" "via_m1_p_0/a_0_0#" -116.517
+cap "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" "1BitCounter_0/dffc_0/tg_2/vdd" 0.00252016
+cap "1BitCounter_0/via_m1_p_0/a_0_0#" "1BitCounter_3/nand_1/Z" 0.114434
+cap "via_m1_p_8/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.0372617
+cap "1BitCounter_3/nand_1/Z" "1BitCounter_0/dffc_0/tg_2/vdd" 3.14739
+cap "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_3/nand_1/Z" -3.4858
+cap "via_m1_p_8/a_0_0#" "1BitCounter_3/nand_1/Z" 5.77594
+cap "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" "via_m1_p_0/a_0_0#" 0.0531502
+cap "1BitCounter_0/via_m1_p_0/a_0_0#" "1BitCounter_0/a_n94_n709#" -3.73266
+cap "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_0/dffc_0/tg_2/vdd" 21.2523
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_0/dffc_0/tg_2/vdd" 232.239
+cap "via_m1_p_26/a_0_0#" "1BitCounter_0/a_n94_n709#" 0.0447055
+cap "via_m1_p_26/a_0_0#" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.168398
+cap "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 2.66516
+cap "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_0/a_n94_n709#" 84.2288
+cap "1BitCounter_3/nand_1/Z" "via_m1_p_0/a_0_0#" 0.0220404
+cap "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_3/xor_1/via_m1_p_3/a_0_0#" -0.0142427
+cap "via_m1_p_8/a_0_0#" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 1.88658
+cap "via_m1_p_8/a_0_0#" "1BitCounter_0/a_n94_n709#" 1.61641
+cap "via_m1_p_8/a_0_0#" "1BitCounter_3/xor_1/via_m1_p_3/a_0_0#" 0.0161129
+cap "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "via_m1_p_0/a_0_0#" 2.17813
+cap "via_m1_p_0/a_0_0#" "1BitCounter_0/a_n94_n709#" 10.5709
+cap "1BitCounter_0/via_m1_p_0/a_0_0#" "1BitCounter_0/dffc_0/tg_2/vdd" 6.91203
+cap "1BitCounter_0/via_m1_p_0/a_0_0#" "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 38.8483
+cap "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_0/dffc_0/tg_2/vdd" 72.1496
+cap "via_m1_p_26/a_0_0#" "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" -0.0903491
+cap "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" "1BitCounter_0/dffc_0/tg_2/vdd" 0.00428937
+cap "via_m1_p_8/a_0_0#" "1BitCounter_0/via_m1_p_0/a_0_0#" 2.36026
+cap "via_m1_p_8/a_0_0#" "1BitCounter_0/dffc_0/tg_2/vdd" 59.0967
+cap "via_m1_p_8/a_0_0#" "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 438.05
+cap "via_m1_p_8/a_0_0#" "via_m1_p_26/a_0_0#" -0.771208
+cap "via_m1_p_0/a_0_0#" "1BitCounter_0/dffc_0/tg_2/vdd" 22.6175
+cap "1BitCounter_0/via_m1_p_0/a_0_0#" "via_m1_p_0/a_0_0#" 358.705
+cap "via_m1_p_26/a_0_0#" "via_m1_p_0/a_0_0#" 1.54134
+cap "via_m1_p_8/a_0_0#" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" 0.0564105
+cap "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "via_m1_p_0/a_0_0#" 58.1771
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 2.15427
+cap "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n73_n150#" 0.00158179
+cap "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" "via_m1_p_0/a_0_0#" 0.0765087
+cap "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" "1BitCounter_0/dffc_0/tg_2/vdd" 0.0269353
+cap "via_m1_p_8/a_0_0#" "via_m1_p_0/a_0_0#" 52.0405
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_3/nand_1/Z" 0.395724
+cap "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_n255_n101#" "1BitCounter_0/a_n94_n709#" 0.0107119
+cap "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 0.00135863
+cap "via_m1_p_8/a_0_0#" "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.00109503
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 2.99479
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/a_n94_n709#" 9.16415
+cap "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" "via_m1_p_0/a_0_0#" 0.0447687
+cap "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" "1BitCounter_0/a_n94_n709#" 0.0686807
+cap "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.00953019
+cap "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" -0.0473602
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/tg_2/vdd" -45.0689
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/via_m1_p_0/a_0_0#" 35.2009
+cap "via_m1_p_8/a_0_0#" "1BitCounter_3/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.0714111
+cap "1BitCounter_3/nand_1/Z" "1BitCounter_0/a_n94_n709#" 4.79492
+cap "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" "1BitCounter_3/nand_1/Z" 5.02046
+cap "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" "via_m1_p_0/a_0_0#" 0.00682478
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_3/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 140.609
+cap "1BitCounter_0/dffc_0/tg_0/vss" "via_m1_p_8/a_0_0#" -70.3621
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 0.0228407
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.167135
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.338312
+cap "1BitCounter_0/dffc_0/tg_0/vss" "via_m1_p_9/a_0_0#" -41.1613
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_3/a_2073_n841#" 0.000430231
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/a_n94_n709#" 0.404297
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_0/nand_1/Z" -0.272195
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.007122
+cap "via_m1_p_0/a_0_0#" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 0.0310685
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/a_n94_n709#" 0.170638
+cap "1BitCounter_0/dffc_0/tg_0/vss" "via_m1_p_0/a_0_0#" -223.107
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" 0.0116361
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 0.000163182
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/inverter_1/vdd" -57.9926
+cap "via_m1_p_9/a_0_0#" "via_m1_p_0/a_0_0#" 28.1356
+cap "via_m1_p_0/a_0_0#" "1BitCounter_0/a_n94_n709#" 0.199884
+cap "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_0/a_0_0#" 0.00385775
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.00363632
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_NDWVGB_0/a_n73_n75#" 0.17775
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "via_m1_p_9/a_0_0#" 4.94801
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/via_m1_p_0/a_0_0#" 24.3333
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_0/a_n94_n709#" 0.0690625
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.631911
+cap "1BitCounter_0/via_m1_p_0/a_0_0#" "via_m1_p_9/a_0_0#" 45.8766
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "via_m1_p_0/a_0_0#" 3.54589
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n73_n150#" 2.71127
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/nand_1/Z" 2.84821
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_n129_n75#" 7.34235e-05
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.316521
+cap "1BitCounter_3/inverter_1/in" "1BitCounter_0/a_n94_n709#" 0.014046
+cap "1BitCounter_3/a_2073_n841#" "1BitCounter_0/a_n94_n709#" 0.0416055
+cap "1BitCounter_0/via_m1_p_0/a_0_0#" "via_m1_p_0/a_0_0#" 416.849
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/nand_1/Z" 0.370507
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/xor_1/sky130_fd_pr__nfet_01v8_4AWVGD_1/a_63_n75#" 3.58293
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.421533
+cap "via_m1_p_0/a_0_0#" "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.386532
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_0/via_m1_p_0/a_0_0#" -2.61665
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" 0.0720537
+cap "1BitCounter_0/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_0/dffc_0/tg_0/vss" 25.7689
+cap "1BitCounter_0/nand_1/Z" "1BitCounter_0/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" -6.41647
+cap "1BitCounter_0/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_351_n75#" -0.0473602
+cap "1BitCounter_0/inverter_1/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_0/dffc_0/inverter_1/vdd" -14.7039
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/dffc_0/inverter_1/vdd" 261.735
+cap "1BitCounter_0/inverter_1/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_9/a_0_0#" 73.6127
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" 0.0377278
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/xor_1/via_m1_p_3/a_0_0#" 0.016246
+cap "1BitCounter_0/nand_1/Z" "1BitCounter_0/dffc_0/tg_0/vss" 3.55519
+cap "1BitCounter_0/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_0/dffc_0/inverter_1/vdd" -84.2225
+cap "1BitCounter_0/xor_1/sky130_fd_pr__pfet_01v8_52LH9B_0/a_129_n101#" "1BitCounter_0/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" -0.0310107
+cap "1BitCounter_0/inverter_1/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_0/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" -39.8555
+cap "1BitCounter_0/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" "1BitCounter_0/xor_1/via_m1_p_3/a_0_0#" -0.0142427
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 450.452
+cap "via_m1_p_9/a_0_0#" "via_m1_p_27/a_0_0#" -0.850273
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/inverter_1/vdd" -16.4746
+cap "1BitCounter_0/inverter_1/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_0/dffc_0/tg_0/vss" 3.87499
+cap "1BitCounter_0/nand_1/Z" "1BitCounter_0/dffc_0/inverter_1/vdd" 0.456721
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/dffc_0/tg_0/vss" -52.0864
+cap "via_m1_p_27/a_0_0#" "1BitCounter_0/nand_1/sky130_fd_pr__nfet_01v8_EAKVGK_1/a_n15_n176#" 2.89181
+cap "1BitCounter_0/nand_1/Z" "via_m1_p_9/a_0_0#" 4.95885
+cap "1BitCounter_1/dffc_0/tg_0/vdd" "1BitCounter_1/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.0111476
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/inverter_2/in" 0.00148855
+cap "1BitCounter_1/dffc_0/tg_0/vss" "1BitCounter_1/dffc_0/tg_0/vdd" 0.000358315
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/inverter_0/in" 0.0224385
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.00483328
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.00369291
+cap "1BitCounter_1/dffc_0/tg_0/vdd" "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" -3.55271e-15
+cap "1BitCounter_1/dffc_0/tg_0/vss" "1BitCounter_1/dffc_0/inverter_2/in" 2.4387e-05
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.00153677
+cap "via_m1_p_6/a_0_0#" "via_m1_p_21/a_0_0#" -3.5003
+cap "via_m1_p_6/a_0_0#" "1BitCounter_1/nand_1/Z" -1.0102
+cap "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_2/dffc_0/inverter_2/in" 0.0412103
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/nor_1/B" 0.022851
+cap "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_1/dffc_0/inverter_2/in" 5.68434e-14
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.100298
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_2/a_n94_n709#" 1.40066
+cap "via_m1_p_16/a_0_0#" "via_m1_p_21/a_0_0#" 0.0107235
+cap "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_2/dffc_0/tg_1/vss" 3.12308e-05
+cap "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_2/a_n94_n709#" 1.31843
+cap "1BitCounter_1/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_2/a_n94_n709#" 0.0011525
+cap "1BitCounter_1/dffc_0/inverter_2/in" "via_m1_p_6/a_0_0#" 8.88178e-16
+cap "1BitCounter_1/dffc_0/tg_0/vout" "1BitCounter_2/dffc_0/tg_1/vdd" 0.101071
+cap "via_m1_p_6/a_0_0#" "1BitCounter_2/dffc_0/tg_1/vss" 0.0176201
+cap "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_2/a_n94_n709#" 0.0959391
+cap "via_m1_p_21/a_0_0#" "1BitCounter_1/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" 6.93889e-18
+cap "via_m1_p_6/a_0_0#" "1BitCounter_2/a_n94_n709#" 0.00289456
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/tg_1/vout" 2.70066
+cap "1BitCounter_1/dffc_0/inverter_2/in" "via_m1_p_21/a_0_0#" 2.22045e-16
+cap "1BitCounter_2/dffc_0/tg_1/vss" "via_m1_p_21/a_0_0#" 1.42109e-14
+cap "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_2/dffc_0/tg_1/vout" 3.3911
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 16.1651
+cap "1BitCounter_1/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_2/dffc_0/tg_1/vdd" 0.00107528
+cap "via_m1_p_6/a_0_0#" "via_m1_p_15/a_0_0#" -0.601673
+cap "1BitCounter_1/dffc_0/inverter_2/in" "1BitCounter_2/dffc_0/inverter_2/in" 1.74036
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.000950519
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/tg_0/vout" 0.00543101
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/dffc_0/inverter_2/in" 0.155156
+cap "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_2/dffc_0/tg_1/vdd" 0.290786
+cap "1BitCounter_1/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" "1BitCounter_2/a_n94_n709#" 0.00821279
+cap "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0945275
+cap "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" -3.55271e-15
+cap "via_m1_p_6/a_0_0#" "1BitCounter_2/dffc_0/tg_1/vdd" 29.9824
+cap "1BitCounter_1/dffc_0/inverter_2/in" "1BitCounter_2/a_n94_n709#" 0.156671
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/a_n94_n709#" 1.64059
+cap "via_m1_p_6/a_0_0#" "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" -8.88178e-16
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "via_m1_p_25/a_0_0#" 0.34457
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.00190373
+cap "1BitCounter_1/dffc_0/tg_0/vout" "1BitCounter_2/dffc_0/inverter_2/in" 0.00136846
+cap "1BitCounter_1/dffc_0/inverter_2/in" "1BitCounter_1/dffc_0/tg_0/vout" -2.84217e-14
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "via_m1_p_21/a_0_0#" 0.0568167
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0053
+cap "via_m1_p_21/a_0_0#" "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" -5.68434e-14
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_1/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" 0.126888
+cap "1BitCounter_1/dffc_0/tg_0/vout" "1BitCounter_2/a_n94_n709#" 0.00695296
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.000951753
+cap "via_m1_p_16/a_0_0#" "via_m1_p_6/a_0_0#" 0.00723853
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/inverter_2/in" 0.0113602
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/dffc_0/tg_1/vout" 2.37992
+cap "1BitCounter_1/dffc_0/inverter_2/in" "1BitCounter_2/dffc_0/tg_1/vdd" 1.83495
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/dffc_0/tg_1/vdd" 1.19713
+cap "via_m1_p_6/a_0_0#" "via_m1_p_25/a_0_0#" -0.455712
+cap "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_2/dffc_0/inverter_2/in" 0.155328
+cap "1BitCounter_1/dffc_0/inverter_2/in" "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" -1.42109e-14
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.103749
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/dffc_0/inverter_0/in" 0.624771
+cap "1BitCounter_2/dffc_0/tg_0/vss" "via_m1_p_7/a_0_0#" 0.883627
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.00294969
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/a_n94_n709#" 324.638
+cap "via_m1_p_7/a_0_0#" "via_m1_p_15/a_0_0#" 0.0139187
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.00662095
+cap "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_2/dffc_0/inverter_0/in" 3.39878
+cap "via_m1_p_15/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/in" 0.000109426
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.123642
+cap "1BitCounter_2/dffc_0/tg_0/vss" "1BitCounter_2/a_n94_n709#" 8.88178e-16
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_2/dffc_0/inverter_0/in" -8.88178e-16
+cap "1BitCounter_2/dffc_0/tg_0/vss" "via_m1_p_21/a_0_0#" 1.83832
+cap "1BitCounter_1/dffc_0/via_m1_p_11/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/in" 1.74425
+cap "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.109118
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/dffc_0/inverter_0/in" 1.16599
+cap "via_m1_p_16/a_0_0#" "1BitCounter_2/dffc_0/inverter_0/in" 0.0142163
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "via_m1_p_7/a_0_0#" -33.6857
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.00741326
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.206579
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "1BitCounter_2/dffc_0/inverter_2/in" 4.06955
+cap "via_m1_p_16/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.00482023
+cap "1BitCounter_2/dffc_0/tg_0/vss" "1BitCounter_2/dffc_0/inverter_0/in" 2.27445
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/in" 0.260122
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "1BitCounter_2/a_n94_n709#" 202.453
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "via_m1_p_21/a_0_0#" 129.53
+cap "1BitCounter_1/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_2/dffc_0/inverter_2/in" 0.175274
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/a_n94_n709#" 1.94855
+cap "via_m1_p_21/a_0_0#" "via_m1_p_7/a_0_0#" 49.1693
+cap "1BitCounter_2/dffc_0/tg_0/vss" "1BitCounter_2/dffc_0/tg_0/vdd" 0.0187183
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/in" 0.439684
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "1BitCounter_2/dffc_0/inverter_0/in" 9.41853
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "via_m1_p_15/a_0_0#" 0.00276464
+cap "via_m1_p_16/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/in" 0.00131177
+cap "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_3/a_n94_n709#" 0.00109836
+cap "1BitCounter_2/dffc_0/tg_0/vout" "1BitCounter_3/dffc_0/inverter_2/in" 0.00130859
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/nand_1/Z" -1.0102
+cap "via_m1_p_13/a_0_0#" "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 6.93889e-18
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.167147
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.00220219
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 4.3786e-05
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_7/a_0_0#" 0.00349865
+cap "1BitCounter_2/dffc_0/nor_1/B" "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" -1.77636e-15
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/dffc_0/inverter_2/in" 0.144968
+cap "via_m1_p_13/a_0_0#" "via_m1_p_4/a_0_0#" 0.0106903
+cap "1BitCounter_2/dffc_0/tg_0/vout" "1BitCounter_3/a_n94_n709#" 0.00650381
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/nor_1/B" 0.0227714
+cap "1BitCounter_3/dffc_0/tg_1/vss" "via_m1_p_21/a_0_0#" 0.0153497
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/tg_0/vout" 0.101974
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_3/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.000911124
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_3/dffc_0/inverter_2/in" 0.0106785
+cap "via_m1_p_15/a_0_0#" "via_m1_p_7/a_0_0#" -0.455712
+cap "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_3/dffc_0/inverter_2/in" 0.146521
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/a_n94_n709#" 0.600117
+cap "via_m1_p_7/a_0_0#" "1BitCounter_3/a_n94_n709#" 0.00272234
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.00388641
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/inverter_0/in" 0.00077842
+cap "via_m1_p_13/a_0_0#" "via_m1_p_7/a_0_0#" -0.994449
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/dffc_0/tg_1/vdd" 0.466099
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "via_m1_p_7/a_0_0#" 1.11913
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/dffc_0/tg_3/vout" 2.32307
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_3/a_n94_n709#" 0.0902981
+cap "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_3/a_n94_n709#" 1.19798
+cap "via_m1_p_7/a_0_0#" "via_m1_p_12/a_0_0#" -0.616776
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.00368275
+cap "via_m1_p_13/a_0_0#" "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" -5.68434e-14
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.320835
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 16.3178
+cap "1BitCounter_2/dffc_0/inverter_2/in" "via_m1_p_7/a_0_0#" 0.00306912
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" 0.00518775
+cap "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_3/dffc_0/tg_3/vout" 2.04551
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_3/dffc_0/inverter_2/in" 0.0108703
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/tg_0/vout" 0.00541207
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_2/dffc_0/inverter_2/in" -5.68434e-14
+cap "via_m1_p_7/a_0_0#" "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.0194573
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "via_m1_p_15/a_0_0#" 0.378095
+cap "1BitCounter_2/dffc_0/inverter_2/in" "1BitCounter_3/dffc_0/inverter_2/in" 1.69783
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_3/a_n94_n709#" 1.2283
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0952876
+cap "1BitCounter_2/dffc_0/inverter_0/in" "via_m1_p_4/a_0_0#" 0.00814651
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" 0.00568541
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/in" 0.00338041
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "via_m1_p_13/a_0_0#" 0.031467
+cap "via_m1_p_4/a_0_0#" "via_m1_p_7/a_0_0#" 0.00721586
+cap "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" -2.77556e-17
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.000909968
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_3/dffc_0/tg_3/vout" 2.63906
+cap "1BitCounter_2/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" "1BitCounter_3/a_n94_n709#" 0.00777743
+cap "1BitCounter_2/dffc_0/inverter_2/in" "1BitCounter_3/a_n94_n709#" 0.145477
+cap "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0902626
+cap "via_m1_p_13/a_0_0#" "1BitCounter_2/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" 6.93889e-18
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_4/a_0_0#" 0.00528617
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.00189842
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/inverter_2/in" 1.87184
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" 0.166042
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.0215111
+cap "via_m1_p_12/a_0_0#" "via_m1_p_7/a_0_0#" 0.0290211
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_3/dffc_0/tg_0/vdd" 0.00591147
+cap "1BitCounter_3/dffc_0/inverter_0/in" "1BitCounter_3/dffc_0/tg_0/vss" 2.22265
+cap "via_m1_p_4/a_0_0#" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.00480723
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/tg_0/vss" 1.63193
+cap "1BitCounter_3/a_n94_n709#" "via_m1_p_7/a_0_0#" 1.57579
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_3/dffc_0/tg_0/vdd" 0.620434
+cap "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_3/dffc_0/inverter_0/in" 2.05991
+cap "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.10432
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/inverter_2/in" 0.396086
+cap "1BitCounter_3/dffc_0/inverter_0/in" "via_m1_p_7/a_0_0#" 0.590509
+cap "via_m1_p_13/a_0_0#" "via_m1_p_7/a_0_0#" 46.1211
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_3/dffc_0/tg_0/vdd" 3.92438
+cap "via_m1_p_7/a_0_0#" "1BitCounter_3/dffc_0/tg_0/vdd" 35.1255
+cap "via_m1_p_4/a_0_0#" "1BitCounter_3/dffc_0/inverter_2/in" 0.00113544
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_3/dffc_0/inverter_0/in" -8.88178e-16
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_7/a_0_0#" 0.11579
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/a_n94_n709#" 217.476
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_3/dffc_0/tg_0/vdd" 230.063
+cap "via_m1_p_7/a_0_0#" "1BitCounter_3/dffc_0/tg_0/vss" 0.807885
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_3/dffc_0/tg_0/vss" 0.850651
+cap "1BitCounter_2/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_3/dffc_0/inverter_2/in" 0.165623
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/inverter_0/in" 1.10279
+cap "1BitCounter_3/dffc_0/inverter_0/in" "1BitCounter_3/dffc_0/tg_0/vdd" 9.59525
+cap "via_m1_p_4/a_0_0#" "1BitCounter_3/dffc_0/inverter_0/in" 0.00424735
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_3/dffc_0/inverter_0/in" 2.84217e-14
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/tg_0/vdd" 157.549
+cap "1BitCounter_2/dffc_0/a_58_n650#" "1BitCounter_3/dffc_0/inverter_2/in" 1.70154
+cap "1BitCounter_3/dffc_0/inverter_2/in" "via_m1_p_7/a_0_0#" 0.234975
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.193452
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/dffc_0/tg_3/vout" 0.242081
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_0/dffc_0/inverter_2/in" 1.63848
+cap "1BitCounter_3/dffc_0/inverter_0/in" "1BitCounter_0/dffc_0/inverter_2/vdd" 0.00314331
+cap "via_m1_p_8/a_0_0#" "via_m1_p_12/a_0_0#" -0.455712
+cap "via_m1_p_8/a_0_0#" "1BitCounter_3/nand_1/Z" -1.0102
+cap "1BitCounter_3/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" "1BitCounter_0/a_n94_n709#" 0.00767997
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0579324
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" -5.68434e-14
+cap "1BitCounter_3/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" "via_m1_p_13/a_0_0#" 0.00543865
+cap "1BitCounter_3/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "via_m1_p_5/a_0_0#" 0.00367263
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_0/a_n94_n709#" 0.143015
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/dffc_0/inverter_2/vdd" 12.3188
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_3/dffc_0/inverter_2/in" -5.68434e-14
+cap "1BitCounter_3/dffc_0/inverter_2/in" "via_m1_p_13/a_0_0#" 0.00702863
+cap "1BitCounter_0/dffc_0/inverter_2/vdd" "1BitCounter_0/a_n94_n709#" 0.00853723
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_0/dffc_0/inverter_2/vdd" 0.34274
+cap "via_m1_p_8/a_0_0#" "via_m1_p_5/a_0_0#" 0.00719329
+cap "1BitCounter_3/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/a_n94_n709#" 0.00108618
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/dffc_0/inverter_2/in" 0.00129507
+cap "1BitCounter_3/dffc_0/tg_0/vout" "via_m1_p_5/a_0_0#" 0.00539323
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/dffc_0/inverter_2/vss" 0.0028693
+cap "1BitCounter_3/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "via_m1_p_13/a_0_0#" 0.0275437
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "via_m1_p_8/a_0_0#" 8.88178e-16
+cap "via_m1_p_8/a_0_0#" "1BitCounter_0/a_n94_n709#" 0.00268403
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_0/dffc_0/inverter_2/vss" 5.63773e-05
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_8/a_0_0#" 0.00334002
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "via_m1_p_13/a_0_0#" 0.00806701
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/a_n94_n709#" 0.00640442
+cap "1BitCounter_3/dffc_0/inverter_0/in" "via_m1_p_5/a_0_0#" 0.0180402
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/dffc_0/inverter_2/in" 0.0929725
+cap "1BitCounter_3/dffc_0/nor_1/B" "1BitCounter_3/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" -1.77636e-15
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "via_m1_p_5/a_0_0#" 0.00189312
+cap "1BitCounter_3/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" "1BitCounter_0/dffc_0/inverter_2/vdd" 0.172523
+cap "1BitCounter_3/dffc_0/inverter_2/in" "via_m1_p_20/a_0_0#" -1.11022e-15
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_5/a_0_0#" 0.0052724
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_0/dffc_0/inverter_2/vdd" 2.04036
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/a_n94_n709#" 0.792393
+cap "1BitCounter_3/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "via_m1_p_20/a_0_0#" 6.93889e-18
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_0/a_n94_n709#" 0.0890425
+cap "1BitCounter_3/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/dffc_0/inverter_2/vdd" 0.284769
+cap "1BitCounter_3/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" "via_m1_p_8/a_0_0#" 0.00112454
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_13/a_0_0#" 0.00369881
+cap "1BitCounter_3/dffc_0/inverter_2/in" "via_m1_p_8/a_0_0#" 0.00520843
+cap "via_m1_p_8/a_0_0#" "via_m1_p_20/a_0_0#" -0.898449
+cap "1BitCounter_0/dffc_0/inverter_2/vdd" "1BitCounter_0/dffc_0/inverter_2/vss" 0.015195
+cap "via_m1_p_8/a_0_0#" "1BitCounter_0/dffc_0/inverter_2/vdd" 0.753061
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_3/dffc_0/tg_0/vout" -2.84217e-14
+cap "1BitCounter_3/dffc_0/nor_1/B" "via_m1_p_5/a_0_0#" 0.0226923
+cap "1BitCounter_3/dffc_0/inverter_2/in" "via_m1_p_12/a_0_0#" 0.000146082
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/dffc_0/inverter_2/vdd" 0.103981
+cap "1BitCounter_3/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "via_m1_p_8/a_0_0#" 0.0249091
+cap "1BitCounter_0/dffc_0/inverter_2/vdd" "via_m1_p_12/a_0_0#" 0.308918
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/dffc_0/inverter_2/in" 0.00146779
+cap "via_m1_p_8/a_0_0#" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.11405
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_0/dffc_0/inverter_2/in" -1.11022e-16
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "via_m1_p_20/a_0_0#" 163.24
+cap "via_m1_p_20/a_0_0#" "via_m1_p_5/a_0_0#" 0.0106573
+cap "via_m1_p_20/a_0_0#" "1BitCounter_0/dffc_0/inverter_2/in" 0.387558
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.000901942
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/inverter_0/in" 2.59577
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/dffc_0/tg_0/vdd" 4.02745
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/tg_0/vdd" 1.0528
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/dffc_0/inverter_2/in" 0.215052
+cap "via_m1_p_20/a_0_0#" "1BitCounter_0/a_n94_n709#" 201.802
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.00300603
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/inverter_2/in" 0.144674
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "via_m1_p_8/a_0_0#" 1.01932
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/a_n94_n709#" 0.379607
+cap "via_m1_p_8/a_0_0#" "1BitCounter_0/dffc_0/inverter_2/in" 0.230051
+cap "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_0/dffc_0/inverter_2/in" -7.10543e-15
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_3/dffc_0/via_m1_p_8/a_0_0#" 0.00480721
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/a_n94_n709#" 1.41893
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "via_m1_p_20/a_0_0#" -1.42109e-14
+cap "via_m1_p_8/a_0_0#" "1BitCounter_0/a_n94_n709#" 1.50204
+cap "1BitCounter_0/dffc_0/tg_0/vss" "via_m1_p_20/a_0_0#" 1.58319
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.000900804
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/dffc_0/inverter_0/in" 1.83411
+cap "via_m1_p_20/a_0_0#" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.190547
+cap "via_m1_p_20/a_0_0#" "via_m1_p_8/a_0_0#" 45.4827
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/inverter_0/in" 2.34181
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/inverter_2/in" 3.86449
+cap "1BitCounter_3/dffc_0/a_58_n650#" "1BitCounter_0/dffc_0/inverter_2/in" 1.64368
+cap "1BitCounter_3/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.131952
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0953129
+cap "1BitCounter_0/dffc_0/tg_0/vss" "via_m1_p_8/a_0_0#" 0.7858
+cap "via_m1_p_8/a_0_0#" "via_m1_p_0/a_0_0#" -0.587643
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/a_n94_n709#" 236.637
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/inverter_0/in" 2.23972
+cap "via_m1_p_20/a_0_0#" "1BitCounter_0/dffc_0/inverter_2/in" 0.00694764
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 5.63773e-05
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/dffc_0/inverter_2/in" 0.0051508
+cap "1BitCounter_0/dffc_0/inverter_2/in" "via_m1_p_0/a_0_0#" 0.000182827
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/inverter_2/in" 0.0601135
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.00963677
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_0/dffc_0/inverter_0/in" 8.88178e-16
+cap "via_m1_p_9/a_0_0#" "via_m1_p_0/a_0_0#" -0.455712
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/tg_0/vout" 0.0117
+cap "via_m1_p_20/a_0_0#" "1BitCounter_0/dffc_0/inverter_0/in" 1.09447
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "via_m1_p_9/a_0_0#" 0.402
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/dffc_0/inverter_0/in" 0.582854
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/inverter_2/in" 2.4387e-05
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "via_m1_p_0/a_0_0#" 0.378252
+cap "via_m1_p_20/a_0_0#" "1BitCounter_0/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" 0.00538291
+cap "via_m1_p_20/a_0_0#" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.00365663
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/inverter_0/in" 9.60775
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.00330426
+cap "1BitCounter_0/dffc_0/inverter_0/in" "1BitCounter_3/dffc_0/tg_2/via_m1_p_1/a_0_0#" 2.09153
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/nor_1/sky130_fd_pr__pfet_01v8_52K3FE_0/a_15_n150#" 0.0464807
+cap "via_m1_p_20/a_0_0#" "1BitCounter_0/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.0272331
+cap "via_m1_p_20/a_0_0#" "1BitCounter_0/dffc_0/tg_0/vss" 0.00464732
+cap "via_m1_p_19/a_0_0#" "via_m1_p_9/a_0_0#" -0.898449
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.0246454
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.265236
+cap "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_0/dffc_0/inverter_0/in" -5.68434e-14
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/tg_3/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.273213
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/tg_0/vss" 0.0153648
+cap "1BitCounter_0/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" "1BitCounter_0/dffc_0/tg_0/vss" 0.0028693
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/nand_1/Z" -1.0102
+cap "via_m1_p_9/a_0_0#" "1BitCounter_0/dffc_0/inverter_1/vdd" 63.4015
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_0/dffc_0/tg_2/sky130_fd_pr__pfet_01v8_ZB94FE_0/a_n73_n150#" 0.0394125
+cap "via_m1_p_9/a_0_0#" "via_m1_p_19/a_0_0#" 45.4351
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "via_m1_p_19/a_0_0#" -29.018
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/inverter_0/in" 0.134415
+cap "1BitCounter_1/a_n94_n709#" "1BitCounter_1/dffc_0/inverter_2/in" -1.76407
+cap "1BitCounter_1/dffc_0/tg_0/vdd" "via_m1_p_21/a_0_0#" 0.000251655
+cap "1BitCounter_1/a_n94_n709#" "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" -2.84217e-14
+cap "1BitCounter_1/a_n94_n709#" "1BitCounter_1/dffc_0/tg_0/vdd" -47.4395
+cap "1BitCounter_1/dffc_0/tg_0/vss" "1BitCounter_1/dffc_0/tg_0/vdd" -1.58532
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/a_n94_n709#" 206.061
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/tg_0/vss" 2.68199
+cap "1BitCounter_1/dffc_0/inverter_2/in" "1BitCounter_1/dffc_0/tg_0/vdd" -2.19986
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/inverter_2/in" 19.1552
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 3.08601
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/tg_0/vdd" 899.557
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.000626765
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0412058
+cap "via_m1_p_21/a_0_0#" "1BitCounter_1/dffc_0/inverter_2/in" 0.0802407
+cap "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_1/dffc_0/tg_0/vout" -7.10543e-15
+cap "1BitCounter_1/dffc_0/inverter_2/in" "1BitCounter_2/a_n94_n709#" 0.0547059
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 5.61763
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/dffc_0/tg_1/vdd" 0.584219
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_1/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 0.04
+cap "1BitCounter_2/dffc_0/inverter_2/in" "1BitCounter_1/dffc_0/nor_0/A" 0.126977
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0694664
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_1/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 6.58491
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/tg_0/vout" 1.2407
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/in" 0.28286
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_1/dffc_0/nor_0/A" 0.0158281
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "via_m1_p_16/a_0_0#" 666.364
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_1/dffc_0/nor_0/A" -3.55271e-15
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_1/dffc_0/tg_0/vout" 0.00816257
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/dffc_0/inverter_2/in" 2.45821
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/a_n94_n709#" 1.71156
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/inverter_2/in" 0.235968
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_1/dffc_0/nor_1/B" 0.0626306
+cap "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_2/dffc_0/inverter_2/in" 0.039738
+cap "1BitCounter_2/dffc_0/inverter_2/in" "1BitCounter_1/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 3.42933
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_2/a_n94_n709#" 0.762894
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_1/dffc_0/inverter_2/in" 0.362432
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/nor_0/A" 0.436619
+cap "1BitCounter_1/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_2/a_n94_n709#" 0.077019
+cap "1BitCounter_1/dffc_0/tg_0/vout" "1BitCounter_1/dffc_0/nor_0/A" 1.42109e-14
+cap "1BitCounter_2/dffc_0/inverter_2/in" "1BitCounter_1/dffc_0/tg_0/vout" 0.0060971
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_1/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 5.12058
+cap "via_m1_p_21/a_0_0#" "via_m1_p_16/a_0_0#" 35.2831
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/nor_1/B" 0.390163
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_1/dffc_0/nor_0/A" 0.0160311
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_1/dffc_0/tg_0/vout" 0.246391
+cap "via_m1_p_21/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.532181
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/inverter_0/in" 0.201197
+cap "1BitCounter_2/dffc_0/tg_1/vss" "via_m1_p_16/a_0_0#" 0.0916616
+cap "1BitCounter_1/dffc_0/inverter_2/in" "1BitCounter_2/dffc_0/inverter_2/in" 0.896579
+cap "1BitCounter_2/dffc_0/tg_1/vdd" "via_m1_p_21/a_0_0#" 2.07459
+cap "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_1/dffc_0/tg_0/vout" 0.149374
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_1/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 5.1471
+cap "1BitCounter_1/dffc_0/tg_0/vout" "1BitCounter_2/a_n94_n709#" 0.317611
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "via_m1_p_21/a_0_0#" 23.0648
+cap "1BitCounter_2/dffc_0/inverter_2/in" "via_m1_p_21/a_0_0#" 1.91455
+cap "1BitCounter_1/dffc_0/via_m1_p_3/a_0_0#" "via_m1_p_21/a_0_0#" 0.0802407
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/tg_0/vdd" 3.60426
+cap "1BitCounter_2/dffc_0/inverter_2/in" "1BitCounter_2/dffc_0/tg_0/vdd" -2.61298
+cap "1BitCounter_2/dffc_0/tg_0/vss" "via_m1_p_21/a_0_0#" 1.61343
+cap "1BitCounter_1/dffc_0/via_m1_p_3/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/in" 0.894401
+cap "1BitCounter_1/dffc_0/nor_1/B" "1BitCounter_2/a_n94_n709#" 0.0654588
+cap "via_m1_p_16/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 3.061
+cap "1BitCounter_2/dffc_0/tg_0/vss" "1BitCounter_2/dffc_0/tg_0/vdd" -1.4892
+cap "1BitCounter_1/dffc_0/nor_0/A" "via_m1_p_21/a_0_0#" -2.84217e-14
+cap "1BitCounter_2/a_n94_n709#" "via_m1_p_21/a_0_0#" 142.501
+cap "1BitCounter_1/dffc_0/nor_0/A" "1BitCounter_2/dffc_0/tg_0/vdd" 1.10681
+cap "1BitCounter_1/dffc_0/nor_0/A" "1BitCounter_2/dffc_0/inverter_2/in" 2.22628
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 4.92447
+cap "1BitCounter_2/dffc_0/inverter_2/in" "1BitCounter_2/dffc_0/tg_0/vss" 2.49384
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_2/dffc_0/tg_0/vdd" -46.6251
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_2/dffc_0/inverter_2/in" -2.20348
+cap "1BitCounter_1/dffc_0/via_m1_p_3/a_0_0#" "1BitCounter_2/a_n94_n709#" 0.00483705
+cap "1BitCounter_1/dffc_0/nor_0/A" "1BitCounter_2/dffc_0/tg_0/vss" 0.776176
+cap "1BitCounter_1/dffc_0/tg_0/vout" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0347429
+cap "1BitCounter_1/dffc_0/nor_0/A" "1BitCounter_2/a_n94_n709#" 2.22011
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_2/dffc_0/tg_0/vss" 0.0161661
+cap "via_m1_p_16/a_0_0#" "via_m1_p_21/a_0_0#" 147.441
+cap "via_m1_p_16/a_0_0#" "1BitCounter_2/dffc_0/tg_0/vdd" 799.453
+cap "via_m1_p_16/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/in" 21.4715
+cap "1BitCounter_1/dffc_0/tg_0/vdd" "via_m1_p_21/a_0_0#" 9.08259
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_1/dffc_0/inverter_0/in" 0.000974975
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_21/a_0_0#" 0.726362
+cap "1BitCounter_1/dffc_0/tg_0/vdd" "1BitCounter_2/dffc_0/tg_0/vdd" 8.18457
+cap "1BitCounter_2/dffc_0/inverter_2/in" "1BitCounter_1/dffc_0/tg_0/vdd" 2.73951
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_2/dffc_0/tg_0/vdd" 0.000178981
+cap "1BitCounter_1/dffc_0/nor_0/A" "1BitCounter_2/dffc_0/inverter_0/in" 0.0460847
+cap "via_m1_p_16/a_0_0#" "1BitCounter_2/dffc_0/tg_0/vss" 2.55299
+cap "via_m1_p_16/a_0_0#" "1BitCounter_1/dffc_0/nor_0/A" 0.397148
+cap "via_m1_p_16/a_0_0#" "1BitCounter_2/a_n94_n709#" 210.045
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "1BitCounter_1/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 2.41642
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_1/dffc_0/tg_0/vdd" 3.70648
+cap "1BitCounter_2/dffc_0/inverter_2/in" "1BitCounter_1/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 3.41469
+cap "1BitCounter_1/dffc_0/nor_0/A" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.27456
+cap "1BitCounter_1/dffc_0/tg_0/vout" "1BitCounter_2/dffc_0/inverter_2/in" 0.0834066
+cap "1BitCounter_2/a_n94_n709#" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" -2.84217e-14
+cap "1BitCounter_1/dffc_0/tg_0/vout" "1BitCounter_2/dffc_0/tg_0/vss" 0.16468
+cap "1BitCounter_2/dffc_0/tg_0/vout" "1BitCounter_3/dffc_0/tg_1/vss" 0.145746
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/inverter_2/in" 0.345602
+cap "1BitCounter_2/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" "1BitCounter_3/dffc_0/inverter_2/in" 3.32045
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.51575
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/a_n94_n709#" 0.576782
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/tg_0/vout" 0.00771278
+cap "1BitCounter_2/dffc_0/inverter_2/in" "1BitCounter_3/dffc_0/inverter_2/in" 0.877294
+cap "1BitCounter_2/dffc_0/tg_0/vout" "1BitCounter_3/dffc_0/inverter_2/in" 0.00398373
+cap "1BitCounter_2/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" "1BitCounter_3/a_n94_n709#" 3.84863
+cap "via_m1_p_4/a_0_0#" "via_m1_p_13/a_0_0#" 0.595968
+cap "1BitCounter_2/dffc_0/inverter_2/in" "1BitCounter_3/a_n94_n709#" 0.0515634
+cap "1BitCounter_2/dffc_0/inverter_0/in" "via_m1_p_21/a_0_0#" 0.00448998
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/inverter_0/in" 0.333053
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/tg_1/vss" 5.68434e-14
+cap "1BitCounter_2/dffc_0/tg_0/vout" "1BitCounter_3/a_n94_n709#" 0.237779
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/nor_0/A" 0.377954
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "via_m1_p_13/a_0_0#" 1.30313
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0393705
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/inverter_2/in" 0.265749
+cap "1BitCounter_2/dffc_0/inverter_2/in" "via_m1_p_13/a_0_0#" 0.0800801
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.000597046
+cap "1BitCounter_2/dffc_0/inverter_0/in" "1BitCounter_1/dffc_0/a_1462_n288#" 0.00346061
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/nor_1/B" 0.38677
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/nor_0/A" 0.015473
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0658331
+cap "1BitCounter_2/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0380163
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/a_n94_n709#" 1.6117
+cap "1BitCounter_2/dffc_0/nor_0/A" "1BitCounter_3/dffc_0/inverter_2/in" 0.123151
+cap "via_m1_p_4/a_0_0#" "1BitCounter_3/dffc_0/tg_1/vss" 0.0856269
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_3/dffc_0/inverter_2/in" 0.00910813
+cap "1BitCounter_1/dffc_0/a_1764_n1164#" "1BitCounter_2/dffc_0/inverter_0/in" 0.00174512
+cap "1BitCounter_2/dffc_0/tg_0/vout" "1BitCounter_2/dffc_0/nor_0/A" 1.42109e-14
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "via_m1_p_4/a_0_0#" 731.016
+cap "1BitCounter_2/dffc_0/nor_0/A" "1BitCounter_3/a_n94_n709#" 0.0143501
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 5.2103
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_2/dffc_0/tg_0/vout" -7.10543e-15
+cap "1BitCounter_2/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_3/a_n94_n709#" 0.0726162
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_3/dffc_0/tg_1/vss" 0.464369
+cap "1BitCounter_1/dffc_0/nor_0/grid_0/w_n61_476#" "1BitCounter_2/dffc_0/inverter_0/in" 0.00210825
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/inverter_2/in" 0.233089
+cap "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_3/dffc_0/inverter_2/in" 2.37983
+cap "1BitCounter_2/dffc_0/nor_1/B" "1BitCounter_3/a_n94_n709#" 0.0609341
+cap "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 6.18315
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/tg_0/vout" 1.23005
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/dffc_0/a_142_272#" 0.00455497
+cap "1BitCounter_3/dffc_0/tg_0/vdd" "1BitCounter_2/dffc_0/nor_0/A" 0.934188
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "via_m1_p_13/a_0_0#" 9.68271
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_2/dffc_0/nor_0/A" 0.25734
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_2/dffc_0/tg_0/vout" 0.0792203
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 3.86846
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 4.59779
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "1BitCounter_3/dffc_0/inverter_2/in" 2.56363
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/a_n94_n709#" 94.5039
+cap "1BitCounter_3/dffc_0/tg_0/vdd" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.000459086
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_2/dffc_0/nor_0/A" 0.68025
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_3/dffc_0/tg_0/vdd" -1.3501
+cap "via_m1_p_13/a_0_0#" "via_m1_p_4/a_0_0#" 140.213
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_3/dffc_0/inverter_2/in" -2.6429
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/dffc_0/tg_0/vout" 0.302983
+cap "1BitCounter_3/dffc_0/inverter_2/in" "via_m1_p_4/a_0_0#" 23.6946
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "1BitCounter_3/a_n94_n709#" 3.21333
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "via_m1_p_4/a_0_0#" 4.08243
+cap "1BitCounter_3/dffc_0/tg_0/vdd" "1BitCounter_2/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 2.31958
+cap "1BitCounter_3/a_n94_n709#" "via_m1_p_4/a_0_0#" 199.853
+cap "1BitCounter_3/dffc_0/tg_0/vdd" "via_m1_p_13/a_0_0#" 20.7596
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_2/dffc_0/nor_0/A" 2.08884
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.696094
+cap "1BitCounter_3/dffc_0/tg_0/vdd" "1BitCounter_3/dffc_0/inverter_2/in" -3.04744
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/dffc_0/inverter_0/in" 0.000931463
+cap "1BitCounter_2/dffc_0/tg_0/vdd" "1BitCounter_3/dffc_0/tg_0/vdd" 10.3872
+cap "1BitCounter_3/dffc_0/tg_0/vss" "via_m1_p_13/a_0_0#" 1.40461
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_2/dffc_0/tg_0/vout" 0.03324
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/dffc_0/nor_0/A" 1.82159
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_3/dffc_0/inverter_2/in" 2.41327
+cap "via_m1_p_4/a_0_0#" "1BitCounter_2/dffc_0/nor_0/A" 0.414263
+cap "1BitCounter_3/dffc_0/tg_0/vdd" "1BitCounter_3/a_n94_n709#" -45.5697
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_2/dffc_0/tg_0/vout" 0.160179
+cap "via_m1_p_13/a_0_0#" "1BitCounter_2/dffc_0/a_142_272#" 0.0800801
+cap "1BitCounter_3/dffc_0/tg_0/vdd" "via_m1_p_4/a_0_0#" 692.269
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_2/dffc_0/a_142_272#" 0.875529
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/dffc_0/nor_1/B" 0.0636189
+cap "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_3/a_n94_n709#" 0.0845018
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_4/a_0_0#" 2.22319
+cap "1BitCounter_3/dffc_0/tg_0/vss" "via_m1_p_4/a_0_0#" 2.40996
+cap "1BitCounter_3/dffc_0/inverter_0/in" "1BitCounter_2/dffc_0/nor_0/A" 0.0440106
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_2/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 3.29405
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/inverter_2/in" 1.72591
+cap "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_20/a_0_0#" 0.000982659
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/a_n94_n709#" 0.235838
+cap "1BitCounter_3/dffc_0/inverter_2/in" "via_m1_p_5/a_0_0#" 0.249853
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" -1.42109e-14
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "via_m1_p_5/a_0_0#" 0.0823015
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/dffc_0/a_1764_n1164#" 0.00440428
+cap "1BitCounter_0/dffc_0/inverter_2/in" "1BitCounter_3/dffc_0/inverter_2/in" 0.888698
+cap "1BitCounter_0/dffc_0/inverter_2/vdd" "via_m1_p_20/a_0_0#" 0.175848
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/dffc_0/inverter_2/vss" 0.127375
+cap "1BitCounter_0/dffc_0/inverter_2/in" "1BitCounter_0/dffc_0/inverter_2/vss" 2.32108
+cap "1BitCounter_3/dffc_0/nor_0/A" "via_m1_p_5/a_0_0#" 0.374875
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_2/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_0/w_n109_n212#" 0.00613233
+cap "1BitCounter_3/a_n94_n709#" "via_m1_p_5/a_0_0#" 3.24998
+cap "1BitCounter_3/dffc_0/nor_0/A" "1BitCounter_0/dffc_0/inverter_2/in" 0.122284
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_3/dffc_0/inverter_2/in" 0.050863
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_0/dffc_0/inverter_2/vss" 0.563766
+cap "via_m1_p_20/a_0_0#" "via_m1_p_5/a_0_0#" 0.0124687
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/inverter_2/in" 0.00351468
+cap "1BitCounter_3/dffc_0/nor_1/B" "via_m1_p_5/a_0_0#" 0.383419
+cap "1BitCounter_3/dffc_0/inverter_0/in" "1BitCounter_2/dffc_0/a_1764_n1164#" 0.00166652
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_2/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_0/w_n109_n212#" 0.150749
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_0/dffc_0/inverter_2/vdd" 0.0650194
+cap "1BitCounter_0/dffc_0/inverter_2/in" "via_m1_p_20/a_0_0#" 0.0759968
+cap "1BitCounter_3/dffc_0/nor_0/A" "1BitCounter_0/a_n94_n709#" 0.0140317
+cap "1BitCounter_3/dffc_0/inverter_0/in" "via_m1_p_5/a_0_0#" 0.330512
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/a_n94_n709#" 0.330342
+cap "1BitCounter_0/dffc_0/inverter_2/vdd" "via_m1_p_5/a_0_0#" 715.56
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_3/dffc_0/inverter_2/in" -5.68434e-14
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/dffc_0/inverter_2/vdd" 0.00761235
+cap "1BitCounter_0/a_n94_n709#" "via_m1_p_20/a_0_0#" 0.0116135
+cap "1BitCounter_3/dffc_0/nor_1/B" "1BitCounter_0/a_n94_n709#" 0.0605482
+cap "1BitCounter_3/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" "via_m1_p_5/a_0_0#" 0.00541198
+cap "1BitCounter_3/dffc_0/inverter_2/in" "via_m1_p_20/a_0_0#" 0.0800801
+cap "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_5/a_0_0#" 0.863254
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "via_m1_p_20/a_0_0#" 1.13687e-13
+cap "via_m1_p_13/a_0_0#" "1BitCounter_3/dffc_0/inverter_0/in" 0.00629153
+cap "1BitCounter_3/dffc_0/tg_0/vout" "via_m1_p_5/a_0_0#" 1.2201
+cap "1BitCounter_3/dffc_0/inverter_2/in" "1BitCounter_0/dffc_0/inverter_2/vdd" 0.324219
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/dffc_0/inverter_2/in" 0.00375166
+cap "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_0/dffc_0/inverter_2/vdd" 0.45521
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_3/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0716347
+cap "1BitCounter_3/dffc_0/nor_0/A" "1BitCounter_0/dffc_0/inverter_2/vdd" 0.0152583
+cap "1BitCounter_3/a_n94_n709#" "1BitCounter_0/dffc_0/inverter_2/vdd" -0.826875
+cap "1BitCounter_3/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" "via_m1_p_20/a_0_0#" -2.84217e-14
+cap "1BitCounter_3/dffc_0/nor_0/A" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.258333
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/dffc_0/inverter_2/in" 0.0813737
+cap "via_m1_p_5/a_0_0#" "1BitCounter_3/dffc_0/tg_0/vdd" 101.886
+cap "1BitCounter_3/dffc_0/a_142_272#" "via_m1_p_20/a_0_0#" 0.0800801
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/a_n94_n709#" 0.0709894
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_3/dffc_0/tg_0/vdd" 11.5152
+cap "via_m1_p_5/a_0_0#" "1BitCounter_0/a_n94_n709#" 191.728
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_0/dffc_0/tg_0/vdd" -45.3595
+cap "via_m1_p_5/a_0_0#" "1BitCounter_3/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" 9.87516
+cap "1BitCounter_3/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" "1BitCounter_0/dffc_0/tg_0/vdd" 8.25017
+cap "1BitCounter_3/dffc_0/nor_0/A" "1BitCounter_0/a_n94_n709#" 1.67558
+cap "1BitCounter_0/dffc_0/inverter_2/in" "via_m1_p_20/a_0_0#" 1.94626
+cap "1BitCounter_3/dffc_0/inverter_0/in" "1BitCounter_0/a_n94_n709#" 0.000460824
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/dffc_0/tg_0/vss" 0.139262
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/inverter_2/in" 2.35569
+cap "via_m1_p_5/a_0_0#" "1BitCounter_0/dffc_0/inverter_2/in" 11.5643
+cap "1BitCounter_0/dffc_0/inverter_2/in" "1BitCounter_0/dffc_0/tg_0/vdd" -0.89506
+cap "1BitCounter_3/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0375708
+cap "1BitCounter_3/dffc_0/nor_0/A" "1BitCounter_0/dffc_0/inverter_2/in" 1.87273
+cap "1BitCounter_0/dffc_0/tg_0/vss" "via_m1_p_20/a_0_0#" 1.3656
+cap "via_m1_p_5/a_0_0#" "via_m1_p_20/a_0_0#" 144.158
+cap "1BitCounter_3/dffc_0/nor_1/B" "1BitCounter_0/a_n94_n709#" 0.0618065
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "via_m1_p_20/a_0_0#" 20.7884
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_3/dffc_0/tg_0/vdd" 3.07163
+cap "1BitCounter_3/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" "1BitCounter_3/dffc_0/tg_0/vdd" -3.55271e-15
+cap "1BitCounter_3/dffc_0/nor_0/A" "via_m1_p_20/a_0_0#" -1.13687e-13
+cap "via_m1_p_5/a_0_0#" "1BitCounter_0/dffc_0/tg_0/vss" 2.91231
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.0341659
+cap "1BitCounter_3/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" "1BitCounter_0/a_n94_n709#" 7.60536
+cap "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_0/dffc_0/tg_0/vdd" -1.85119
+cap "via_m1_p_5/a_0_0#" "1BitCounter_0/dffc_0/tg_0/vdd" 209.532
+cap "1BitCounter_3/dffc_0/a_142_272#" "1BitCounter_0/a_n94_n709#" 0.00359374
+cap "1BitCounter_3/dffc_0/nor_0/A" "1BitCounter_0/dffc_0/tg_0/vss" 0.661229
+cap "1BitCounter_3/dffc_0/nor_0/A" "1BitCounter_0/dffc_0/tg_0/vdd" 0.899062
+cap "via_m1_p_5/a_0_0#" "1BitCounter_3/dffc_0/nor_0/A" 0.405672
+cap "1BitCounter_3/dffc_0/tg_0/vout" "1BitCounter_0/a_n94_n709#" 0.292233
+cap "1BitCounter_0/dffc_0/inverter_2/in" "1BitCounter_3/dffc_0/tg_0/vdd" 2.56485
+cap "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "via_m1_p_20/a_0_0#" 1.0798
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_0/dffc_0/inverter_2/in" -0.29908
+cap "1BitCounter_3/dffc_0/nor_0/A" "1BitCounter_0/dffc_0/inverter_0/in" 0.0450979
+cap "1BitCounter_3/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_3/a_n73_n150#" "1BitCounter_0/dffc_0/inverter_2/in" 6.64231
+cap "1BitCounter_3/dffc_0/tg_0/vdd" "via_m1_p_20/a_0_0#" 10.0788
+cap "1BitCounter_3/dffc_0/a_142_272#" "1BitCounter_0/dffc_0/inverter_2/in" 0.887059
+cap "via_m1_p_5/a_0_0#" "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" 0.580482
+cap "1BitCounter_0/a_n94_n709#" "via_m1_p_20/a_0_0#" 88.0416
+cap "1BitCounter_0/dffc_0/inverter_2/sky130_fd_pr__nfet_01v8_SKHSUU_0/a_15_n45#" "1BitCounter_0/dffc_0/tg_0/vdd" 0.000459086
+cap "1BitCounter_0/dffc_0/tg_0/vdd" "via_m1_p_19/a_0_0#" 0.0739267
+cap "1BitCounter_0/dffc_0/inverter_0/in" "via_m1_p_20/a_0_0#" 0.0059124
+cap "1BitCounter_0/dffc_0/inverter_2/in" "via_m1_p_19/a_0_0#" 0.0800801
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_0/dffc_0/tg_0/vdd" -0.76235
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_3/dffc_0/nor_0/A" 0.0640447
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_3/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_0/w_n109_n212#" 0.160244
+cap "1BitCounter_0/dffc_0/inverter_2/in" "1BitCounter_3/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_0/w_n109_n212#" 0.00581905
+cap "1BitCounter_0/a_n94_n709#" "via_m1_p_5/a_0_0#" 3.19807
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_0/dffc_0/inverter_2/in" -5.68434e-14
+cap "1BitCounter_0/a_n94_n709#" "1BitCounter_3/dffc_0/nor_0/sky130_fd_pr__pfet_01v8_52K3FE_1/a_n73_n150#" 0.0895537
+cap "1BitCounter_0/a_n94_n709#" "via_m1_p_20/a_0_0#" 1.65562
+cap "1BitCounter_3/dffc_0/nor_0/A" "1BitCounter_0/dffc_0/inverter_0/in" 0.0016488
+cap "1BitCounter_0/dffc_0/inverter_2/in" "via_m1_p_20/a_0_0#" 0.00331835
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "via_m1_p_19/a_0_0#" 0.00129966
+cap "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_0/dffc_0/nor_0/A" 0.00365106
+cap "via_m1_p_19/a_0_0#" "1BitCounter_0/dffc_0/a_142_272#" 0.0800801
+cap "via_m1_p_19/a_0_0#" "1BitCounter_0/dffc_0/tg_0/vdd" 10.0788
+merge "via_m1_p_19/VSUBS" "via_m1_p_5/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "via_m1_p_5/VSUBS" "via_m1_p_10/VSUBS"
+merge "via_m1_p_10/VSUBS" "via_m1_p_20/VSUBS"
+merge "via_m1_p_20/VSUBS" "via_m1_p_22/VSUBS"
+merge "via_m1_p_22/VSUBS" "via_m1_p_4/VSUBS"
+merge "via_m1_p_4/VSUBS" "via_m1_p_1/VSUBS"
+merge "via_m1_p_1/VSUBS" "via_m1_p_23/VSUBS"
+merge "via_m1_p_23/VSUBS" "via_m1_p_13/VSUBS"
+merge "via_m1_p_13/VSUBS" "via_m1_p_2/VSUBS"
+merge "via_m1_p_2/VSUBS" "via_m1_p_16/VSUBS"
+merge "via_m1_p_16/VSUBS" "via_m1_p_3/VSUBS"
+merge "via_m1_p_3/VSUBS" "via_m1_p_11/VSUBS"
+merge "via_m1_p_11/VSUBS" "via_m1_p_21/VSUBS"
+merge "via_m1_p_21/VSUBS" "via_m1_p#0_0/VSUBS"
+merge "via_m1_p#0_0/VSUBS" "via_m1_p_24/VSUBS"
+merge "via_m1_p_24/VSUBS" "via_m1_p_9/VSUBS"
+merge "via_m1_p_9/VSUBS" "via_m1_p_27/VSUBS"
+merge "via_m1_p_27/VSUBS" "via_m1_p_0/VSUBS"
+merge "via_m1_p_0/VSUBS" "via_m1_p_18/VSUBS"
+merge "via_m1_p_18/VSUBS" "1BitCounter_0/VSUBS"
+merge "1BitCounter_0/VSUBS" "via_m1_p_8/VSUBS"
+merge "via_m1_p_8/VSUBS" "via_m1_p_26/VSUBS"
+merge "via_m1_p_26/VSUBS" "via_m1_p_12/VSUBS"
+merge "via_m1_p_12/VSUBS" "via_m1_p_14/VSUBS"
+merge "via_m1_p_14/VSUBS" "1BitCounter_3/VSUBS"
+merge "1BitCounter_3/VSUBS" "via_m1_p_7/VSUBS"
+merge "via_m1_p_7/VSUBS" "via_m1_p_28/VSUBS"
+merge "via_m1_p_28/VSUBS" "via_m1_p_15/VSUBS"
+merge "via_m1_p_15/VSUBS" "via_m1_p_17/VSUBS"
+merge "via_m1_p_17/VSUBS" "1BitCounter_2/VSUBS"
+merge "1BitCounter_2/VSUBS" "via_m1_p_6/VSUBS"
+merge "via_m1_p_6/VSUBS" "via_m1_p_25/VSUBS"
+merge "via_m1_p_25/VSUBS" "1BitCounter_1/VSUBS"
+merge "1BitCounter_1/VSUBS" "VSUBS"
+merge "1BitCounter_0/dffc_0/nor_0/A" "1BitCounter_3/dffc_0/nor_0/A" -2460.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -13061 -1308 0 0 0 0 -9752 -792 0 0 0 0 0 0 0 0 0 0
+merge "1BitCounter_3/dffc_0/nor_0/A" "1BitCounter_2/dffc_0/nor_0/A"
+merge "1BitCounter_2/dffc_0/nor_0/A" "1BitCounter_1/dffc_0/nor_0/A"
+merge "1BitCounter_1/dffc_0/nor_0/A" "via_m1_p_9/a_0_0#"
+merge "via_m1_p_9/a_0_0#" "1BitCounter_0/dffc_0/nor_1/A"
+merge "1BitCounter_0/dffc_0/nor_1/A" "a_11716_n194#"
+merge "a_11716_n194#" "1BitCounter_3/dffc_0/a_1764_n1164#"
+merge "1BitCounter_3/dffc_0/a_1764_n1164#" "via_m1_p_8/a_0_0#"
+merge "via_m1_p_8/a_0_0#" "1BitCounter_3/dffc_0/nor_1/A"
+merge "1BitCounter_3/dffc_0/nor_1/A" "a_8724_n168#"
+merge "a_8724_n168#" "1BitCounter_2/dffc_0/a_1764_n1164#"
+merge "1BitCounter_2/dffc_0/a_1764_n1164#" "1BitCounter_1/dffc_0/a_1764_n1164#"
+merge "1BitCounter_1/dffc_0/a_1764_n1164#" "via_m1_p_7/a_0_0#"
+merge "via_m1_p_7/a_0_0#" "1BitCounter_2/dffc_0/nor_1/A"
+merge "1BitCounter_2/dffc_0/nor_1/A" "a_5734_n176#"
+merge "a_5734_n176#" "via_m1_p_6/a_0_0#"
+merge "via_m1_p_6/a_0_0#" "clr"
+merge "clr" "1BitCounter_1/dffc_0/nor_1/A"
+merge "1BitCounter_1/dffc_0/nor_1/A" "a_2778_n184#"
+merge "1BitCounter_0/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/inverter_2/vdd" -9578.83 0 0 0 0 -1007977 -18716 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -527907 -20494 0 0 0 0 0 0 0 0 0 0
+merge "1BitCounter_0/dffc_0/inverter_2/vdd" "1BitCounter_3/dffc_0/tg_0/vdd"
+merge "1BitCounter_3/dffc_0/tg_0/vdd" "1BitCounter_3/dffc_0/tg_1/vdd"
+merge "1BitCounter_3/dffc_0/tg_1/vdd" "1BitCounter_2/dffc_0/tg_0/vdd"
+merge "1BitCounter_2/dffc_0/tg_0/vdd" "1BitCounter_2/dffc_0/tg_1/vdd"
+merge "1BitCounter_2/dffc_0/tg_1/vdd" "1BitCounter_1/dffc_0/tg_0/vdd"
+merge "1BitCounter_1/dffc_0/tg_0/vdd" "1BitCounter_0/dffc_0/inverter_1/vdd"
+merge "1BitCounter_0/dffc_0/inverter_1/vdd" "1BitCounter_3/nand_1/grid_0/w_n61_476#"
+merge "1BitCounter_3/nand_1/grid_0/w_n61_476#" "1BitCounter_0/dffc_0/tg_2/vdd"
+merge "1BitCounter_0/dffc_0/tg_2/vdd" "1BitCounter_0/w_n36_n794#"
+merge "1BitCounter_0/w_n36_n794#" "1BitCounter_3/dffc_0/inverter_1/vdd"
+merge "1BitCounter_3/dffc_0/inverter_1/vdd" "w_8709_559#"
+merge "w_8709_559#" "1BitCounter_3/dffc_0/tg_3/vdd"
+merge "1BitCounter_3/dffc_0/tg_3/vdd" "1BitCounter_1/inverter_1/grid_0/w_n61_476#"
+merge "1BitCounter_1/inverter_1/grid_0/w_n61_476#" "1BitCounter_1/w_n36_n794#"
+merge "1BitCounter_1/w_n36_n794#" "1BitCounter_2/dffc_0/inverter_1/vdd"
+merge "1BitCounter_2/dffc_0/inverter_1/vdd" "w_5778_560#"
+merge "w_5778_560#" "1BitCounter_2/dffc_0/tg_3/vdd"
+merge "1BitCounter_2/dffc_0/tg_3/vdd" "1BitCounter_1/dffc_0/inverter_1/vdd"
+merge "1BitCounter_1/dffc_0/inverter_1/vdd" "m1_142_1082#"
+merge "m1_142_1082#" "w_2767_559#"
+merge "via_m1_p_5/a_0_0#" "1BitCounter_0/dffc_0/inverter_3/in" -4067.91 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18400 -1936 0 0 0 0 -23464 -2164 0 0 0 0 0 0 0 0 0 0
+merge "1BitCounter_0/dffc_0/inverter_3/in" "via_m1_p_10/a_0_0#"
+merge "via_m1_p_10/a_0_0#" "via_m1_p_22/a_0_0#"
+merge "via_m1_p_22/a_0_0#" "m1_8938_3194#"
+merge "m1_8938_3194#" "a_8950_3202#"
+merge "a_8950_3202#" "via_m1_p_4/a_0_0#"
+merge "via_m1_p_4/a_0_0#" "1BitCounter_3/dffc_0/inverter_3/in"
+merge "1BitCounter_3/dffc_0/inverter_3/in" "via_m1_p_1/a_0_0#"
+merge "via_m1_p_1/a_0_0#" "via_m1_p_23/a_0_0#"
+merge "via_m1_p_23/a_0_0#" "m1_5952_3196#"
+merge "m1_5952_3196#" "a_5964_3204#"
+merge "a_5964_3204#" "via_m1_p_2/a_0_0#"
+merge "via_m1_p_2/a_0_0#" "1BitCounter_2/dffc_0/inverter_3/in"
+merge "1BitCounter_2/dffc_0/inverter_3/in" "via_m1_p_16/a_0_0#"
+merge "via_m1_p_16/a_0_0#" "via_m1_p_3/a_0_0#"
+merge "via_m1_p_3/a_0_0#" "m1_2960_3194#"
+merge "m1_2960_3194#" "a_2972_3202#"
+merge "a_2972_3202#" "via_m1_p_11/a_0_0#"
+merge "via_m1_p_11/a_0_0#" "clk"
+merge "clk" "via_m1_p#0_0/a_0_0#"
+merge "via_m1_p#0_0/a_0_0#" "a_16_3206#"
+merge "a_16_3206#" "1BitCounter_1/dffc_0/inverter_3/in"
+merge "1BitCounter_1/dffc_0/inverter_3/in" "via_m1_p_24/a_0_0#"
+merge "via_m1_p_24/a_0_0#" "m1_16_3198#"
+merge "via_m1_p_27/a_0_0#" "1BitCounter_0/ce" -616.251 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5088 -584 0 0 0 0 -5136 -584 0 0 0 0 0 0 0 0 0 0
+merge "1BitCounter_0/ce" "a_10916_n66#"
+merge "a_10916_n66#" "via_m1_p_0/a_0_0#"
+merge "via_m1_p_0/a_0_0#" "m1_8932_n102#"
+merge "m1_8932_n102#" "via_m1_p_18/a_0_0#"
+merge "via_m1_p_18/a_0_0#" "a_8934_n118#"
+merge "a_8934_n118#" "1BitCounter_3/inverter_1/via_m1_p_0/a_0_0#"
+merge "1BitCounter_3/inverter_1/via_m1_p_0/a_0_0#" "m1_8540_322#"
+merge "via_m1_p_25/a_0_0#" "1BitCounter_1/ce" -94.9378 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1620 -228 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "1BitCounter_1/ce" "ce"
+merge "1BitCounter_0/dffc_0/tg_0/vss" "1BitCounter_3/inverter_1/vss" -806.663 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -82247 -3397 0 0 0 0 0 0 0 0 0 0
+merge "1BitCounter_3/inverter_1/vss" "1BitCounter_0/dffc_0/inverter_2/vss"
+merge "1BitCounter_0/dffc_0/inverter_2/vss" "1BitCounter_3/xor_1/GND"
+merge "1BitCounter_3/xor_1/GND" "1BitCounter_3/dffc_0/inverter_1/vss"
+merge "1BitCounter_3/dffc_0/inverter_1/vss" "1BitCounter_3/dffc_0/tg_0/vss"
+merge "1BitCounter_3/dffc_0/tg_0/vss" "1BitCounter_2/inverter_1/vss"
+merge "1BitCounter_2/inverter_1/vss" "1BitCounter_3/dffc_0/tg_1/vss"
+merge "1BitCounter_3/dffc_0/tg_1/vss" "1BitCounter_2/xor_1/GND"
+merge "1BitCounter_2/xor_1/GND" "1BitCounter_2/dffc_0/inverter_1/vss"
+merge "1BitCounter_2/dffc_0/inverter_1/vss" "1BitCounter_2/dffc_0/tg_0/vss"
+merge "1BitCounter_2/dffc_0/tg_0/vss" "1BitCounter_1/nand_1/vss"
+merge "1BitCounter_1/nand_1/vss" "1BitCounter_1/inverter_1/grid_0/a_n24_0#"
+merge "1BitCounter_1/inverter_1/grid_0/a_n24_0#" "1BitCounter_1/dffc_0/tg_0/vss"
+merge "1BitCounter_1/dffc_0/tg_0/vss" "m1_140_102#"
+merge "via_m1_p_28/a_0_0#" "1BitCounter_2/ce" -645.235 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5400 -600 0 0 0 0 -5712 -612 0 0 0 0 0 0 0 0 0 0
+merge "1BitCounter_2/ce" "a_4926_n102#"
+merge "a_4926_n102#" "via_m1_p_15/a_0_0#"
+merge "via_m1_p_15/a_0_0#" "1BitCounter_1/inverter_1/via_m1_p_0/a_0_0#"
+merge "1BitCounter_1/inverter_1/via_m1_p_0/a_0_0#" "m1_2588_324#"
+merge "m1_2588_324#" "via_m1_p_17/a_0_0#"
+merge "via_m1_p_17/a_0_0#" "m1_2966_n104#"
+merge "m1_2966_n104#" "a_2970_n100#"
+merge "via_m1_p_26/a_0_0#" "1BitCounter_3/ce" -626.695 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5208 -580 0 0 0 0 -5696 -616 0 0 0 0 0 0 0 0 0 0
+merge "1BitCounter_3/ce" "a_7910_n98#"
+merge "a_7910_n98#" "via_m1_p_12/a_0_0#"
+merge "via_m1_p_12/a_0_0#" "1BitCounter_2/inverter_1/via_m1_p_0/a_0_0#"
+merge "1BitCounter_2/inverter_1/via_m1_p_0/a_0_0#" "m1_5540_322#"
+merge "m1_5540_322#" "via_m1_p_14/a_0_0#"
+merge "via_m1_p_14/a_0_0#" "m1_5932_n104#"
+merge "m1_5932_n104#" "a_5934_n118#"
+merge "via_m1_p_13/a_0_0#" "1BitCounter_2/dffc_0/inverter_1/in" -699.748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3384 -332 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "1BitCounter_2/dffc_0/inverter_1/in" "q1"
+merge "via_m1_p_20/a_0_0#" "1BitCounter_3/dffc_0/inverter_1/in" -691.66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3312 -328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "1BitCounter_3/dffc_0/inverter_1/in" "q2"
+merge "via_m1_p_19/a_0_0#" "1BitCounter_0/dffc_0/inverter_1/in" -154.034 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3384 -332 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "1BitCounter_0/dffc_0/inverter_1/in" "q3"
+merge "1BitCounter_1/a_2757_n1336#" "via_m1_p_21/a_0_0#" -755.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3384 -332 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "via_m1_p_21/a_0_0#" "1BitCounter_1/dffc_0/inverter_1/in"
+merge "1BitCounter_1/dffc_0/inverter_1/in" "a_2870_3422#"
+merge "1BitCounter_2/dffc_0/tg_1/vss" "1BitCounter_1/xor_1/GND" -575.588 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -58374 -2535 0 0 0 0 0 0 0 0 0 0
