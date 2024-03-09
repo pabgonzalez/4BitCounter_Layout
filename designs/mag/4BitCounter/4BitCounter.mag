@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1710011200
+timestamp 1710014090
 << nwell >>
 rect 2769 2000 3235 2006
 rect 2767 559 3351 2000
@@ -9,20 +9,198 @@ rect 5778 560 6119 2002
 rect 8757 2001 9034 2002
 rect 8709 1990 9034 2001
 rect 8709 559 9030 1990
-use 1BitCounter  1BitCounter_0 /foss/designs/mag/1BitCounter
-timestamp 1710011200
-transform 1 0 8967 0 1 1353
+<< poly >>
+rect 16 3206 48 3624
+rect 2870 3422 2906 3752
+rect 2972 3202 3004 3620
+rect 5828 3420 5864 3766
+rect 5964 3204 5996 3622
+rect 8818 3420 8854 3766
+rect 8950 3202 8982 3620
+rect 11816 3418 11852 3764
+rect 1970 -60 2000 94
+rect 2778 -184 2812 1410
+rect 2972 338 2998 354
+rect 2970 -98 3000 338
+rect 2970 -100 2996 -98
+rect 4926 -102 4960 112
+rect 5734 -176 5768 1418
+rect 5934 -118 5964 336
+rect 7910 -98 7946 98
+rect 8724 -168 8758 1404
+rect 8934 -118 8964 336
+rect 10918 92 10946 104
+rect 10916 -66 10946 92
+rect 10918 -100 10946 -66
+rect 11716 -194 11752 1424
+<< metal1 >>
+rect 12 3610 8978 3642
+rect 16 3198 402 3236
+rect 2960 3194 3368 3232
+rect 5952 3196 6360 3234
+rect 8938 3194 9346 3232
+rect 172 1102 11564 1138
+rect 142 1082 11564 1102
+rect 4952 1080 11564 1082
+rect 4952 1076 6340 1080
+rect 7454 1078 11564 1080
+rect 7454 1076 9718 1078
+rect 10066 1076 10102 1078
+rect 4952 1074 5670 1076
+rect 7616 1074 9718 1076
+rect 10068 1074 10102 1076
+rect 10450 1074 11564 1078
+rect 2588 324 3004 356
+rect 5540 322 5976 354
+rect 8540 322 8976 354
+rect 140 150 3470 156
+rect 4334 150 6466 156
+rect 7330 152 9436 156
+rect 10340 152 11568 156
+rect 7330 150 11568 152
+rect 140 102 11568 150
+rect 2966 -104 4932 -64
+rect 5932 -104 7906 -64
+rect 8932 -102 10906 -62
+rect 2778 -204 11752 -158
+use 1BitCounter  1BitCounter_0 ../1BitCounter
+timestamp 1710012278
+transform 1 0 9057 0 1 1353
 box -113 -1357 2811 2241
-use 1BitCounter  1BitCounter_1
-timestamp 1710011200
+use 1BitCounter  1BitCounter_1 ../1BitCounter
+timestamp 1710012278
 transform 1 0 113 0 1 1357
 box -113 -1357 2811 2241
-use 1BitCounter  1BitCounter_2
-timestamp 1710011200
+use 1BitCounter  1BitCounter_2 ../1BitCounter
+timestamp 1710012278
 transform 1 0 3069 0 1 1355
 box -113 -1357 2811 2241
-use 1BitCounter  1BitCounter_3
-timestamp 1710011200
-transform 1 0 6017 0 1 1353
+use 1BitCounter  1BitCounter_3 ../1BitCounter
+timestamp 1710012278
+transform 1 0 6059 0 1 1353
 box -113 -1357 2811 2241
+use via_m1_p  via_m1_p_0 ../via_m1_p
+timestamp 1646951168
+transform 1 0 4910 0 1 -122
+box 0 0 68 68
+use via_m1_p  via_m1_p_1 ../via_m1_p
+timestamp 1646951168
+transform 1 0 10898 0 1 -116
+box 0 0 68 68
+use via_m1_p  via_m1_p_2 ../via_m1_p
+timestamp 1646951168
+transform 1 0 7892 0 1 -118
+box 0 0 68 68
+use via_m1_p  via_m1_p_3 ../via_m1_p
+timestamp 1646951168
+transform 1 0 1952 0 1 -80
+box 0 0 68 68
+use via_m1_p  via_m1_p_4 ../via_m1_p
+timestamp 1646951168
+transform 1 0 -2 0 1 3186
+box 0 0 68 68
+use via_m1_p  via_m1_p_5 ../via_m1_p
+timestamp 1646951168
+transform 1 0 5946 0 1 3184
+box 0 0 68 68
+use via_m1_p  via_m1_p_6 ../via_m1_p
+timestamp 1646951168
+transform 1 0 8932 0 1 3182
+box 0 0 68 68
+use via_m1_p  via_m1_p_7 ../via_m1_p
+timestamp 1646951168
+transform -1 0 2922 0 -1 3778
+box 0 0 68 68
+use via_m1_p  via_m1_p_8 ../via_m1_p
+timestamp 1646951168
+transform -1 0 8870 0 -1 3792
+box 0 0 68 68
+use via_m1_p  via_m1_p_9 ../via_m1_p
+timestamp 1646951168
+transform -1 0 11868 0 -1 3790
+box 0 0 68 68
+use via_m1_p  via_m1_p_0 ../via_m1_p
+timestamp 1646951168
+transform 1 0 8912 0 1 302
+box 0 0 68 68
+use via_m1_p  via_m1_p_1 ../via_m1_p
+timestamp 1646951168
+transform 1 0 2952 0 1 -116
+box 0 0 68 68
+use via_m1_p  via_m1_p_2 ../via_m1_p
+timestamp 1646951168
+transform 1 0 2948 0 1 304
+box 0 0 68 68
+use via_m1_p  via_m1_p_3 ../via_m1_p
+timestamp 1646951168
+transform 1 0 5916 0 1 -118
+box 0 0 68 68
+use via_m1_p  via_m1_p_4 ../via_m1_p
+timestamp 1646951168
+transform 1 0 5912 0 1 302
+box 0 0 68 68
+use via_m1_p  via_m1_p_6 ../via_m1_p
+timestamp 1646951168
+transform 1 0 2762 0 1 -208
+box 0 0 68 68
+use via_m1_p  via_m1_p_7 ../via_m1_p
+timestamp 1646951168
+transform 1 0 5718 0 1 -204
+box 0 0 68 68
+use via_m1_p  via_m1_p_8 ../via_m1_p
+timestamp 1646951168
+transform 1 0 8710 0 1 -210
+box 0 0 68 68
+use via_m1_p  via_m1_p_9 ../via_m1_p
+timestamp 1646951168
+transform 1 0 11698 0 1 -224
+box 0 0 68 68
+use via_m1_p  via_m1_p_0 ../via_m1_p
+timestamp 1646951168
+transform 1 0 -4 0 1 3592
+box 0 0 68 68
+use via_m1_p  via_m1_p_1 ../via_m1_p
+timestamp 1646951168
+transform 1 0 5944 0 1 3590
+box 0 0 68 68
+use via_m1_p  via_m1_p_2 ../via_m1_p
+timestamp 1646951168
+transform 1 0 8930 0 1 3588
+box 0 0 68 68
+use via_m1_p  via_m1_p_0 ../via_m1_p
+timestamp 1646951168
+transform 1 0 8916 0 1 -118
+box 0 0 68 68
+use via_m1_p  via_m1_p_2 ../via_m1_p
+timestamp 1646951168
+transform 1 0 3304 0 1 3178
+box 0 0 68 68
+use via_m1_p  via_m1_p_3 ../via_m1_p
+timestamp 1646951168
+transform 1 0 2954 0 1 3182
+box 0 0 68 68
+use via_m1_p  via_m1_p_4 ../via_m1_p
+timestamp 1646951168
+transform 1 0 6296 0 1 3180
+box 0 0 68 68
+use via_m1_p  via_m1_p_5 ../via_m1_p
+timestamp 1646951168
+transform 1 0 9282 0 1 3178
+box 0 0 68 68
+use via_m1_p  via_m1_p_13 ../via_m1_p
+timestamp 1646951168
+transform -1 0 5880 0 -1 3792
+box 0 0 68 68
+use via_m1_p  via_m1_p_16 ../via_m1_p
+timestamp 1646951168
+transform 1 0 2952 0 1 3588
+box 0 0 68 68
+<< labels >>
+rlabel poly 1970 -60 2000 94 1 ce
+rlabel metal1 2778 -204 11752 -158 1 clr
+rlabel metal1 12 3610 8978 3642 1 clk
+rlabel space 2854 3710 2922 3778 1 q0
+rlabel poly 5828 3420 5864 3766 1 q1
+rlabel poly 8818 3420 8854 3766 1 q2
+rlabel poly 11816 3418 11852 3764 1 q3
 << end >>
