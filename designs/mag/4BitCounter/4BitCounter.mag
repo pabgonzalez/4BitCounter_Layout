@@ -1,0 +1,28 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1710011200
+<< nwell >>
+rect 2769 2000 3235 2006
+rect 2767 559 3351 2000
+rect 5778 560 6119 2002
+rect 8757 2001 9034 2002
+rect 8709 1990 9034 2001
+rect 8709 559 9030 1990
+use 1BitCounter  1BitCounter_0 /foss/designs/mag/1BitCounter
+timestamp 1710011200
+transform 1 0 8967 0 1 1353
+box -113 -1357 2811 2241
+use 1BitCounter  1BitCounter_1
+timestamp 1710011200
+transform 1 0 113 0 1 1357
+box -113 -1357 2811 2241
+use 1BitCounter  1BitCounter_2
+timestamp 1710011200
+transform 1 0 3069 0 1 1355
+box -113 -1357 2811 2241
+use 1BitCounter  1BitCounter_3
+timestamp 1710011200
+transform 1 0 6017 0 1 1353
+box -113 -1357 2811 2241
+<< end >>

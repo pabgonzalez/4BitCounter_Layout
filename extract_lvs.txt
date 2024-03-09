@@ -1,0 +1,10 @@
+Comandos de extraccion para lvs
+
+
+En la consola del magic (tkcon 2.3 Main):
+extract all;ext2spice lvs;ext2spice subcircuit on;ext2spice -o <component>.spice
+
+
+Desde la terminal, situados en icdesign:
+
+cd ~/foss/designs > netgen lvs sch/<component>.spice mag/<componet>/<component>.spice ../pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl 
