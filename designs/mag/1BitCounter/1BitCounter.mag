@@ -32,7 +32,7 @@ use dffc  dffc_0 ../dffc
 timestamp 1710021771
 transform 1 0 900 0 1 1174
 box -900 -1174 1816 1067
-use inverter#0  inverter_1 ../inverter
+use inverter  inverter_1 ../inverter
 timestamp 1710021771
 transform 1 0 1731 0 1 -1783
 box 474 522 794 1585
