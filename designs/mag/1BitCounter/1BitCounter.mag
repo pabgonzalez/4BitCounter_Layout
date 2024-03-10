@@ -32,7 +32,7 @@ use dffc  dffc_0 ../dffc
 timestamp 1710021771
 transform 1 0 900 0 1 1174
 box -900 -1174 1816 1067
-use inverter#0  inverter_1 ../inverter
+use inverter  inverter_1 ../inverter
 timestamp 1710021771
 transform 1 0 1731 0 1 -1783
 box 474 522 794 1585
@@ -40,31 +40,31 @@ use nand  nand_1 ../nand
 timestamp 1710021771
 transform 1 0 1889 0 1 -1261
 box 0 0 320 1063
-use via_m1_p#1  via_m1_p_0 ../via_m1_p
+use via_m1_p  via_m1_p_0 ../via_m1_p
 timestamp 1646951168
 transform 1 0 -27 0 1 -1357
 box 0 0 68 68
-use via_m1_p#1  via_m1_p_1
+use via_m1_p  via_m1_p_1
 timestamp 1646951168
 transform 1 0 2742 0 1 -1357
 box 0 0 68 68
-use via_m1_p#1  via_m1_p_2
+use via_m1_p  via_m1_p_2
 timestamp 1646951168
 transform 1 0 2177 0 1 -1357
 box 0 0 68 68
-use via_m1_p#1  via_m1_p_3
+use via_m1_p  via_m1_p_3
 timestamp 1646951168
 transform 1 0 -112 0 1 1716
 box 0 0 68 68
-use via_m1_p#1  via_m1_p_4
+use via_m1_p  via_m1_p_4
 timestamp 1646951168
 transform 1 0 -113 0 1 -726
 box 0 0 68 68
-use via_m1_p#1  via_m1_p_5
+use via_m1_p  via_m1_p_5
 timestamp 1646951168
 transform 1 0 2332 0 1 -768
 box 0 0 68 68
-use via_m1_p#1  via_m1_p_13
+use via_m1_p  via_m1_p_13
 timestamp 1646951168
 transform -1 0 2811 0 -1 2117
 box 0 0 68 68
